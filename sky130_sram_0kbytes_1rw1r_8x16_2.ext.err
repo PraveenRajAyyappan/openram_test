@@ -1,0 +1,152 @@
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Error while reading cell "replica_bitcell_array" (byte position 505204): Warning:  Cell replica_bitcell_array boundary was redefined.
+Error while reading cell "replica_bitcell_array" (byte position 505204): Warning:  Cell replica_bitcell_array boundary was redefined.
+Error while reading cell "replica_bitcell_array" (byte position 505204): Warning:  Cell replica_bitcell_array boundary was redefined.
+Error while reading cell "replica_bitcell_array" (byte position 505204): Warning:  Cell replica_bitcell_array boundary was redefined.
+Error while reading cell "pmos_m1_w0_550_sli_dli" (byte position 804840): Warning:  Cell pmos_m1_w0_550_sli_dli boundary was redefined.
+Error while reading cell "pmos_m1_w0_550_sli_dli" (byte position 804840): Warning:  Cell pmos_m1_w0_550_sli_dli boundary was redefined.
+Error while reading cell "precharge_0" (byte position 803994): Warning:  Cell precharge_0 boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "precharge_array" (byte position 801360): Warning:  Cell precharge_array boundary was redefined.
+Error while reading cell "pmos_m1_w1_120_sli_dli" (byte position 878550): Warning:  Cell pmos_m1_w1_120_sli_dli boundary was redefined.
+Error while reading cell "pmos_m1_w1_120_sli_dli" (byte position 878550): Warning:  Cell pmos_m1_w1_120_sli_dli boundary was redefined.
+Error while reading cell "pmos_m1_w1_120_sli_dli_da_p" (byte position 883894): Warning:  Cell pmos_m1_w1_120_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m1_w1_120_sli_dli_da_p" (byte position 883894): Warning:  Cell pmos_m1_w1_120_sli_dli_da_p boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "write_mask_and_array" (byte position 874242): Warning:  Cell write_mask_and_array boundary was redefined.
+Error while reading cell "precharge_1" (byte position 911502): Warning:  Cell precharge_1 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "precharge_array_0" (byte position 908868): Warning:  Cell precharge_array_0 boundary was redefined.
+Error while reading cell "pinv_dec" (byte position 984692): Warning:  Cell pinv_dec boundary was redefined.
+Error while reading cell "pinv_dec" (byte position 984692): Warning:  Cell pinv_dec boundary was redefined.
+Error while reading cell "hierarchical_decoder" (byte position 975206): Warning:  Cell hierarchical_decoder boundary was redefined.
+Error while reading cell "pmos_m1_w3_000_sli_dli_da_p" (byte position 1003290): Warning:  Cell pmos_m1_w3_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m1_w3_000_sli_dli_da_p" (byte position 1003290): Warning:  Cell pmos_m1_w3_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pinv_dec_0" (byte position 1002438): Warning:  Cell pinv_dec_0 boundary was redefined.
+Error while reading cell "pinv_dec_0" (byte position 1002438): Warning:  Cell pinv_dec_0 boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address" (byte position 938530): Warning:  Cell port_address boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "port_address_0" (byte position 1032604): Warning:  Cell port_address_0 boundary was redefined.
+Error while reading cell "pmos_m2_w1_260_sli_dli_da_p" (byte position 1081970): Warning:  Cell pmos_m2_w1_260_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m2_w1_260_sli_dli_da_p" (byte position 1081970): Warning:  Cell pmos_m2_w1_260_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m3_w1_680_sli_dli_da_p" (byte position 1086132): Warning:  Cell pmos_m3_w1_680_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m3_w1_680_sli_dli_da_p" (byte position 1086132): Warning:  Cell pmos_m3_w1_680_sli_dli_da_p boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "dff_buf_array" (byte position 1056762): Warning:  Cell dff_buf_array boundary was redefined.
+Error while reading cell "pmos_m2_w2_000_sli_dli_da_p" (byte position 1093554): Warning:  Cell pmos_m2_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m2_w2_000_sli_dli_da_p" (byte position 1093554): Warning:  Cell pmos_m2_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m5_w2_000_sli_dli_da_p" (byte position 1098224): Warning:  Cell pmos_m5_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m5_w2_000_sli_dli_da_p" (byte position 1098224): Warning:  Cell pmos_m5_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m14_w2_000_sli_dli_da_p" (byte position 1105878): Warning:  Cell pmos_m14_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m14_w2_000_sli_dli_da_p" (byte position 1105878): Warning:  Cell pmos_m14_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m7_w2_000_sli_dli_da_p" (byte position 1119448): Warning:  Cell pmos_m7_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m7_w2_000_sli_dli_da_p" (byte position 1119448): Warning:  Cell pmos_m7_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m3_w2_000_sli_dli_da_p" (byte position 1125668): Warning:  Cell pmos_m3_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m3_w2_000_sli_dli_da_p" (byte position 1125668): Warning:  Cell pmos_m3_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m9_w2_000_sli_dli_da_p" (byte position 1137094): Warning:  Cell pmos_m9_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m9_w2_000_sli_dli_da_p" (byte position 1137094): Warning:  Cell pmos_m9_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "delay_chain" (byte position 1172004): Warning:  Cell delay_chain boundary was redefined.
+Error while reading cell "control_logic_rw" (byte position 1053496): Warning:  Cell control_logic_rw boundary was redefined.
+Error while reading cell "dff_buf_array_0" (byte position 1196804): Warning:  Cell dff_buf_array_0 boundary was redefined.
+Error while reading cell "dff_buf_array_0" (byte position 1196804): Warning:  Cell dff_buf_array_0 boundary was redefined.
+Error while reading cell "dff_buf_array_0" (byte position 1196804): Warning:  Cell dff_buf_array_0 boundary was redefined.
+Error while reading cell "dff_buf_array_0" (byte position 1196804): Warning:  Cell dff_buf_array_0 boundary was redefined.
+Error while reading cell "pmos_m13_w2_000_sli_dli_da_p" (byte position 1204032): Warning:  Cell pmos_m13_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "pmos_m13_w2_000_sli_dli_da_p" (byte position 1204032): Warning:  Cell pmos_m13_w2_000_sli_dli_da_p boundary was redefined.
+Error while reading cell "control_logic_r" (byte position 1194906): Warning:  Cell control_logic_r boundary was redefined.
+Error while reading cell "row_addr_dff" (byte position 1212120): Warning:  Cell row_addr_dff boundary was redefined.
+Error while reading cell "row_addr_dff" (byte position 1212120): Warning:  Cell row_addr_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "wmask_dff" (byte position 1217908): Warning:  Cell wmask_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error while reading cell "data_dff" (byte position 1229134): Warning:  Cell data_dff boundary was redefined.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Total of 5 warnings.

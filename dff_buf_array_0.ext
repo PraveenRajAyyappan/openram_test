@@ -1,0 +1,52 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_7 contact_7_0 1 0 -33 0 1 -37
+use contact_19 contact_19_0 1 0 -32 0 1 -32
+use contact_14 contact_14_0 1 0 -29 0 1 -33
+use contact_7 contact_7_1 1 0 -33 0 1 1377
+use contact_19 contact_19_1 1 0 -32 0 1 1382
+use contact_14 contact_14_1 1 0 -29 0 1 1381
+use dff_buf_0 dff_buf_0_0 1 0 0 0 1 0
+port "dout_0" 2 2364 489 2392 517 m2
+port "dout_bar_0" 3 1858 871 1886 899 m2
+port "clk" 4 369 0 397 1414 m2
+port "din_0" 1 137 538 203 590 m2
+port "gnd" 6 -49 -49 49 49 m3
+port "vdd" 5 -49 1365 49 1463 m3
+node "dout_0" 0 11.5633 2364 489 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "dout_bar_0" 0 11.5633 1858 871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 784 112 0 0 0 0 0 0 0 0
+node "clk" 6 286.59 369 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39592 2884 0 0 0 0 0 0 0 0
+node "din_0" 0 24.5546 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "gnd" 882 809.303 -49 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93576 5274 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd" 882 809.303 -49 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93576 5274 3328 232 4144 260 9604 392 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vdd" "clk" 14.4449
+cap "gnd" "clk" 14.4449
+cap "din_0" "clk" 15.6627
+cap "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "vdd" 0.641711
+cap "clk" "gnd" -2.84217e-14
+cap "clk" "dff_buf_0_0/pinv_0_0/A" 3.79562
+cap "clk" "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_239_76#" 86.8715
+cap "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "clk" 10.9807
+cap "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_28_102#" "gnd" 3.15056
+cap "clk" "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/QN" 4.28336
+cap "clk" "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_389_102#" 20.67
+cap "clk" "dff_buf_0_0/sky130_fd_bd_sram__openram_dff_0/a_389_712#" 56.6426
+cap "clk" "vdd" 0.4351
+cap "clk" "din_0" 1.77636e-14
+merge "dff_buf_0_0/gnd" "contact_14_1/gnd" -733.512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91944 -5180 0 0 0 0 0 0 0 0 0 0 0 0
+merge "contact_14_1/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "gnd"
+merge "dff_buf_0_0/D" "din_0" -24.5546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "dff_buf_0_0/clk" "clk" -264.127 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1792 -184 0 0 0 0 0 0 0 0
+merge "dff_buf_0_0/Q" "dout_0" -11.5633 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0
+merge "dff_buf_0_0/Qb" "dout_bar_0" -11.5633 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -784 -112 0 0 0 0 0 0 0 0
+merge "dff_buf_0_0/vdd" "vdd" -734.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -91944 -5180 0 0 0 0 0 0 0 0 0 0 0 0

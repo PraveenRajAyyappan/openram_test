@@ -1,0 +1,832 @@
+Friday 22 October 2021 09:29:20 PM IST: Starting GDS to MAG using Magic /usr/local/bin/magic
+
+Magic 8.3 revision 197 - Compiled on Friday 22 October 2021 08:33:25 PM IST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.225-0-g6c05bc4
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 5.0
+Library name: DEFAULT.DB
+Reading "sky130_sram_0kbytes_1rw1r_8x16_2".
+Reading "bank".
+Reading "replica_bitcell_array".
+Reading "bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "contact_7".
+Saving contents of cell contact_7
+Reading "replica_column_0".
+Reading "dummy_array".
+Reading "col_cap_array_0".
+Reading "col_cap_array".
+Reading "row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "row_cap_array_0".
+Reading "contact_8".
+Saving contents of cell contact_8
+Reading "contact_9".
+Saving contents of cell contact_9
+Reading "port_data".
+Reading "precharge_array".
+Reading "precharge_0".
+Reading "pmos_m1_w0_550_sli_dli".
+Reading "contact_12".
+Saving contents of cell contact_12
+Reading "contact_16".
+Saving contents of cell contact_16
+Reading "contact_14".
+Saving contents of cell contact_14
+Reading "contact_19".
+Saving contents of cell contact_19
+Reading "contact_13".
+Saving contents of cell contact_13
+Reading "contact_22".
+Saving contents of cell contact_22
+Reading "contact_23".
+Saving contents of cell contact_23
+Reading "contact_24".
+Saving contents of cell contact_24
+Reading "sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "write_mask_and_array".
+Reading "pand2".
+Reading "pnand2".
+Reading "pmos_m1_w1_120_sli_dli".
+Reading "nmos_m1_w0_740_sli_dactive".
+Reading "contact_11".
+Saving contents of cell contact_11
+Reading "nmos_m1_w0_740_sactive_dli".
+Reading "pdriver".
+Reading "pinv".
+Reading "pmos_m1_w1_120_sli_dli_da_p".
+Reading "nmos_m1_w0_360_sli_dli_da_p".
+Reading "contact_25".
+Saving contents of cell contact_25
+Reading "contact_26".
+Saving contents of cell contact_26
+Reading "port_data_0".
+Reading "precharge_array_0".
+Reading "precharge_1".
+Reading "port_address".
+Reading "hierarchical_decoder".
+Reading "hierarchical_predecode2x4".
+Reading "pinv_dec".
+Reading "contact_15".
+Saving contents of cell contact_15
+Reading "and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "contact_17".
+Saving contents of cell contact_17
+Reading "contact_20".
+Saving contents of cell contact_20
+Reading "contact_21".
+Saving contents of cell contact_21
+Reading "wordline_driver_array".
+Reading "wordline_driver".
+Reading "pinv_dec_0".
+Reading "pmos_m1_w3_000_sli_dli_da_p".
+Reading "nmos_m1_w0_740_sli_dli_da_p".
+Reading "and2_dec_0".
+Reading "port_address_0".
+Reading "control_logic_rw".
+Reading "dff_buf_array".
+Reading "dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "pinv_0".
+Reading "pmos_m2_w1_260_sli_dli_da_p".
+Reading "nmos_m2_w0_740_sli_dli_da_p".
+Reading "pinv_1".
+Reading "pmos_m3_w1_680_sli_dli_da_p".
+Reading "nmos_m3_w1_680_sli_dli_da_p".
+Reading "pdriver_1".
+Reading "pinv_4".
+Reading "pinv_5".
+Reading "pmos_m2_w2_000_sli_dli_da_p".
+Reading "nmos_m2_w1_260_sli_dli_da_p".
+Reading "pinv_6".
+Reading "pmos_m5_w2_000_sli_dli_da_p".
+Reading "nmos_m5_w1_680_sli_dli_da_p".
+Reading "pinv_7".
+Reading "pmos_m14_w2_000_sli_dli_da_p".
+Reading "nmos_m14_w2_000_sli_dli_da_p".
+Reading "pinv_10".
+Reading "pand2_0".
+Reading "pnand2_0".
+Reading "pdriver_0".
+Reading "pinv_2".
+Reading "pmos_m7_w2_000_sli_dli_da_p".
+Reading "nmos_m7_w1_680_sli_dli_da_p".
+Reading "pdriver_2".
+Reading "pinv_8".
+Reading "pmos_m3_w2_000_sli_dli_da_p".
+Reading "nmos_m3_w2_000_sli_dli_da_p".
+Reading "pand3".
+Reading "pnand3".
+Reading "nmos_m1_w0_740_sactive_dactive".
+Saving contents of cell nmos_m1_w0_740_sactive_dactive
+Reading "pdriver_3".
+Reading "pinv_9".
+Reading "pmos_m9_w2_000_sli_dli_da_p".
+Reading "nmos_m9_w2_000_sli_dli_da_p".
+Reading "pand3_0".
+Reading "pdriver_4".
+Reading "delay_chain".
+Reading "pinv_11".
+Reading "pnand2_1".
+Reading "pdriver_5".
+Reading "contact_29".
+Saving contents of cell contact_29
+Reading "control_logic_r".
+Reading "dff_buf_array_0".
+Reading "pdriver_6".
+Reading "pinv_12".
+Reading "pmos_m13_w2_000_sli_dli_da_p".
+Reading "nmos_m13_w2_000_sli_dli_da_p".
+Reading "row_addr_dff".
+Reading "wmask_dff".
+Reading "data_dff".
+Reading "contact_30".
+Saving contents of cell contact_30
+Reading "cr_1".
+Reading "contact_35".
+Reading "contact_36".
+Saving contents of cell contact_36
+Reading "bank".
+Reading "replica_bitcell_array".
+Reading "bitcell_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Reading "replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Reading "contact_7".
+Reading "replica_column_0".
+Reading "dummy_array".
+Reading "col_cap_array_0".
+Reading "col_cap_array".
+Reading "row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Reading "row_cap_array_0".
+Reading "contact_8".
+Reading "contact_9".
+Reading "port_data".
+Reading "precharge_array".
+Reading "precharge_0".
+Reading "pmos_m1_w0_550_sli_dli".
+Reading "contact_12".
+Reading "contact_16".
+Reading "contact_14".
+Reading "contact_19".
+Reading "contact_13".
+Reading "contact_22".
+Reading "contact_23".
+Reading "contact_24".
+Reading "sense_amp_array".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "write_driver_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "write_mask_and_array".
+Reading "pand2".
+Reading "pnand2".
+Reading "pmos_m1_w1_120_sli_dli".
+Reading "nmos_m1_w0_740_sli_dactive".
+Reading "contact_11".
+Reading "nmos_m1_w0_740_sactive_dli".
+Reading "pdriver".
+Reading "pinv".
+Reading "pmos_m1_w1_120_sli_dli_da_p".
+Reading "nmos_m1_w0_360_sli_dli_da_p".
+Reading "contact_25".
+Reading "contact_26".
+Reading "port_data_0".
+Reading "precharge_array_0".
+Reading "precharge_1".
+Reading "port_address".
+Reading "hierarchical_decoder".
+Reading "hierarchical_predecode2x4".
+Reading "pinv_dec".
+Reading "contact_15".
+Reading "and2_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "contact_17".
+Reading "contact_20".
+Reading "contact_21".
+Reading "wordline_driver_array".
+Reading "wordline_driver".
+Reading "pinv_dec_0".
+Reading "pmos_m1_w3_000_sli_dli_da_p".
+Reading "nmos_m1_w0_740_sli_dli_da_p".
+Reading "and2_dec_0".
+Reading "port_address_0".
+Reading "control_logic_rw".
+Reading "dff_buf_array".
+Reading "dff_buf_0".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "pinv_0".
+Reading "pmos_m2_w1_260_sli_dli_da_p".
+Reading "nmos_m2_w0_740_sli_dli_da_p".
+Reading "pinv_1".
+Reading "pmos_m3_w1_680_sli_dli_da_p".
+Reading "nmos_m3_w1_680_sli_dli_da_p".
+Reading "pdriver_1".
+Reading "pinv_4".
+Reading "pinv_5".
+Reading "pmos_m2_w2_000_sli_dli_da_p".
+Reading "nmos_m2_w1_260_sli_dli_da_p".
+Reading "pinv_6".
+Reading "pmos_m5_w2_000_sli_dli_da_p".
+Reading "nmos_m5_w1_680_sli_dli_da_p".
+Reading "pinv_7".
+Reading "pmos_m14_w2_000_sli_dli_da_p".
+Reading "nmos_m14_w2_000_sli_dli_da_p".
+Reading "pinv_10".
+Reading "pand2_0".
+Reading "pnand2_0".
+Reading "pdriver_0".
+Reading "pinv_2".
+Reading "pmos_m7_w2_000_sli_dli_da_p".
+Reading "nmos_m7_w1_680_sli_dli_da_p".
+Reading "pdriver_2".
+Reading "pinv_8".
+Reading "pmos_m3_w2_000_sli_dli_da_p".
+Reading "nmos_m3_w2_000_sli_dli_da_p".
+Reading "pand3".
+Reading "pnand3".
+Reading "nmos_m1_w0_740_sactive_dactive".
+Reading "pdriver_3".
+Reading "pinv_9".
+Reading "pmos_m9_w2_000_sli_dli_da_p".
+Reading "nmos_m9_w2_000_sli_dli_da_p".
+Reading "pand3_0".
+Reading "pdriver_4".
+Reading "delay_chain".
+Reading "pinv_11".
+Reading "pnand2_1".
+Reading "pdriver_5".
+Reading "contact_29".
+Reading "control_logic_r".
+Reading "dff_buf_array_0".
+Reading "pdriver_6".
+Reading "pinv_12".
+Reading "pmos_m13_w2_000_sli_dli_da_p".
+Reading "nmos_m13_w2_000_sli_dli_da_p".
+Reading "row_addr_dff".
+Reading "wmask_dff".
+Reading "data_dff".
+Reading "contact_30".
+Reading "cr_1".
+Reading "contact_35".
+Reading "contact_36".
+Finished reading gds sky130_sram_0kbytes_1rw1r_8x16_2.gds
+Finished loading cell sky130_sram_0kbytes_1rw1r_8x16_2
+Writing 'nmos_m13_w2_000_sli_dli_da_p'
+Writing 'control_logic_r'
+Writing 'and2_dec_0'
+Writing 'contact_17'
+Writing 'contact_29'
+Writing 'pinv_0'
+Writing 'wmask_dff'
+Writing 'sense_amp_array'
+Writing 'dff_buf_array_0'
+Writing 'pinv_1'
+Writing 'contact_19'
+Writing 'replica_column'
+Writing 'sky130_fd_bd_sram__openram_dp_cell'
+Writing 'pinv_2'
+Writing 'pmos_m1_w1_120_sli_dli_da_p'
+Writing 'pinv'
+Writing 'nmos_m2_w1_260_sli_dli_da_p'
+Writing 'pmos_m1_w1_120_sli_dli'
+Writing 'write_driver_array'
+Writing 'precharge_array'
+Writing 'nmos_m2_w0_740_sli_dli_da_p'
+Writing 'pinv_4'
+Writing 'pinv_dec_0'
+Writing 'hierarchical_predecode2x4'
+Writing 'nmos_m14_w2_000_sli_dli_da_p'
+Writing 'pinv_5'
+Writing 'nmos_m1_w0_740_sli_dactive'
+Writing 'replica_column_0'
+Writing 'pinv_10'
+Writing 'dummy_array'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_col'
+Writing 'pinv_11'
+Writing 'pand3_0'
+Writing 'pinv_6'
+Writing 'nmos_m7_w1_680_sli_dli_da_p'
+Writing 'pmos_m5_w2_000_sli_dli_da_p'
+Writing 'pinv_12'
+Writing 'pinv_7'
+Writing 'row_cap_array'
+Writing 'pinv_8'
+Writing 'sky130_fd_bd_sram__openram_dff'
+Writing 'col_cap_array'
+Writing 'nmos_m1_w0_360_sli_dli_da_p'
+Writing 'pmos_m1_w0_550_sli_dli'
+Writing 'bitcell_array'
+Writing 'cr_1'
+Writing 'pinv_9'
+Writing 'pand2'
+Writing 'col_cap_array_0'
+Writing 'pand3'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_cap_row'
+Writing 'pnand2'
+Writing 'contact_7'
+Writing 'port_data_0'
+Writing 'pnand3'
+Writing 'contact_8'
+Writing 'bank'
+Writing 'contact_9'
+Writing 'nmos_m3_w2_000_sli_dli_da_p'
+Writing 'pdriver_0'
+Writing 'nmos_m1_w0_740_sactive_dli'
+Writing 'row_addr_dff'
+Writing 'precharge_array_0'
+Writing 'pdriver_1'
+Writing 'nmos_m3_w1_680_sli_dli_da_p'
+Writing 'dff_buf_0'
+Writing 'nmos_m9_w2_000_sli_dli_da_p'
+Writing 'pdriver_2'
+Writing 'pdriver_3'
+Writing 'pmos_m2_w1_260_sli_dli_da_p'
+Writing 'row_cap_array_0'
+Writing 'pdriver_4'
+Writing 'pmos_m7_w2_000_sli_dli_da_p'
+Writing 'precharge_0'
+Writing 'pdriver_5'
+Writing 'precharge_1'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_replica'
+Writing 'pmos_m13_w2_000_sli_dli_da_p'
+Writing 'pdriver_6'
+Writing 'wordline_driver_array'
+Writing 'data_dff'
+Writing 'pmos_m2_w2_000_sli_dli_da_p'
+Writing 'dff_buf_array'
+Writing 'write_mask_and_array'
+Writing 'sky130_fd_bd_sram__openram_dp_cell_dummy'
+Writing 'sky130_sram_0kbytes_1rw1r_8x16_2'
+Writing 'wordline_driver'
+Writing 'port_address'
+Writing 'contact_30'
+Writing 'pand2_0'
+Writing 'sky130_fd_bd_sram__openram_write_driver'
+Writing 'port_address_0'
+Writing 'port_data'
+Writing 'pmos_m14_w2_000_sli_dli_da_p'
+Writing 'contact_20'
+Writing 'delay_chain'
+Writing 'pnand2_0'
+Writing 'contact_21'
+Writing 'replica_bitcell_array'
+Writing 'pnand2_1'
+Writing 'hierarchical_decoder'
+Writing 'contact_11'
+Writing 'contact_22'
+Writing 'pmos_m3_w2_000_sli_dli_da_p'
+Writing 'nmos_m5_w1_680_sli_dli_da_p'
+Writing 'sky130_fd_bd_sram__openram_dp_nand2_dec'
+Writing 'pinv_dec'
+Writing 'contact_23'
+Writing 'contact_12'
+Writing 'contact_35'
+Writing 'control_logic_rw'
+Writing 'sky130_fd_bd_sram__openram_sense_amp'
+Writing 'contact_24'
+Writing 'contact_13'
+Writing 'pmos_m3_w1_680_sli_dli_da_p'
+Writing 'pmos_m1_w3_000_sli_dli_da_p'
+Writing 'contact_36'
+Writing 'contact_25'
+Writing 'contact_14'
+Writing 'pmos_m9_w2_000_sli_dli_da_p'
+Writing 'nmos_m1_w0_740_sactive_dactive'
+Writing 'nmos_m1_w0_740_sli_dli_da_p'
+Writing 'and2_dec'
+Writing 'contact_15'
+Writing 'contact_26'
+Writing 'pdriver'
+Writing 'contact_16'
+Annotating port orders from sky130_sram_0kbytes_1rw1r_8x16_2.sp
+Annotating cell sky130_fd_bd_sram__openram_dp_cell
+Cell sky130_fd_bd_sram__openram_dp_cell port order was modified.
+Annotating cell bitcell_array
+Cell bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_replica
+Cell sky130_fd_bd_sram__openram_dp_cell_replica port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_cell_dummy
+Cell sky130_fd_bd_sram__openram_dp_cell_dummy port order was modified.
+Annotating cell replica_column
+Cell replica_column port order was modified.
+Annotating cell replica_column_0
+Cell replica_column_0 port order was modified.
+Annotating cell dummy_array
+Cell dummy_array port order was modified.
+Annotating cell replica_bitcell_array
+Cell replica_bitcell_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dp_nand2_dec
+Cell sky130_fd_bd_sram__openram_dp_nand2_dec port order was modified.
+Annotating cell pinv_dec
+Cell pinv_dec port order was modified.
+Annotating cell and2_dec
+Cell and2_dec port order was modified.
+Cell sky130_fd_bd_sram__openram_dp_nand3_dec in netlist has not been loaded.
+Cell and3_dec in netlist has not been loaded.
+Annotating cell hierarchical_predecode2x4
+Cell hierarchical_predecode2x4 port order was modified.
+Cell hierarchical_predecode3x8 in netlist has not been loaded.
+Cell sky130_fd_bd_sram__openram_dp_nand4_dec in netlist has not been loaded.
+Cell and4_dec in netlist has not been loaded.
+Cell hierarchical_predecode4x16 in netlist has not been loaded.
+Annotating cell hierarchical_decoder
+Cell hierarchical_decoder port order was modified.
+Annotating cell pinv_dec_0
+Cell pinv_dec_0 port order was modified.
+Annotating cell wordline_driver
+Cell wordline_driver port order was modified.
+Annotating cell wordline_driver_array
+Cell wordline_driver_array port order was modified.
+Annotating cell and2_dec_0
+Cell and2_dec_0 port order was modified.
+Annotating cell port_address
+Cell port_address port order was modified.
+Annotating cell port_address_0
+Cell port_address_0 port order was modified.
+Annotating cell precharge_0
+Cell precharge_0 port order was modified.
+Annotating cell precharge_array
+Cell precharge_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_sense_amp
+Cell sky130_fd_bd_sram__openram_sense_amp port order was modified.
+Annotating cell sense_amp_array
+Cell sense_amp_array port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_write_driver
+Cell sky130_fd_bd_sram__openram_write_driver port order was modified.
+Annotating cell write_driver_array
+Cell write_driver_array port order was modified.
+Annotating cell pnand2
+Cell pnand2 port order was modified.
+Annotating cell pinv
+Cell pinv port order was modified.
+Annotating cell pdriver
+Cell pdriver port order was modified.
+Annotating cell pand2
+Cell pand2 port order was modified.
+Annotating cell write_mask_and_array
+Cell write_mask_and_array port order was modified.
+Annotating cell port_data
+Cell port_data port order was modified.
+Annotating cell precharge_1
+Cell precharge_1 port order was modified.
+Annotating cell precharge_array_0
+Cell precharge_array_0 port order was modified.
+Annotating cell port_data_0
+Cell port_data_0 port order was modified.
+Annotating cell bank
+Cell bank port order was modified.
+Annotating cell sky130_fd_bd_sram__openram_dff
+Cell sky130_fd_bd_sram__openram_dff port order was modified.
+Annotating cell row_addr_dff
+Cell row_addr_dff port order was modified.
+Annotating cell data_dff
+Cell data_dff port order was modified.
+Annotating cell wmask_dff
+Cell wmask_dff port order was modified.
+Annotating cell pinv_0
+Cell pinv_0 port order was modified.
+Annotating cell pinv_1
+Cell pinv_1 port order was modified.
+Annotating cell dff_buf_0
+Cell dff_buf_0 port order was modified.
+Annotating cell dff_buf_array
+Cell dff_buf_array port order was modified.
+Annotating cell pnand2_0
+Cell pnand2_0 port order was modified.
+Annotating cell pinv_2
+Cell pinv_2 port order was modified.
+Annotating cell pdriver_0
+Cell pdriver_0 port order was modified.
+Annotating cell pand2_0
+Cell pand2_0 port order was modified.
+Cell pinv_3 in netlist has not been loaded.
+Cell pbuf in netlist has not been loaded.
+Annotating cell pinv_4
+Cell pinv_4 port order was modified.
+Annotating cell pinv_5
+Cell pinv_5 port order was modified.
+Annotating cell pinv_6
+Cell pinv_6 port order was modified.
+Annotating cell pinv_7
+Cell pinv_7 port order was modified.
+Annotating cell pdriver_1
+Cell pdriver_1 port order was modified.
+Annotating cell pinv_8
+Cell pinv_8 port order was modified.
+Annotating cell pdriver_2
+Cell pdriver_2 port order was modified.
+Annotating cell pnand3
+Cell pnand3 port order was modified.
+Annotating cell pinv_9
+Cell pinv_9 port order was modified.
+Annotating cell pdriver_3
+Cell pdriver_3 port order was modified.
+Annotating cell pand3
+Cell pand3 port order was modified.
+Annotating cell pdriver_4
+Cell pdriver_4 port order was modified.
+Annotating cell pand3_0
+Cell pand3_0 port order was modified.
+Annotating cell pinv_10
+Cell pinv_10 port order was modified.
+Annotating cell pdriver_5
+Cell pdriver_5 port order was modified.
+Annotating cell pnand2_1
+Cell pnand2_1 port order was modified.
+Annotating cell pinv_11
+Cell pinv_11 port order was modified.
+Annotating cell delay_chain
+Cell delay_chain port order was modified.
+Annotating cell control_logic_rw
+Cell control_logic_rw port order was modified.
+Annotating cell dff_buf_array_0
+Cell dff_buf_array_0 port order was modified.
+Annotating cell pinv_12
+Cell pinv_12 port order was modified.
+Annotating cell pdriver_6
+Cell pdriver_6 port order was modified.
+Annotating cell control_logic_r
+Cell control_logic_r port order was modified.
+Annotating cell sky130_sram_0kbytes_1rw1r_8x16_2
+Cell sky130_sram_0kbytes_1rw1r_8x16_2 port order was modified.
+Processing port_address_0
+Processing precharge_1
+Processing precharge_array_0
+Processing port_data_0
+Processing pnand2
+Processing pinv
+Processing pdriver
+Processing pand2
+Processing write_mask_and_array
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing write_driver_array
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing sense_amp_array
+Processing contact_23
+Processing contact_22
+Processing contact_24
+Processing pmos_m1_w0_550_sli_dli
+Processing precharge_0
+Processing precharge_array
+Processing port_data
+Processing row_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing row_cap_array
+Processing replica_column_0
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing bitcell_array
+Processing col_cap_array
+Processing contact_9
+Processing contact_8
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing dummy_array
+Processing replica_bitcell_array
+Processing contact_21
+Processing hierarchical_predecode2x4
+Processing pinv_dec
+Processing and2_dec
+Processing contact_20
+Processing contact_17
+Processing hierarchical_decoder
+Processing wordline_driver
+Processing wordline_driver_array
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing pmos_m1_w3_000_sli_dli_da_p
+Processing nmos_m1_w0_740_sli_dli_da_p
+Processing contact_15
+Processing pinv_dec_0
+Processing and2_dec_0
+Processing port_address
+Processing bank
+Processing pmos_m13_w2_000_sli_dli_da_p
+Processing nmos_m13_w2_000_sli_dli_da_p
+Processing pinv_12
+Processing pdriver_6
+Processing dff_buf_array_0
+Processing control_logic_r
+Processing pinv_11
+Processing delay_chain
+Processing pmos_m3_w2_000_sli_dli_da_p
+Processing nmos_m3_w2_000_sli_dli_da_p
+Processing pinv_8
+Processing pdriver_2
+Processing pdriver_5
+Processing pnand2_1
+Processing pmos_m9_w2_000_sli_dli_da_p
+Processing nmos_m9_w2_000_sli_dli_da_p
+Processing pinv_9
+Processing pdriver_3
+Processing pand3
+Processing nmos_m1_w0_740_sactive_dactive
+Processing pnand3
+Processing pdriver_4
+Processing pand3_0
+Processing pinv_4
+Processing pmos_m2_w2_000_sli_dli_da_p
+Processing nmos_m2_w1_260_sli_dli_da_p
+Processing pinv_5
+Processing pmos_m5_w2_000_sli_dli_da_p
+Processing nmos_m5_w1_680_sli_dli_da_p
+Processing pinv_6
+Processing pmos_m14_w2_000_sli_dli_da_p
+Processing nmos_m14_w2_000_sli_dli_da_p
+Processing pinv_7
+Processing pdriver_1
+Processing pmos_m2_w1_260_sli_dli_da_p
+Processing nmos_m2_w0_740_sli_dli_da_p
+Processing pinv_0
+Processing pmos_m3_w1_680_sli_dli_da_p
+Processing nmos_m3_w1_680_sli_dli_da_p
+Processing pinv_1
+Processing dff_buf_0
+Processing dff_buf_array
+Processing pmos_m1_w1_120_sli_dli
+Processing nmos_m1_w0_740_sli_dactive
+Processing nmos_m1_w0_740_sactive_dli
+Processing pnand2_0
+Processing pmos_m7_w2_000_sli_dli_da_p
+Processing nmos_m7_w1_680_sli_dli_da_p
+Processing pinv_2
+Processing pdriver_0
+Processing pand2_0
+Processing contact_12
+Processing pmos_m1_w1_120_sli_dli_da_p
+Processing contact_11
+Processing nmos_m1_w0_360_sli_dli_da_p
+Processing contact_25
+Processing contact_26
+Processing contact_16
+Processing pinv_10
+Processing control_logic_rw
+Processing row_addr_dff
+Processing cr_1
+Processing contact_29
+Processing wmask_dff
+Processing sky130_fd_bd_sram__openram_dff
+Processing data_dff
+Processing contact_13
+Processing contact_14
+Processing contact_19
+Processing contact_7
+Processing contact_35
+Processing contact_30
+Processing contact_36
+Processing sky130_sram_0kbytes_1rw1r_8x16_2
+Extraction style is now "ngspice(si)"
+Extracting port_address_0 into port_address_0.ext:
+Extracting precharge_1 into precharge_1.ext:
+Extracting precharge_array_0 into precharge_array_0.ext:
+Extracting port_data_0 into port_data_0.ext:
+Extracting pnand2 into pnand2.ext:
+Extracting pinv into pinv.ext:
+Extracting pdriver into pdriver.ext:
+Extracting pand2 into pand2.ext:
+Extracting write_mask_and_array into write_mask_and_array.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Extracting write_driver_array into write_driver_array.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Extracting sense_amp_array into sense_amp_array.ext:
+Extracting contact_23 into contact_23.ext:
+Extracting contact_22 into contact_22.ext:
+Extracting contact_24 into contact_24.ext:
+Extracting pmos_m1_w0_550_sli_dli into pmos_m1_w0_550_sli_dli.ext:
+Extracting precharge_0 into precharge_0.ext:
+Extracting precharge_array into precharge_array.ext:
+Extracting port_data into port_data.ext:
+Extracting row_cap_array_0 into row_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting row_cap_array into row_cap_array.ext:
+Extracting replica_column_0 into replica_column_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting replica_column into replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting bitcell_array into bitcell_array.ext:
+Extracting col_cap_array into col_cap_array.ext:
+Extracting contact_9 into contact_9.ext:
+Extracting contact_8 into contact_8.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Extracting col_cap_array_0 into col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Extracting dummy_array into dummy_array.ext:
+Extracting replica_bitcell_array into replica_bitcell_array.ext:
+Extracting contact_21 into contact_21.ext:
+Extracting hierarchical_predecode2x4 into hierarchical_predecode2x4.ext:
+Extracting pinv_dec into pinv_dec.ext:
+Extracting and2_dec into and2_dec.ext:
+Extracting contact_20 into contact_20.ext:
+Extracting contact_17 into contact_17.ext:
+Extracting hierarchical_decoder into hierarchical_decoder.ext:
+Extracting wordline_driver into wordline_driver.ext:
+Extracting wordline_driver_array into wordline_driver_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Extracting pmos_m1_w3_000_sli_dli_da_p into pmos_m1_w3_000_sli_dli_da_p.ext:
+Extracting nmos_m1_w0_740_sli_dli_da_p into nmos_m1_w0_740_sli_dli_da_p.ext:
+Extracting contact_15 into contact_15.ext:
+Extracting pinv_dec_0 into pinv_dec_0.ext:
+Extracting and2_dec_0 into and2_dec_0.ext:
+Extracting port_address into port_address.ext:
+Extracting bank into bank.ext:
+Extracting pmos_m13_w2_000_sli_dli_da_p into pmos_m13_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m13_w2_000_sli_dli_da_p into nmos_m13_w2_000_sli_dli_da_p.ext:
+Extracting pinv_12 into pinv_12.ext:
+Extracting pdriver_6 into pdriver_6.ext:
+Extracting dff_buf_array_0 into dff_buf_array_0.ext:
+Extracting control_logic_r into control_logic_r.ext:
+Extracting pinv_11 into pinv_11.ext:
+Extracting delay_chain into delay_chain.ext:
+Extracting pmos_m3_w2_000_sli_dli_da_p into pmos_m3_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m3_w2_000_sli_dli_da_p into nmos_m3_w2_000_sli_dli_da_p.ext:
+Extracting pinv_8 into pinv_8.ext:
+Extracting pdriver_2 into pdriver_2.ext:
+Extracting pdriver_5 into pdriver_5.ext:
+Extracting pnand2_1 into pnand2_1.ext:
+Extracting pmos_m9_w2_000_sli_dli_da_p into pmos_m9_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m9_w2_000_sli_dli_da_p into nmos_m9_w2_000_sli_dli_da_p.ext:
+Extracting pinv_9 into pinv_9.ext:
+Extracting pdriver_3 into pdriver_3.ext:
+Extracting pand3 into pand3.ext:
+Extracting nmos_m1_w0_740_sactive_dactive into nmos_m1_w0_740_sactive_dactive.ext:
+Extracting pnand3 into pnand3.ext:
+Extracting pdriver_4 into pdriver_4.ext:
+Extracting pand3_0 into pand3_0.ext:
+Extracting pinv_4 into pinv_4.ext:
+Extracting pmos_m2_w2_000_sli_dli_da_p into pmos_m2_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m2_w1_260_sli_dli_da_p into nmos_m2_w1_260_sli_dli_da_p.ext:
+Extracting pinv_5 into pinv_5.ext:
+Extracting pmos_m5_w2_000_sli_dli_da_p into pmos_m5_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m5_w1_680_sli_dli_da_p into nmos_m5_w1_680_sli_dli_da_p.ext:
+Extracting pinv_6 into pinv_6.ext:
+Extracting pmos_m14_w2_000_sli_dli_da_p into pmos_m14_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m14_w2_000_sli_dli_da_p into nmos_m14_w2_000_sli_dli_da_p.ext:
+Extracting pinv_7 into pinv_7.ext:
+Extracting pdriver_1 into pdriver_1.ext:
+Extracting pmos_m2_w1_260_sli_dli_da_p into pmos_m2_w1_260_sli_dli_da_p.ext:
+Extracting nmos_m2_w0_740_sli_dli_da_p into nmos_m2_w0_740_sli_dli_da_p.ext:
+Extracting pinv_0 into pinv_0.ext:
+Extracting pmos_m3_w1_680_sli_dli_da_p into pmos_m3_w1_680_sli_dli_da_p.ext:
+Extracting nmos_m3_w1_680_sli_dli_da_p into nmos_m3_w1_680_sli_dli_da_p.ext:
+Extracting pinv_1 into pinv_1.ext:
+Extracting dff_buf_0 into dff_buf_0.ext:
+Extracting dff_buf_array into dff_buf_array.ext:
+Extracting pmos_m1_w1_120_sli_dli into pmos_m1_w1_120_sli_dli.ext:
+Extracting nmos_m1_w0_740_sli_dactive into nmos_m1_w0_740_sli_dactive.ext:
+Extracting nmos_m1_w0_740_sactive_dli into nmos_m1_w0_740_sactive_dli.ext:
+Extracting pnand2_0 into pnand2_0.ext:
+Extracting pmos_m7_w2_000_sli_dli_da_p into pmos_m7_w2_000_sli_dli_da_p.ext:
+Extracting nmos_m7_w1_680_sli_dli_da_p into nmos_m7_w1_680_sli_dli_da_p.ext:
+Extracting pinv_2 into pinv_2.ext:
+Extracting pdriver_0 into pdriver_0.ext:
+Extracting pand2_0 into pand2_0.ext:
+Extracting contact_12 into contact_12.ext:
+Extracting pmos_m1_w1_120_sli_dli_da_p into pmos_m1_w1_120_sli_dli_da_p.ext:
+Extracting contact_11 into contact_11.ext:
+Extracting nmos_m1_w0_360_sli_dli_da_p into nmos_m1_w0_360_sli_dli_da_p.ext:
+Extracting contact_25 into contact_25.ext:
+Extracting contact_26 into contact_26.ext:
+Extracting contact_16 into contact_16.ext:
+Extracting pinv_10 into pinv_10.ext:
+Extracting control_logic_rw into control_logic_rw.ext:
+Extracting row_addr_dff into row_addr_dff.ext:
+Extracting cr_1 into cr_1.ext:
+Extracting contact_29 into contact_29.ext:
+Extracting wmask_dff into wmask_dff.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Extracting data_dff into data_dff.ext:
+Extracting contact_13 into contact_13.ext:
+Extracting contact_14 into contact_14.ext:
+Extracting contact_19 into contact_19.ext:
+Extracting contact_7 into contact_7.ext:
+Extracting contact_35 into contact_35.ext:
+Extracting contact_30 into contact_30.ext:
+Extracting contact_36 into contact_36.ext:
+Extracting sky130_sram_0kbytes_1rw1r_8x16_2 into sky130_sram_0kbytes_1rw1r_8x16_2.ext:
+Finished extract
+exttospice finished.
+Finished ext2spice
+Friday 22 October 2021 09:29:36 PM IST: Finished (0) GDS to MAG using Magic /usr/local/bin/magic

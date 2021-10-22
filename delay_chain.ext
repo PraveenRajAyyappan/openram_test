@@ -1,0 +1,1128 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_19 contact_19_0 1 0 -75 0 1 637
+use contact_14 contact_14_1 1 0 -72 0 1 636
+use contact_7 contact_7_76 1 0 163 0 1 632
+use contact_19 contact_19_85 1 0 164 0 1 637
+use contact_14 contact_14_86 1 0 167 0 1 636
+use contact_19 contact_19_86 1 0 49 0 1 637
+use contact_14 contact_14_87 1 0 52 0 1 636
+use pinv_11 pinv_11_38 1 0 368 0 -1 2828
+use pinv_11 pinv_11_39 1 0 0 0 -1 2828
+use pinv_11 pinv_11_43 1 0 368 0 1 0
+use pinv_11 pinv_11_44 1 0 0 0 1 0
+use contact_7 contact_7_33 1 0 623 0 1 -37
+use contact_19 contact_19_34 1 0 624 0 1 -32
+use contact_14 contact_14_35 1 0 627 0 1 -33
+use contact_7 contact_7_79 1 0 784 0 1 632
+use contact_19 contact_19_89 1 0 785 0 1 637
+use contact_14 contact_14_90 1 0 788 0 1 636
+use contact_7 contact_7_80 1 0 416 0 1 632
+use contact_19 contact_19_90 1 0 417 0 1 637
+use contact_14 contact_14_91 1 0 420 0 1 636
+use contact_7 contact_7_31 1 0 623 0 1 1377
+use contact_19 contact_19_32 1 0 624 0 1 1382
+use contact_14 contact_14_33 1 0 627 0 1 1381
+use contact_7 contact_7_35 1 0 623 0 1 1377
+use contact_19 contact_19_36 1 0 624 0 1 1382
+use contact_14 contact_14_37 1 0 627 0 1 1381
+use pinv_11 pinv_11_37 1 0 736 0 -1 2828
+use pinv_11 pinv_11_42 1 0 736 0 1 0
+use pinv_11 pinv_11_41 1 0 1104 0 1 0
+use pinv_11 pinv_11_36 1 0 1104 0 -1 2828
+use contact_14 contact_14_89 1 0 1156 0 1 636
+use contact_19 contact_19_88 1 0 1153 0 1 637
+use contact_7 contact_7_78 1 0 1152 0 1 632
+use contact_7 contact_7_32 1 0 1359 0 1 -37
+use contact_19 contact_19_33 1 0 1360 0 1 -32
+use contact_14 contact_14_34 1 0 1363 0 1 -33
+use contact_7 contact_7_77 1 0 1520 0 1 632
+use contact_19 contact_19_87 1 0 1521 0 1 637
+use contact_14 contact_14_88 1 0 1524 0 1 636
+use contact_7 contact_7_30 1 0 1359 0 1 1377
+use contact_19 contact_19_31 1 0 1360 0 1 1382
+use contact_14 contact_14_32 1 0 1363 0 1 1381
+use contact_7 contact_7_34 1 0 1359 0 1 1377
+use contact_19 contact_19_35 1 0 1360 0 1 1382
+use contact_14 contact_14_36 1 0 1363 0 1 1381
+use pinv_11 pinv_11_35 1 0 1472 0 -1 2828
+use pinv_11 pinv_11_40 1 0 1472 0 1 0
+use pinv_11 pinv_11_34 1 0 0 0 1 2828
+use pinv_11 pinv_11_33 1 0 368 0 1 2828
+use contact_14 contact_14_81 1 0 52 0 1 2126
+use contact_19 contact_19_80 1 0 49 0 1 2127
+use contact_14 contact_14_80 1 0 167 0 1 2126
+use contact_19 contact_19_79 1 0 164 0 1 2127
+use contact_7 contact_7_71 1 0 163 0 1 2122
+use contact_7 contact_7_74 1 0 784 0 1 2122
+use contact_19 contact_19_83 1 0 785 0 1 2127
+use contact_14 contact_14_84 1 0 788 0 1 2126
+use contact_7 contact_7_75 1 0 416 0 1 2122
+use contact_19 contact_19_84 1 0 417 0 1 2127
+use contact_14 contact_14_85 1 0 420 0 1 2126
+use contact_7 contact_7_25 1 0 623 0 1 2791
+use contact_19 contact_19_26 1 0 624 0 1 2796
+use contact_14 contact_14_27 1 0 627 0 1 2795
+use contact_7 contact_7_29 1 0 623 0 1 2791
+use contact_19 contact_19_30 1 0 624 0 1 2796
+use contact_14 contact_14_31 1 0 627 0 1 2795
+use pinv_11 pinv_11_32 1 0 736 0 1 2828
+use pinv_11 pinv_11_31 1 0 1104 0 1 2828
+use contact_14 contact_14_83 1 0 1156 0 1 2126
+use contact_19 contact_19_82 1 0 1153 0 1 2127
+use contact_7 contact_7_73 1 0 1152 0 1 2122
+use contact_7 contact_7_72 1 0 1520 0 1 2122
+use contact_19 contact_19_81 1 0 1521 0 1 2127
+use contact_14 contact_14_82 1 0 1524 0 1 2126
+use contact_7 contact_7_24 1 0 1359 0 1 2791
+use contact_19 contact_19_25 1 0 1360 0 1 2796
+use contact_14 contact_14_26 1 0 1363 0 1 2795
+use contact_7 contact_7_28 1 0 1359 0 1 2791
+use contact_19 contact_19_29 1 0 1360 0 1 2796
+use contact_14 contact_14_30 1 0 1363 0 1 2795
+use pinv_11 pinv_11_30 1 0 1472 0 1 2828
+use pinv_11 pinv_11_29 1 0 0 0 -1 5656
+use pinv_11 pinv_11_28 1 0 368 0 -1 5656
+use contact_14 contact_14_75 1 0 52 0 1 3464
+use contact_19 contact_19_74 1 0 49 0 1 3465
+use contact_14 contact_14_74 1 0 167 0 1 3464
+use contact_19 contact_19_73 1 0 164 0 1 3465
+use contact_7 contact_7_66 1 0 163 0 1 3460
+use contact_7 contact_7_69 1 0 784 0 1 3460
+use contact_19 contact_19_77 1 0 785 0 1 3465
+use contact_14 contact_14_78 1 0 788 0 1 3464
+use contact_7 contact_7_70 1 0 416 0 1 3460
+use contact_19 contact_19_78 1 0 417 0 1 3465
+use contact_14 contact_14_79 1 0 420 0 1 3464
+use contact_7 contact_7_23 1 0 623 0 1 4205
+use contact_19 contact_19_24 1 0 624 0 1 4210
+use contact_14 contact_14_25 1 0 627 0 1 4209
+use contact_7 contact_7_27 1 0 623 0 1 4205
+use contact_19 contact_19_28 1 0 624 0 1 4210
+use contact_14 contact_14_29 1 0 627 0 1 4209
+use pinv_11 pinv_11_27 1 0 736 0 -1 5656
+use pinv_11 pinv_11_26 1 0 1104 0 -1 5656
+use contact_14 contact_14_77 1 0 1156 0 1 3464
+use contact_19 contact_19_76 1 0 1153 0 1 3465
+use contact_7 contact_7_68 1 0 1152 0 1 3460
+use contact_7 contact_7_67 1 0 1520 0 1 3460
+use contact_19 contact_19_75 1 0 1521 0 1 3465
+use contact_14 contact_14_76 1 0 1524 0 1 3464
+use contact_7 contact_7_22 1 0 1359 0 1 4205
+use contact_19 contact_19_23 1 0 1360 0 1 4210
+use contact_14 contact_14_24 1 0 1363 0 1 4209
+use contact_7 contact_7_26 1 0 1359 0 1 4205
+use contact_19 contact_19_27 1 0 1360 0 1 4210
+use contact_14 contact_14_28 1 0 1363 0 1 4209
+use pinv_11 pinv_11_25 1 0 1472 0 -1 5656
+use pinv_11 pinv_11_24 1 0 0 0 1 5656
+use pinv_11 pinv_11_23 1 0 368 0 1 5656
+use contact_14 contact_14_69 1 0 52 0 1 4954
+use contact_19 contact_19_68 1 0 49 0 1 4955
+use contact_14 contact_14_68 1 0 167 0 1 4954
+use contact_19 contact_19_67 1 0 164 0 1 4955
+use contact_7 contact_7_61 1 0 163 0 1 4950
+use contact_7 contact_7_64 1 0 784 0 1 4950
+use contact_19 contact_19_71 1 0 785 0 1 4955
+use contact_14 contact_14_72 1 0 788 0 1 4954
+use contact_7 contact_7_65 1 0 416 0 1 4950
+use contact_19 contact_19_72 1 0 417 0 1 4955
+use contact_14 contact_14_73 1 0 420 0 1 4954
+use contact_7 contact_7_17 1 0 623 0 1 5619
+use contact_19 contact_19_18 1 0 624 0 1 5624
+use contact_14 contact_14_19 1 0 627 0 1 5623
+use contact_7 contact_7_21 1 0 623 0 1 5619
+use contact_19 contact_19_22 1 0 624 0 1 5624
+use contact_14 contact_14_23 1 0 627 0 1 5623
+use pinv_11 pinv_11_22 1 0 736 0 1 5656
+use pinv_11 pinv_11_21 1 0 1104 0 1 5656
+use contact_14 contact_14_71 1 0 1156 0 1 4954
+use contact_19 contact_19_70 1 0 1153 0 1 4955
+use contact_7 contact_7_63 1 0 1152 0 1 4950
+use contact_7 contact_7_62 1 0 1520 0 1 4950
+use contact_19 contact_19_69 1 0 1521 0 1 4955
+use contact_14 contact_14_70 1 0 1524 0 1 4954
+use contact_7 contact_7_16 1 0 1359 0 1 5619
+use contact_19 contact_19_17 1 0 1360 0 1 5624
+use contact_14 contact_14_18 1 0 1363 0 1 5623
+use contact_7 contact_7_20 1 0 1359 0 1 5619
+use contact_19 contact_19_21 1 0 1360 0 1 5624
+use contact_14 contact_14_22 1 0 1363 0 1 5623
+use pinv_11 pinv_11_20 1 0 1472 0 1 5656
+use pinv_11 pinv_11_19 1 0 0 0 -1 8484
+use pinv_11 pinv_11_18 1 0 368 0 -1 8484
+use contact_14 contact_14_63 1 0 52 0 1 6292
+use contact_19 contact_19_62 1 0 49 0 1 6293
+use contact_14 contact_14_62 1 0 167 0 1 6292
+use contact_19 contact_19_61 1 0 164 0 1 6293
+use contact_7 contact_7_56 1 0 163 0 1 6288
+use contact_7 contact_7_59 1 0 784 0 1 6288
+use contact_19 contact_19_65 1 0 785 0 1 6293
+use contact_14 contact_14_66 1 0 788 0 1 6292
+use contact_7 contact_7_60 1 0 416 0 1 6288
+use contact_19 contact_19_66 1 0 417 0 1 6293
+use contact_14 contact_14_67 1 0 420 0 1 6292
+use contact_7 contact_7_15 1 0 623 0 1 7033
+use contact_19 contact_19_16 1 0 624 0 1 7038
+use contact_14 contact_14_17 1 0 627 0 1 7037
+use contact_7 contact_7_19 1 0 623 0 1 7033
+use contact_19 contact_19_20 1 0 624 0 1 7038
+use contact_14 contact_14_21 1 0 627 0 1 7037
+use pinv_11 pinv_11_17 1 0 736 0 -1 8484
+use pinv_11 pinv_11_16 1 0 1104 0 -1 8484
+use contact_14 contact_14_65 1 0 1156 0 1 6292
+use contact_19 contact_19_64 1 0 1153 0 1 6293
+use contact_7 contact_7_58 1 0 1152 0 1 6288
+use contact_7 contact_7_57 1 0 1520 0 1 6288
+use contact_19 contact_19_63 1 0 1521 0 1 6293
+use contact_14 contact_14_64 1 0 1524 0 1 6292
+use contact_7 contact_7_14 1 0 1359 0 1 7033
+use contact_19 contact_19_15 1 0 1360 0 1 7038
+use contact_14 contact_14_16 1 0 1363 0 1 7037
+use contact_7 contact_7_18 1 0 1359 0 1 7033
+use contact_19 contact_19_19 1 0 1360 0 1 7038
+use contact_14 contact_14_20 1 0 1363 0 1 7037
+use pinv_11 pinv_11_15 1 0 1472 0 -1 8484
+use pinv_11 pinv_11_14 1 0 0 0 1 8484
+use pinv_11 pinv_11_13 1 0 368 0 1 8484
+use contact_14 contact_14_57 1 0 52 0 1 7782
+use contact_19 contact_19_56 1 0 49 0 1 7783
+use contact_14 contact_14_56 1 0 167 0 1 7782
+use contact_19 contact_19_55 1 0 164 0 1 7783
+use contact_7 contact_7_51 1 0 163 0 1 7778
+use contact_7 contact_7_54 1 0 784 0 1 7778
+use contact_19 contact_19_59 1 0 785 0 1 7783
+use contact_14 contact_14_60 1 0 788 0 1 7782
+use contact_7 contact_7_55 1 0 416 0 1 7778
+use contact_19 contact_19_60 1 0 417 0 1 7783
+use contact_14 contact_14_61 1 0 420 0 1 7782
+use contact_7 contact_7_9 1 0 623 0 1 8447
+use contact_19 contact_19_10 1 0 624 0 1 8452
+use contact_14 contact_14_11 1 0 627 0 1 8451
+use contact_7 contact_7_13 1 0 623 0 1 8447
+use contact_19 contact_19_14 1 0 624 0 1 8452
+use contact_14 contact_14_15 1 0 627 0 1 8451
+use pinv_11 pinv_11_12 1 0 736 0 1 8484
+use pinv_11 pinv_11_11 1 0 1104 0 1 8484
+use contact_14 contact_14_59 1 0 1156 0 1 7782
+use contact_19 contact_19_58 1 0 1153 0 1 7783
+use contact_7 contact_7_53 1 0 1152 0 1 7778
+use contact_7 contact_7_52 1 0 1520 0 1 7778
+use contact_19 contact_19_57 1 0 1521 0 1 7783
+use contact_14 contact_14_58 1 0 1524 0 1 7782
+use contact_7 contact_7_8 1 0 1359 0 1 8447
+use contact_19 contact_19_9 1 0 1360 0 1 8452
+use contact_14 contact_14_10 1 0 1363 0 1 8451
+use contact_7 contact_7_12 1 0 1359 0 1 8447
+use contact_19 contact_19_13 1 0 1360 0 1 8452
+use contact_14 contact_14_14 1 0 1363 0 1 8451
+use pinv_11 pinv_11_10 1 0 1472 0 1 8484
+use pinv_11 pinv_11_9 1 0 0 0 -1 11312
+use pinv_11 pinv_11_8 1 0 368 0 -1 11312
+use contact_14 contact_14_51 1 0 52 0 1 9120
+use contact_19 contact_19_50 1 0 49 0 1 9121
+use contact_14 contact_14_50 1 0 167 0 1 9120
+use contact_19 contact_19_49 1 0 164 0 1 9121
+use contact_7 contact_7_46 1 0 163 0 1 9116
+use contact_7 contact_7_49 1 0 784 0 1 9116
+use contact_19 contact_19_53 1 0 785 0 1 9121
+use contact_14 contact_14_54 1 0 788 0 1 9120
+use contact_7 contact_7_50 1 0 416 0 1 9116
+use contact_19 contact_19_54 1 0 417 0 1 9121
+use contact_14 contact_14_55 1 0 420 0 1 9120
+use contact_7 contact_7_7 1 0 623 0 1 9861
+use contact_19 contact_19_8 1 0 624 0 1 9866
+use contact_14 contact_14_9 1 0 627 0 1 9865
+use contact_7 contact_7_11 1 0 623 0 1 9861
+use contact_19 contact_19_12 1 0 624 0 1 9866
+use contact_14 contact_14_13 1 0 627 0 1 9865
+use pinv_11 pinv_11_7 1 0 736 0 -1 11312
+use pinv_11 pinv_11_6 1 0 1104 0 -1 11312
+use contact_14 contact_14_53 1 0 1156 0 1 9120
+use contact_19 contact_19_52 1 0 1153 0 1 9121
+use contact_7 contact_7_48 1 0 1152 0 1 9116
+use contact_7 contact_7_47 1 0 1520 0 1 9116
+use contact_19 contact_19_51 1 0 1521 0 1 9121
+use contact_14 contact_14_52 1 0 1524 0 1 9120
+use contact_7 contact_7_6 1 0 1359 0 1 9861
+use contact_19 contact_19_7 1 0 1360 0 1 9866
+use contact_14 contact_14_8 1 0 1363 0 1 9865
+use contact_7 contact_7_10 1 0 1359 0 1 9861
+use contact_19 contact_19_11 1 0 1360 0 1 9866
+use contact_14 contact_14_12 1 0 1363 0 1 9865
+use pinv_11 pinv_11_5 1 0 1472 0 -1 11312
+use pinv_11 pinv_11_4 1 0 0 0 1 11312
+use pinv_11 pinv_11_3 1 0 368 0 1 11312
+use contact_14 contact_14_45 1 0 52 0 1 10610
+use contact_19 contact_19_44 1 0 49 0 1 10611
+use contact_14 contact_14_44 1 0 167 0 1 10610
+use contact_19 contact_19_43 1 0 164 0 1 10611
+use contact_7 contact_7_41 1 0 163 0 1 10606
+use contact_7 contact_7_44 1 0 784 0 1 10606
+use contact_19 contact_19_47 1 0 785 0 1 10611
+use contact_14 contact_14_48 1 0 788 0 1 10610
+use contact_7 contact_7_45 1 0 416 0 1 10606
+use contact_19 contact_19_48 1 0 417 0 1 10611
+use contact_14 contact_14_49 1 0 420 0 1 10610
+use contact_7 contact_7_1 1 0 623 0 1 11275
+use contact_19 contact_19_2 1 0 624 0 1 11280
+use contact_14 contact_14_3 1 0 627 0 1 11279
+use contact_7 contact_7_5 1 0 623 0 1 11275
+use contact_19 contact_19_6 1 0 624 0 1 11280
+use contact_14 contact_14_7 1 0 627 0 1 11279
+use pinv_11 pinv_11_2 1 0 736 0 1 11312
+use pinv_11 pinv_11_1 1 0 1104 0 1 11312
+use contact_14 contact_14_47 1 0 1156 0 1 10610
+use contact_19 contact_19_46 1 0 1153 0 1 10611
+use contact_7 contact_7_43 1 0 1152 0 1 10606
+use contact_7 contact_7_42 1 0 1520 0 1 10606
+use contact_19 contact_19_45 1 0 1521 0 1 10611
+use contact_14 contact_14_46 1 0 1524 0 1 10610
+use contact_7 contact_7_0 1 0 1359 0 1 11275
+use contact_19 contact_19_1 1 0 1360 0 1 11280
+use contact_14 contact_14_2 1 0 1363 0 1 11279
+use contact_7 contact_7_4 1 0 1359 0 1 11275
+use contact_19 contact_19_5 1 0 1360 0 1 11280
+use contact_14 contact_14_6 1 0 1363 0 1 11279
+use pinv_11 pinv_11_0 1 0 1472 0 1 11312
+use contact_14 contact_14_39 1 0 52 0 1 11948
+use contact_19 contact_19_38 1 0 49 0 1 11949
+use contact_14 contact_14_38 1 0 167 0 1 11948
+use contact_19 contact_19_37 1 0 164 0 1 11949
+use contact_7 contact_7_36 1 0 163 0 1 11944
+use contact_14 contact_14_43 1 0 420 0 1 11948
+use contact_19 contact_19_42 1 0 417 0 1 11949
+use contact_7 contact_7_40 1 0 416 0 1 11944
+use contact_14 contact_14_42 1 0 788 0 1 11948
+use contact_19 contact_19_41 1 0 785 0 1 11949
+use contact_7 contact_7_39 1 0 784 0 1 11944
+use contact_14 contact_14_5 1 0 627 0 1 12693
+use contact_19 contact_19_4 1 0 624 0 1 12694
+use contact_7 contact_7_3 1 0 623 0 1 12689
+use contact_14 contact_14_41 1 0 1156 0 1 11948
+use contact_19 contact_19_40 1 0 1153 0 1 11949
+use contact_7 contact_7_38 1 0 1152 0 1 11944
+use contact_14 contact_14_40 1 0 1524 0 1 11948
+use contact_19 contact_19_39 1 0 1521 0 1 11949
+use contact_7 contact_7_37 1 0 1520 0 1 11944
+use contact_14 contact_14_4 1 0 1363 0 1 12693
+use contact_19 contact_19_3 1 0 1360 0 1 12694
+use contact_7 contact_7_2 1 0 1359 0 1 12689
+use contact_14 contact_14_0 1 0 1524 0 1 11948
+port "gnd_uq0" 5 1343 -49 1441 49 m3
+port "gnd" 4 607 -49 705 49 m3
+port "in" 1 -57 655 -29 683 m2
+port "vdd_uq0" 14 1343 1365 1441 1463 m3
+port "vdd" 3 607 1365 705 1463 m3
+port "gnd_uq1" 6 1343 2779 1441 2877 m3
+port "gnd_uq2" 7 607 2779 705 2877 m3
+port "vdd_uq1" 15 1343 4193 1441 4291 m3
+port "vdd_uq2" 16 607 4193 705 4291 m3
+port "gnd_uq3" 8 1343 5607 1441 5705 m3
+port "gnd_uq4" 9 607 5607 705 5705 m3
+port "vdd_uq3" 17 1343 7021 1441 7119 m3
+port "vdd_uq4" 18 607 7021 705 7119 m3
+port "gnd_uq5" 10 1343 8435 1441 8533 m3
+port "gnd_uq6" 11 607 8435 705 8533 m3
+port "vdd_uq5" 19 1343 9849 1441 9947 m3
+port "vdd_uq6" 20 607 9849 705 9947 m3
+port "gnd_uq7" 12 1343 11263 1441 11361 m3
+port "gnd_uq8" 13 607 11263 705 11361 m3
+port "out" 2 1539 11967 1567 11995 m1
+port "vdd_uq7" 21 1343 12677 1441 12775 m3
+port "vdd_uq8" 22 607 12677 705 12775 m3
+node "gnd_uq0" 24 101.711 1343 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd" 24 101.711 607 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "in" 81 104.513 -57 655 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7548 512 6656 464 6656 464 0 0 0 0 0 0 0 0
+node "vdd_uq0" 24 101.711 1343 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd" 24 101.711 607 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_2126#" 315 931.166 64 2126 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 67056 4548 87360 3026 0 0 0 0 0 0
+node "gnd_uq1" 24 101.711 1343 2779 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq2" 24 101.711 607 2779 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_3464#" 314 899.554 64 3464 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 62800 4244 87360 3026 0 0 0 0 0 0
+node "vdd_uq1" 24 101.711 1343 4193 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq2" 24 101.711 607 4193 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_4954#" 315 931.166 64 4954 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 67056 4548 87360 3026 0 0 0 0 0 0
+node "gnd_uq3" 24 101.711 1343 5607 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq4" 24 101.711 607 5607 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_6292#" 314 899.554 64 6292 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 62800 4244 87360 3026 0 0 0 0 0 0
+node "vdd_uq3" 24 101.711 1343 7021 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq4" 24 101.711 607 7021 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_7782#" 315 931.166 64 7782 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 67056 4548 87360 3026 0 0 0 0 0 0
+node "gnd_uq5" 24 101.711 1343 8435 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq6" 24 101.711 607 8435 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_9120#" 314 899.554 64 9120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 62800 4244 87360 3026 0 0 0 0 0 0
+node "vdd_uq5" 24 101.711 1343 9849 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq6" 24 101.711 607 9849 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "li_64_10610#" 315 931.166 64 10610 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 67056 4548 87360 3026 0 0 0 0 0 0
+node "gnd_uq7" 24 101.711 1343 11263 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq8" 24 101.711 607 11263 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "out" 253 563.539 1539 11967 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11220 1000 16640 1160 20720 1300 87360 3026 0 0 0 0 0 0
+node "li_64_11948#" 314 899.554 64 11948 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13464 1200 19968 1392 62800 4244 87360 3026 0 0 0 0 0 0
+node "vdd_uq7" 24 101.711 1343 12677 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq8" 24 101.711 607 12677 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vdd_uq8" "out" 9.27027
+cap "vdd_uq6" "vdd_uq5" 21.703
+cap "vdd" "li_64_3464#" 9.27027
+cap "in" "li_64_2126#" 217.616
+cap "out" "gnd_uq8" 10.4644
+cap "gnd_uq2" "li_64_4954#" 10.4644
+cap "vdd_uq5" "li_64_10610#" 9.27027
+cap "li_64_6292#" "gnd_uq3" 10.4644
+cap "vdd" "li_64_2126#" 17.5283
+cap "gnd_uq5" "li_64_10610#" 10.4644
+cap "vdd_uq6" "li_64_10610#" 17.5283
+cap "gnd_uq6" "li_64_9120#" 18.7225
+cap "out" "li_64_11948#" 168.866
+cap "gnd_uq0" "li_64_2126#" 10.4644
+cap "li_64_6292#" "li_64_7782#" 171.728
+cap "li_64_7782#" "vdd_uq4" 17.5283
+cap "li_64_3464#" "li_64_2126#" 171.704
+cap "gnd_uq4" "gnd_uq3" 21.703
+cap "vdd_uq3" "li_64_9120#" 9.27027
+cap "li_64_11948#" "gnd_uq8" 18.7225
+cap "gnd_uq1" "li_64_3464#" 10.4644
+cap "vdd" "vdd_uq0" 21.703
+cap "li_64_6292#" "vdd_uq1" 9.27027
+cap "li_64_7782#" "gnd_uq4" 10.4644
+cap "li_64_6292#" "vdd_uq2" 9.27027
+cap "vdd_uq7" "out" 9.27027
+cap "gnd_uq6" "gnd_uq5" 21.703
+cap "li_64_3464#" "vdd_uq0" 9.27027
+cap "vdd_uq8" "vdd_uq7" 21.703
+cap "vdd_uq1" "vdd_uq2" 21.703
+cap "gnd_uq6" "li_64_10610#" 10.4644
+cap "li_64_4954#" "li_64_3464#" 171.728
+cap "out" "gnd_uq7" 10.4644
+cap "li_64_2126#" "vdd_uq0" 9.27027
+cap "gnd_uq0" "gnd" 21.703
+cap "li_64_6292#" "gnd_uq4" 18.7225
+cap "gnd_uq5" "li_64_9120#" 10.4644
+cap "gnd_uq2" "li_64_3464#" 18.7225
+cap "li_64_6292#" "li_64_4954#" 171.704
+cap "li_64_7782#" "vdd_uq3" 9.27027
+cap "li_64_7782#" "li_64_9120#" 171.704
+cap "vdd_uq5" "li_64_11948#" 9.27027
+cap "gnd_uq1" "li_64_4954#" 10.4644
+cap "gnd" "li_64_2126#" 10.4644
+cap "li_64_10610#" "li_64_9120#" 171.728
+cap "gnd_uq7" "gnd_uq8" 21.703
+cap "vdd_uq6" "li_64_11948#" 9.27027
+cap "vdd_uq1" "li_64_4954#" 9.27027
+cap "gnd_uq1" "gnd_uq2" 21.703
+cap "li_64_4954#" "vdd_uq2" 17.5283
+cap "li_64_11948#" "li_64_10610#" 171.704
+cap "li_64_7782#" "gnd_uq3" 10.4644
+cap "vdd_uq4" "li_64_9120#" 9.27027
+cap "vdd_uq4" "vdd_uq3" 21.703
+cap "li_64_11948#" "gnd_uq7" 10.4644
+cap "pinv_11_41/Z" "pinv_11_42/Z" 121.707
+cap "vdd" "pinv_11_41/Z" 14.3261
+cap "pinv_11_38/A" "pinv_11_36/Z" 28.7481
+cap "pinv_11_38/A" "gnd" 12.0491
+cap "vdd" "pinv_11_36/Z" 14.3261
+cap "pinv_11_41/Z" "pinv_11_39/A" 28.7481
+cap "gnd" "pinv_11_42/Z" 37.3984
+cap "pinv_11_35/Z" "pinv_11_36/Z" 119.435
+cap "pinv_11_38/Z" "pinv_11_37/Z" 119.435
+cap "gnd" "pinv_11_39/A" 18.2978
+cap "pinv_11_41/Z" "pinv_11_36/Z" 4.31538
+cap "pinv_11_35/Z" "gnd" 12.8054
+cap "gnd" "pinv_11_41/Z" 33.7805
+cap "gnd" "pinv_11_36/Z" 22.4859
+cap "pinv_11_38/A" "pinv_11_38/Z" 146.97
+cap "vdd" "in" 3.20943
+cap "vdd" "pinv_11_38/Z" 17.9441
+cap "vdd" "pinv_11_40/Z" 5.01843
+cap "pinv_11_40/Z" "pinv_11_42/Z" 57.8602
+cap "pinv_11_43/Z" "pinv_11_42/Z" 121.707
+cap "vdd" "pinv_11_43/Z" 17.9441
+cap "pinv_11_39/A" "pinv_11_38/Z" 5.04167
+cap "in" "pinv_11_39/A" 96.1562
+cap "pinv_11_40/Z" "pinv_11_39/A" 5.04167
+cap "pinv_11_39/A" "pinv_11_43/Z" 149.243
+cap "pinv_11_35/Z" "pinv_11_40/Z" 4.31538
+cap "pinv_11_41/Z" "pinv_11_40/Z" 121.707
+cap "pinv_11_41/Z" "pinv_11_43/Z" 57.8602
+cap "pinv_11_38/Z" "pinv_11_36/Z" 56.779
+cap "pinv_11_38/A" "pinv_11_37/Z" 89.2242
+cap "in" "gnd" 3.34611
+cap "gnd" "pinv_11_38/Z" 22.1942
+cap "vdd" "pinv_11_37/Z" 17.9441
+cap "pinv_11_37/Z" "pinv_11_42/Z" 4.31538
+cap "gnd" "pinv_11_40/Z" 19.1234
+cap "gnd" "pinv_11_43/Z" 33.4803
+cap "pinv_11_35/Z" "pinv_11_37/Z" 56.779
+cap "vdd" "pinv_11_38/A" 14.6319
+cap "pinv_11_37/Z" "pinv_11_36/Z" 119.435
+cap "vdd" "pinv_11_42/Z" 17.9441
+cap "pinv_11_38/A" "pinv_11_35/Z" 5.04167
+cap "gnd" "pinv_11_37/Z" 24.8431
+cap "pinv_11_38/A" "pinv_11_39/A" 138.789
+cap "in" "pinv_11_43/Z" 6.94095
+cap "pinv_11_39/A" "pinv_11_42/Z" 90.3054
+cap "pinv_11_38/Z" "pinv_11_43/Z" 4.31538
+cap "vdd" "pinv_11_39/A" 146.379
+cap "vdd" "pinv_11_35/Z" 5.01843
+subcap "li_64_2126#" -1084.65
+subcap "li_64_3464#" -1380.07
+cap "pinv_11_39/A" "pinv_11_38/A" 16.4163
+cap "pinv_11_36/Z" "gnd_uq1" 11.2945
+cap "pinv_11_33/Z" "pinv_11_31/Z" 57.8602
+cap "pinv_11_31/Z" "pinv_11_30/Z" 121.707
+cap "gnd_uq1" "pinv_11_32/Z" 37.3984
+cap "pinv_11_25/Z" "pinv_11_30/Z" 4.31538
+cap "vdd_uq1" "pinv_11_34/Z" 146.379
+cap "pinv_11_27/Z" "pinv_11_26/Z" 116.668
+cap "pinv_11_27/Z" "pinv_11_25/Z" 55.4627
+cap "gnd_uq1" "pinv_11_26/Z" 8.73603
+cap "pinv_11_27/Z" "pinv_11_29/Z" 87.908
+cap "pinv_11_33/Z" "vdd_uq1" 17.9441
+cap "gnd_uq1" "pinv_11_31/Z" 33.7805
+cap "gnd_uq1" "pinv_11_25/Z" 5.1138
+cap "pinv_11_26/Z" "pinv_11_28/Z" 55.4627
+cap "vdd_uq1" "pinv_11_30/Z" 5.01843
+cap "pinv_11_33/Z" "pinv_11_34/Z" 149.243
+cap "pinv_11_34/Z" "pinv_11_30/Z" 5.04167
+cap "gnd_uq1" "pinv_11_29/Z" 4.45591
+cap "pinv_11_34/Z" "pinv_11_38/A" 161.279
+cap "pinv_11_27/Z" "vdd_uq1" 17.9441
+cap "pinv_11_38/Z" "pinv_11_37/Z" 2.27246
+cap "pinv_11_28/Z" "pinv_11_29/Z" 144.204
+cap "pinv_11_37/Z" "pinv_11_35/Z" 1.0812
+cap "pinv_11_36/Z" "pinv_11_31/Z" 10.3889
+cap "pinv_11_38/Z" "pinv_11_33/Z" 10.3889
+cap "pinv_11_37/Z" "pinv_11_38/A" 1.0812
+cap "pinv_11_38/Z" "pinv_11_38/A" 2.27246
+cap "pinv_11_30/Z" "pinv_11_35/Z" 10.3889
+cap "pinv_11_32/Z" "pinv_11_31/Z" 121.707
+cap "pinv_11_33/Z" "pinv_11_38/A" 5.04167
+cap "gnd_uq1" "pinv_11_34/Z" 18.2978
+cap "vdd_uq1" "pinv_11_28/Z" 17.9441
+cap "pinv_11_34/Z" "pinv_11_28/Z" 5.04167
+cap "pinv_11_26/Z" "pinv_11_31/Z" 4.31538
+cap "pinv_11_26/Z" "pinv_11_25/Z" 116.668
+cap "pinv_11_37/Z" "gnd_uq1" 12.5553
+cap "pinv_11_38/Z" "gnd_uq1" 11.2861
+cap "pinv_11_32/Z" "vdd_uq1" 17.9441
+cap "gnd_uq1" "pinv_11_35/Z" 6.31808
+cap "gnd_uq1" "pinv_11_30/Z" 19.1234
+cap "gnd_uq1" "pinv_11_33/Z" 33.4803
+cap "pinv_11_26/Z" "pinv_11_29/Z" 28.7481
+cap "gnd_uq1" "pinv_11_38/A" 83.7334
+cap "pinv_11_32/Z" "pinv_11_34/Z" 90.3054
+cap "pinv_11_33/Z" "pinv_11_28/Z" 4.31538
+cap "pinv_11_29/Z" "pinv_11_25/Z" 5.04167
+cap "pinv_11_37/Z" "pinv_11_36/Z" 2.27246
+cap "pinv_11_38/Z" "pinv_11_36/Z" 1.0812
+cap "gnd_uq1" "pinv_11_27/Z" 9.55829
+cap "pinv_11_26/Z" "vdd_uq1" 14.3261
+cap "pinv_11_37/Z" "pinv_11_32/Z" 10.3889
+cap "pinv_11_27/Z" "pinv_11_28/Z" 116.668
+cap "vdd_uq1" "pinv_11_31/Z" 14.3261
+cap "pinv_11_36/Z" "pinv_11_35/Z" 2.27246
+cap "pinv_11_33/Z" "pinv_11_32/Z" 121.707
+cap "vdd_uq1" "pinv_11_25/Z" 5.01843
+cap "pinv_11_34/Z" "pinv_11_31/Z" 28.7481
+cap "pinv_11_32/Z" "pinv_11_30/Z" 57.8602
+cap "vdd_uq1" "pinv_11_29/Z" 14.6319
+cap "gnd_uq1" "pinv_11_28/Z" 8.45461
+cap "pinv_11_34/Z" "pinv_11_29/Z" 138.789
+cap "pinv_11_32/Z" "pinv_11_27/Z" 4.31538
+subcap "li_64_4954#" -1076.22
+subcap "li_64_6292#" -1331.83
+cap "pinv_11_27/Z" "pinv_11_26/Z" 5.03892
+cap "pinv_11_19/Z" "pinv_11_18/Z" 141.437
+cap "gnd_uq3" "pinv_11_29/Z" 91.3266
+cap "vdd_uq3" "pinv_11_24/Z" 146.379
+cap "pinv_11_26/Z" "pinv_11_25/Z" 5.03892
+cap "pinv_11_20/Z" "pinv_11_25/Z" 10.3889
+cap "pinv_11_21/Z" "pinv_11_24/Z" 28.7481
+cap "vdd_uq3" "pinv_11_22/Z" 17.9441
+cap "pinv_11_16/Z" "pinv_11_19/Z" 28.7481
+cap "pinv_11_22/Z" "pinv_11_21/Z" 121.707
+cap "pinv_11_16/Z" "pinv_11_18/Z" 54.1465
+cap "pinv_11_27/Z" "gnd_uq3" 27.8401
+cap "pinv_11_24/Z" "pinv_11_20/Z" 5.04167
+cap "vdd_uq3" "pinv_11_17/Z" 17.9441
+cap "pinv_11_22/Z" "pinv_11_20/Z" 57.8602
+cap "gnd_uq3" "pinv_11_25/Z" 14.0097
+cap "vdd_uq3" "pinv_11_23/Z" 17.9441
+cap "pinv_11_27/Z" "pinv_11_29/Z" 2.39744
+cap "pinv_11_28/Z" "pinv_11_23/Z" 10.3889
+cap "pinv_11_21/Z" "pinv_11_23/Z" 57.8602
+cap "gnd_uq3" "pinv_11_24/Z" 18.2978
+cap "pinv_11_15/Z" "vdd_uq3" 5.01843
+cap "gnd_uq3" "pinv_11_22/Z" 37.3984
+cap "pinv_11_18/Z" "pinv_11_24/Z" 5.04167
+cap "pinv_11_29/Z" "pinv_11_29/A" 16.4163
+cap "pinv_11_19/Z" "pinv_11_24/Z" 137.783
+cap "pinv_11_15/Z" "pinv_11_20/Z" 4.31538
+cap "pinv_11_29/Z" "pinv_11_24/Z" 161.279
+cap "pinv_11_19/Z" "pinv_11_17/Z" 86.5917
+cap "pinv_11_27/Z" "pinv_11_25/Z" 2.39744
+cap "pinv_11_18/Z" "pinv_11_17/Z" 113.902
+cap "gnd_uq3" "pinv_11_23/Z" 33.4803
+cap "pinv_11_18/Z" "pinv_11_23/Z" 4.31538
+cap "vdd_uq3" "pinv_11_21/Z" 14.3261
+cap "pinv_11_27/Z" "pinv_11_22/Z" 10.3889
+cap "pinv_11_29/Z" "pinv_11_23/Z" 5.04167
+cap "pinv_11_15/Z" "pinv_11_19/Z" 5.04167
+cap "pinv_11_16/Z" "pinv_11_17/Z" 113.902
+cap "vdd_uq3" "pinv_11_20/Z" 5.01843
+cap "pinv_11_28/Z" "pinv_11_26/Z" 2.39744
+cap "pinv_11_21/Z" "pinv_11_26/Z" 10.3889
+cap "pinv_11_21/Z" "pinv_11_20/Z" 121.707
+cap "pinv_11_22/Z" "pinv_11_24/Z" 90.3054
+cap "pinv_11_16/Z" "pinv_11_15/Z" 113.902
+cap "vdd_uq3" "pinv_11_18/Z" 17.9441
+cap "vdd_uq3" "pinv_11_19/Z" 14.6319
+cap "pinv_11_28/Z" "gnd_uq3" 25.0257
+cap "gnd_uq3" "pinv_11_21/Z" 33.7805
+cap "gnd_uq3" "pinv_11_26/Z" 25.0444
+cap "pinv_11_23/Z" "pinv_11_24/Z" 149.243
+cap "pinv_11_22/Z" "pinv_11_17/Z" 4.31538
+cap "pinv_11_28/Z" "pinv_11_29/Z" 5.03892
+cap "gnd_uq3" "pinv_11_20/Z" 19.1234
+cap "pinv_11_22/Z" "pinv_11_23/Z" 121.707
+cap "pinv_11_16/Z" "vdd_uq3" 14.3261
+cap "pinv_11_16/Z" "pinv_11_21/Z" 4.31538
+cap "pinv_11_28/Z" "pinv_11_27/Z" 5.03892
+cap "pinv_11_15/Z" "pinv_11_17/Z" 54.1465
+cap "gnd_uq3" "pinv_11_19/Z" 0.011418
+subcap "li_64_7782#" -1065.05
+subcap "li_64_9120#" -1268.93
+subcap "li_64_11948#" -905.82
+cap "pinv_11_16/Z" "gnd_uq5" 33.7805
+cap "pinv_11_18/Z" "gnd_uq5" 33.4803
+cap "pinv_11_11/Z" "vdd_uq5" 14.3261
+cap "pinv_11_9/Z" "vdd_uq5" 14.6319
+cap "pinv_11_14/Z" "vdd_uq5" 146.379
+cap "pinv_11_17/Z" "pinv_11_18/Z" 7.80539
+cap "pinv_11_11/Z" "pinv_11_6/Z" 4.31538
+cap "pinv_11_17/Z" "pinv_11_16/Z" 7.80539
+cap "pinv_11_11/Z" "pinv_11_12/Z" 121.707
+cap "pinv_11_10/Z" "pinv_11_5/Z" 4.31538
+cap "pinv_11_12/Z" "pinv_11_14/Z" 90.3054
+cap "pinv_11_8/Z" "pinv_11_13/Z" 4.31538
+cap "pinv_11_5/Z" "pinv_11_7/Z" 52.8303
+cap "pinv_11_9/Z" "pinv_11_6/Z" 28.7481
+cap "pinv_11_8/Z" "pinv_11_7/Z" 111.135
+cap "pinv_11_12/Z" "gnd_uq5" 37.3984
+cap "pinv_11_19/Z" "pinv_11_14/Z" 161.279
+cap "pinv_11_19/Z" "gnd_uq5" 95.7711
+cap "pinv_11_11/Z" "pinv_11_14/Z" 28.7481
+cap "pinv_11_11/Z" "gnd_uq5" 33.7805
+cap "pinv_11_13/Z" "pinv_11_18/Z" 10.3889
+cap "pinv_11_17/Z" "pinv_11_12/Z" 10.3889
+cap "pinv_11_19/Z" "pinv_11_19/A" 17.4225
+cap "pinv_11_9/Z" "pinv_11_14/Z" 134.966
+cap "pinv_11_17/Z" "pinv_11_19/Z" 3.71368
+cap "pinv_11_15/Z" "gnd_uq5" 19.1234
+cap "pinv_11_9/Z" "gnd_uq5" 0.011418
+cap "pinv_11_14/Z" "gnd_uq5" 18.2978
+cap "pinv_11_10/Z" "vdd_uq5" 5.01843
+cap "pinv_11_13/Z" "vdd_uq5" 17.9441
+cap "pinv_11_7/Z" "vdd_uq5" 17.9441
+cap "pinv_11_5/Z" "vdd_uq5" 5.01843
+cap "pinv_11_8/Z" "vdd_uq5" 17.9441
+cap "pinv_11_17/Z" "pinv_11_15/Z" 3.71368
+cap "pinv_11_16/Z" "pinv_11_18/Z" 3.71368
+cap "pinv_11_10/Z" "pinv_11_12/Z" 57.8602
+cap "pinv_11_17/Z" "gnd_uq5" 37.3984
+cap "pinv_11_13/Z" "pinv_11_12/Z" 121.707
+cap "pinv_11_7/Z" "pinv_11_12/Z" 4.31538
+cap "pinv_11_7/Z" "pinv_11_6/Z" 111.135
+cap "pinv_11_8/Z" "pinv_11_6/Z" 52.8303
+cap "pinv_11_19/Z" "pinv_11_13/Z" 5.04167
+cap "pinv_11_5/Z" "pinv_11_6/Z" 111.135
+cap "pinv_11_11/Z" "pinv_11_10/Z" 121.707
+cap "pinv_11_15/Z" "pinv_11_10/Z" 10.3889
+cap "pinv_11_11/Z" "pinv_11_13/Z" 57.8602
+cap "pinv_11_10/Z" "pinv_11_14/Z" 5.04167
+cap "pinv_11_9/Z" "pinv_11_7/Z" 85.2755
+cap "pinv_11_19/Z" "pinv_11_18/Z" 7.80539
+cap "pinv_11_10/Z" "gnd_uq5" 19.1234
+cap "pinv_11_13/Z" "pinv_11_14/Z" 149.243
+cap "pinv_11_9/Z" "pinv_11_5/Z" 5.04167
+cap "pinv_11_8/Z" "pinv_11_14/Z" 5.04167
+cap "pinv_11_9/Z" "pinv_11_8/Z" 138.671
+cap "pinv_11_13/Z" "gnd_uq5" 33.4803
+cap "pinv_11_12/Z" "vdd_uq5" 17.9441
+cap "pinv_11_6/Z" "vdd_uq5" 14.3261
+cap "pinv_11_16/Z" "pinv_11_11/Z" 10.3889
+cap "pinv_11_16/Z" "pinv_11_15/Z" 7.80539
+subcap "li_64_10610#" -1048.92
+subcap "li_64_11948#" -1179.29
+cap "pinv_11_7/Z" "gnd_uq7" 37.3984
+cap "pinv_11_7/Z" "pinv_11_9/Z" 5.02991
+cap "pinv_11_6/Z" "gnd_uq7" 33.7805
+cap "pinv_11_3/Z" "pinv_11_1/Z" 57.8602
+cap "pinv_11_5/Z" "gnd_uq7" 19.1234
+cap "pinv_11_5/Z" "pinv_11_0/Z" 10.3889
+cap "pinv_11_2/Z" "gnd_uq7" 37.3984
+cap "pinv_11_1/Z" "pinv_11_6/Z" 10.3889
+cap "pinv_11_2/Z" "pinv_11_0/Z" 57.8602
+cap "gnd_uq7" "pinv_11_9/Z" 95.7711
+cap "gnd_uq7" "pinv_11_0/Z" 19.1234
+cap "pinv_11_3/Z" "pinv_11_8/Z" 10.3889
+cap "pinv_11_2/Z" "vdd_uq7" 17.9441
+cap "pinv_11_1/Z" "pinv_11_2/Z" 121.707
+cap "pinv_11_1/Z" "gnd_uq7" 33.7805
+cap "pinv_11_3/Z" "out" 149.243
+cap "vdd_uq7" "pinv_11_0/Z" 5.01843
+cap "pinv_11_8/Z" "pinv_11_7/Z" 10.5719
+cap "pinv_11_6/Z" "pinv_11_8/Z" 5.02991
+cap "pinv_11_1/Z" "pinv_11_0/Z" 121.707
+cap "pinv_11_1/Z" "vdd_uq7" 14.3261
+cap "pinv_11_8/Z" "gnd_uq7" 33.4803
+cap "pinv_11_8/Z" "pinv_11_9/Z" 10.5719
+cap "out" "gnd_uq7" 18.2978
+cap "out" "pinv_11_2/Z" 90.3054
+cap "pinv_11_6/Z" "pinv_11_7/Z" 10.5719
+cap "out" "pinv_11_9/Z" 147.479
+cap "out" "pinv_11_0/Z" 5.04167
+cap "pinv_11_3/Z" "gnd_uq7" 33.4803
+cap "pinv_11_3/Z" "pinv_11_2/Z" 121.707
+cap "pinv_11_3/Z" "pinv_11_9/Z" 5.04167
+cap "out" "vdd_uq7" 14.6319
+cap "pinv_11_5/Z" "pinv_11_7/Z" 5.02991
+cap "pinv_11_9/A" "pinv_11_9/Z" 20.24
+cap "pinv_11_5/Z" "pinv_11_6/Z" 10.5719
+cap "pinv_11_2/Z" "pinv_11_7/Z" 10.3889
+cap "pinv_11_1/Z" "out" 28.7481
+cap "pinv_11_3/Z" "vdd_uq7" 17.9441
+merge "contact_7_2/gnd" "contact_19_3/gnd" -2897.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 495080 -19376 0 0 0 0 0 0 0 0 0 0 0 0
+merge "contact_19_3/gnd" "contact_14_4/gnd"
+merge "contact_14_4/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_14_5/gnd"
+merge "contact_14_5/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_7_37/gnd"
+merge "contact_7_37/gnd" "contact_19_39/gnd"
+merge "contact_19_39/gnd" "contact_14_40/gnd"
+merge "contact_14_40/gnd" "contact_7_38/gnd"
+merge "contact_7_38/gnd" "contact_19_40/gnd"
+merge "contact_19_40/gnd" "contact_14_41/gnd"
+merge "contact_14_41/gnd" "contact_7_39/gnd"
+merge "contact_7_39/gnd" "contact_19_41/gnd"
+merge "contact_19_41/gnd" "contact_14_42/gnd"
+merge "contact_14_42/gnd" "contact_7_40/gnd"
+merge "contact_7_40/gnd" "contact_19_42/gnd"
+merge "contact_19_42/gnd" "contact_14_43/gnd"
+merge "contact_14_43/gnd" "contact_7_36/gnd"
+merge "contact_7_36/gnd" "contact_19_37/gnd"
+merge "contact_19_37/gnd" "contact_14_38/gnd"
+merge "contact_14_38/gnd" "contact_19_38/gnd"
+merge "contact_19_38/gnd" "contact_14_39/gnd"
+merge "contact_14_39/gnd" "pinv_11_0/gnd"
+merge "pinv_11_0/gnd" "contact_14_6/gnd"
+merge "contact_14_6/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "contact_14_2/gnd"
+merge "contact_14_2/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "contact_14_46/gnd"
+merge "contact_14_46/gnd" "contact_19_45/gnd"
+merge "contact_19_45/gnd" "contact_7_42/gnd"
+merge "contact_7_42/gnd" "contact_7_43/gnd"
+merge "contact_7_43/gnd" "contact_19_46/gnd"
+merge "contact_19_46/gnd" "contact_14_47/gnd"
+merge "contact_14_47/gnd" "pinv_11_1/gnd"
+merge "pinv_11_1/gnd" "pinv_11_2/gnd"
+merge "pinv_11_2/gnd" "contact_14_7/gnd"
+merge "contact_14_7/gnd" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_14_3/gnd"
+merge "contact_14_3/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "contact_14_49/gnd"
+merge "contact_14_49/gnd" "contact_19_48/gnd"
+merge "contact_19_48/gnd" "contact_7_45/gnd"
+merge "contact_7_45/gnd" "contact_14_48/gnd"
+merge "contact_14_48/gnd" "contact_19_47/gnd"
+merge "contact_19_47/gnd" "contact_7_44/gnd"
+merge "contact_7_44/gnd" "contact_7_41/gnd"
+merge "contact_7_41/gnd" "contact_19_43/gnd"
+merge "contact_19_43/gnd" "contact_14_44/gnd"
+merge "contact_14_44/gnd" "contact_19_44/gnd"
+merge "contact_19_44/gnd" "contact_14_45/gnd"
+merge "contact_14_45/gnd" "pinv_11_3/gnd"
+merge "pinv_11_3/gnd" "pinv_11_4/gnd"
+merge "pinv_11_4/gnd" "pinv_11_5/gnd"
+merge "pinv_11_5/gnd" "contact_14_12/gnd"
+merge "contact_14_12/gnd" "contact_19_11/gnd"
+merge "contact_19_11/gnd" "contact_7_10/gnd"
+merge "contact_7_10/gnd" "contact_14_8/gnd"
+merge "contact_14_8/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "pinv_11_6/gnd"
+merge "pinv_11_6/gnd" "gnd_uq7"
+merge "gnd_uq7" "pinv_11_7/gnd"
+merge "pinv_11_7/gnd" "contact_14_13/gnd"
+merge "contact_14_13/gnd" "contact_19_12/gnd"
+merge "contact_19_12/gnd" "contact_7_11/gnd"
+merge "contact_7_11/gnd" "contact_14_9/gnd"
+merge "contact_14_9/gnd" "contact_19_8/gnd"
+merge "contact_19_8/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "pinv_11_8/gnd"
+merge "pinv_11_8/gnd" "gnd_uq8"
+merge "gnd_uq8" "pinv_11_9/gnd"
+merge "pinv_11_9/gnd" "contact_14_52/gnd"
+merge "contact_14_52/gnd" "contact_19_51/gnd"
+merge "contact_19_51/gnd" "contact_7_47/gnd"
+merge "contact_7_47/gnd" "contact_7_48/gnd"
+merge "contact_7_48/gnd" "contact_19_52/gnd"
+merge "contact_19_52/gnd" "contact_14_53/gnd"
+merge "contact_14_53/gnd" "contact_14_55/gnd"
+merge "contact_14_55/gnd" "contact_19_54/gnd"
+merge "contact_19_54/gnd" "contact_7_50/gnd"
+merge "contact_7_50/gnd" "contact_14_54/gnd"
+merge "contact_14_54/gnd" "contact_19_53/gnd"
+merge "contact_19_53/gnd" "contact_7_49/gnd"
+merge "contact_7_49/gnd" "contact_7_46/gnd"
+merge "contact_7_46/gnd" "contact_19_49/gnd"
+merge "contact_19_49/gnd" "contact_14_50/gnd"
+merge "contact_14_50/gnd" "contact_19_50/gnd"
+merge "contact_19_50/gnd" "contact_14_51/gnd"
+merge "contact_14_51/gnd" "pinv_11_10/gnd"
+merge "pinv_11_10/gnd" "contact_14_14/gnd"
+merge "contact_14_14/gnd" "contact_19_13/gnd"
+merge "contact_19_13/gnd" "contact_7_12/gnd"
+merge "contact_7_12/gnd" "contact_14_10/gnd"
+merge "contact_14_10/gnd" "contact_19_9/gnd"
+merge "contact_19_9/gnd" "contact_7_8/gnd"
+merge "contact_7_8/gnd" "contact_14_58/gnd"
+merge "contact_14_58/gnd" "contact_19_57/gnd"
+merge "contact_19_57/gnd" "contact_7_52/gnd"
+merge "contact_7_52/gnd" "contact_7_53/gnd"
+merge "contact_7_53/gnd" "contact_19_58/gnd"
+merge "contact_19_58/gnd" "contact_14_59/gnd"
+merge "contact_14_59/gnd" "pinv_11_11/gnd"
+merge "pinv_11_11/gnd" "pinv_11_12/gnd"
+merge "pinv_11_12/gnd" "contact_14_15/gnd"
+merge "contact_14_15/gnd" "contact_19_14/gnd"
+merge "contact_19_14/gnd" "contact_7_13/gnd"
+merge "contact_7_13/gnd" "contact_14_11/gnd"
+merge "contact_14_11/gnd" "contact_19_10/gnd"
+merge "contact_19_10/gnd" "contact_7_9/gnd"
+merge "contact_7_9/gnd" "contact_14_61/gnd"
+merge "contact_14_61/gnd" "contact_19_60/gnd"
+merge "contact_19_60/gnd" "contact_7_55/gnd"
+merge "contact_7_55/gnd" "contact_14_60/gnd"
+merge "contact_14_60/gnd" "contact_19_59/gnd"
+merge "contact_19_59/gnd" "contact_7_54/gnd"
+merge "contact_7_54/gnd" "contact_7_51/gnd"
+merge "contact_7_51/gnd" "contact_19_55/gnd"
+merge "contact_19_55/gnd" "contact_14_56/gnd"
+merge "contact_14_56/gnd" "contact_19_56/gnd"
+merge "contact_19_56/gnd" "contact_14_57/gnd"
+merge "contact_14_57/gnd" "pinv_11_13/gnd"
+merge "pinv_11_13/gnd" "pinv_11_14/gnd"
+merge "pinv_11_14/gnd" "pinv_11_15/gnd"
+merge "pinv_11_15/gnd" "contact_14_20/gnd"
+merge "contact_14_20/gnd" "contact_19_19/gnd"
+merge "contact_19_19/gnd" "contact_7_18/gnd"
+merge "contact_7_18/gnd" "contact_14_16/gnd"
+merge "contact_14_16/gnd" "contact_19_15/gnd"
+merge "contact_19_15/gnd" "contact_7_14/gnd"
+merge "contact_7_14/gnd" "pinv_11_16/gnd"
+merge "pinv_11_16/gnd" "gnd_uq5"
+merge "gnd_uq5" "pinv_11_17/gnd"
+merge "pinv_11_17/gnd" "contact_14_21/gnd"
+merge "contact_14_21/gnd" "contact_19_20/gnd"
+merge "contact_19_20/gnd" "contact_7_19/gnd"
+merge "contact_7_19/gnd" "contact_14_17/gnd"
+merge "contact_14_17/gnd" "contact_19_16/gnd"
+merge "contact_19_16/gnd" "contact_7_15/gnd"
+merge "contact_7_15/gnd" "pinv_11_18/gnd"
+merge "pinv_11_18/gnd" "gnd_uq6"
+merge "gnd_uq6" "pinv_11_19/gnd"
+merge "pinv_11_19/gnd" "contact_14_64/gnd"
+merge "contact_14_64/gnd" "contact_19_63/gnd"
+merge "contact_19_63/gnd" "contact_7_57/gnd"
+merge "contact_7_57/gnd" "contact_7_58/gnd"
+merge "contact_7_58/gnd" "contact_19_64/gnd"
+merge "contact_19_64/gnd" "contact_14_65/gnd"
+merge "contact_14_65/gnd" "contact_14_67/gnd"
+merge "contact_14_67/gnd" "contact_19_66/gnd"
+merge "contact_19_66/gnd" "contact_7_60/gnd"
+merge "contact_7_60/gnd" "contact_14_66/gnd"
+merge "contact_14_66/gnd" "contact_19_65/gnd"
+merge "contact_19_65/gnd" "contact_7_59/gnd"
+merge "contact_7_59/gnd" "contact_7_56/gnd"
+merge "contact_7_56/gnd" "contact_19_61/gnd"
+merge "contact_19_61/gnd" "contact_14_62/gnd"
+merge "contact_14_62/gnd" "contact_19_62/gnd"
+merge "contact_19_62/gnd" "contact_14_63/gnd"
+merge "contact_14_63/gnd" "pinv_11_20/gnd"
+merge "pinv_11_20/gnd" "contact_14_22/gnd"
+merge "contact_14_22/gnd" "contact_19_21/gnd"
+merge "contact_19_21/gnd" "contact_7_20/gnd"
+merge "contact_7_20/gnd" "contact_14_18/gnd"
+merge "contact_14_18/gnd" "contact_19_17/gnd"
+merge "contact_19_17/gnd" "contact_7_16/gnd"
+merge "contact_7_16/gnd" "contact_14_70/gnd"
+merge "contact_14_70/gnd" "contact_19_69/gnd"
+merge "contact_19_69/gnd" "contact_7_62/gnd"
+merge "contact_7_62/gnd" "contact_7_63/gnd"
+merge "contact_7_63/gnd" "contact_19_70/gnd"
+merge "contact_19_70/gnd" "contact_14_71/gnd"
+merge "contact_14_71/gnd" "pinv_11_21/gnd"
+merge "pinv_11_21/gnd" "pinv_11_22/gnd"
+merge "pinv_11_22/gnd" "contact_14_23/gnd"
+merge "contact_14_23/gnd" "contact_19_22/gnd"
+merge "contact_19_22/gnd" "contact_7_21/gnd"
+merge "contact_7_21/gnd" "contact_14_19/gnd"
+merge "contact_14_19/gnd" "contact_19_18/gnd"
+merge "contact_19_18/gnd" "contact_7_17/gnd"
+merge "contact_7_17/gnd" "contact_14_73/gnd"
+merge "contact_14_73/gnd" "contact_19_72/gnd"
+merge "contact_19_72/gnd" "contact_7_65/gnd"
+merge "contact_7_65/gnd" "contact_14_72/gnd"
+merge "contact_14_72/gnd" "contact_19_71/gnd"
+merge "contact_19_71/gnd" "contact_7_64/gnd"
+merge "contact_7_64/gnd" "contact_7_61/gnd"
+merge "contact_7_61/gnd" "contact_19_67/gnd"
+merge "contact_19_67/gnd" "contact_14_68/gnd"
+merge "contact_14_68/gnd" "contact_19_68/gnd"
+merge "contact_19_68/gnd" "contact_14_69/gnd"
+merge "contact_14_69/gnd" "pinv_11_23/gnd"
+merge "pinv_11_23/gnd" "pinv_11_24/gnd"
+merge "pinv_11_24/gnd" "pinv_11_25/gnd"
+merge "pinv_11_25/gnd" "contact_14_28/gnd"
+merge "contact_14_28/gnd" "contact_19_27/gnd"
+merge "contact_19_27/gnd" "contact_7_26/gnd"
+merge "contact_7_26/gnd" "contact_14_24/gnd"
+merge "contact_14_24/gnd" "contact_19_23/gnd"
+merge "contact_19_23/gnd" "contact_7_22/gnd"
+merge "contact_7_22/gnd" "pinv_11_26/gnd"
+merge "pinv_11_26/gnd" "gnd_uq3"
+merge "gnd_uq3" "pinv_11_27/gnd"
+merge "pinv_11_27/gnd" "contact_14_29/gnd"
+merge "contact_14_29/gnd" "contact_19_28/gnd"
+merge "contact_19_28/gnd" "contact_7_27/gnd"
+merge "contact_7_27/gnd" "contact_14_25/gnd"
+merge "contact_14_25/gnd" "contact_19_24/gnd"
+merge "contact_19_24/gnd" "contact_7_23/gnd"
+merge "contact_7_23/gnd" "pinv_11_28/gnd"
+merge "pinv_11_28/gnd" "gnd_uq4"
+merge "gnd_uq4" "pinv_11_29/gnd"
+merge "pinv_11_29/gnd" "contact_14_76/gnd"
+merge "contact_14_76/gnd" "contact_19_75/gnd"
+merge "contact_19_75/gnd" "contact_7_67/gnd"
+merge "contact_7_67/gnd" "contact_7_68/gnd"
+merge "contact_7_68/gnd" "contact_19_76/gnd"
+merge "contact_19_76/gnd" "contact_14_77/gnd"
+merge "contact_14_77/gnd" "contact_14_79/gnd"
+merge "contact_14_79/gnd" "contact_19_78/gnd"
+merge "contact_19_78/gnd" "contact_7_70/gnd"
+merge "contact_7_70/gnd" "contact_14_78/gnd"
+merge "contact_14_78/gnd" "contact_19_77/gnd"
+merge "contact_19_77/gnd" "contact_7_69/gnd"
+merge "contact_7_69/gnd" "contact_7_66/gnd"
+merge "contact_7_66/gnd" "contact_19_73/gnd"
+merge "contact_19_73/gnd" "contact_14_74/gnd"
+merge "contact_14_74/gnd" "contact_19_74/gnd"
+merge "contact_19_74/gnd" "contact_14_75/gnd"
+merge "contact_14_75/gnd" "pinv_11_30/gnd"
+merge "pinv_11_30/gnd" "contact_14_30/gnd"
+merge "contact_14_30/gnd" "contact_19_29/gnd"
+merge "contact_19_29/gnd" "contact_7_28/gnd"
+merge "contact_7_28/gnd" "contact_14_26/gnd"
+merge "contact_14_26/gnd" "contact_19_25/gnd"
+merge "contact_19_25/gnd" "contact_7_24/gnd"
+merge "contact_7_24/gnd" "contact_14_82/gnd"
+merge "contact_14_82/gnd" "contact_19_81/gnd"
+merge "contact_19_81/gnd" "contact_7_72/gnd"
+merge "contact_7_72/gnd" "contact_7_73/gnd"
+merge "contact_7_73/gnd" "contact_19_82/gnd"
+merge "contact_19_82/gnd" "contact_14_83/gnd"
+merge "contact_14_83/gnd" "pinv_11_31/gnd"
+merge "pinv_11_31/gnd" "pinv_11_32/gnd"
+merge "pinv_11_32/gnd" "contact_14_31/gnd"
+merge "contact_14_31/gnd" "contact_19_30/gnd"
+merge "contact_19_30/gnd" "contact_7_29/gnd"
+merge "contact_7_29/gnd" "contact_14_27/gnd"
+merge "contact_14_27/gnd" "contact_19_26/gnd"
+merge "contact_19_26/gnd" "contact_7_25/gnd"
+merge "contact_7_25/gnd" "contact_14_85/gnd"
+merge "contact_14_85/gnd" "contact_19_84/gnd"
+merge "contact_19_84/gnd" "contact_7_75/gnd"
+merge "contact_7_75/gnd" "contact_14_84/gnd"
+merge "contact_14_84/gnd" "contact_19_83/gnd"
+merge "contact_19_83/gnd" "contact_7_74/gnd"
+merge "contact_7_74/gnd" "contact_7_71/gnd"
+merge "contact_7_71/gnd" "contact_19_79/gnd"
+merge "contact_19_79/gnd" "contact_14_80/gnd"
+merge "contact_14_80/gnd" "contact_19_80/gnd"
+merge "contact_19_80/gnd" "contact_14_81/gnd"
+merge "contact_14_81/gnd" "pinv_11_33/gnd"
+merge "pinv_11_33/gnd" "pinv_11_34/gnd"
+merge "pinv_11_34/gnd" "pinv_11_40/gnd"
+merge "pinv_11_40/gnd" "pinv_11_35/gnd"
+merge "pinv_11_35/gnd" "contact_14_36/gnd"
+merge "contact_14_36/gnd" "contact_19_35/gnd"
+merge "contact_19_35/gnd" "contact_7_34/gnd"
+merge "contact_7_34/gnd" "contact_14_32/gnd"
+merge "contact_14_32/gnd" "contact_19_31/gnd"
+merge "contact_19_31/gnd" "contact_7_30/gnd"
+merge "contact_7_30/gnd" "contact_14_88/gnd"
+merge "contact_14_88/gnd" "contact_19_87/gnd"
+merge "contact_19_87/gnd" "contact_7_77/gnd"
+merge "contact_7_77/gnd" "contact_14_34/gnd"
+merge "contact_14_34/gnd" "contact_19_33/gnd"
+merge "contact_19_33/gnd" "contact_7_32/gnd"
+merge "contact_7_32/gnd" "contact_7_78/gnd"
+merge "contact_7_78/gnd" "contact_19_88/gnd"
+merge "contact_19_88/gnd" "contact_14_89/gnd"
+merge "contact_14_89/gnd" "pinv_11_36/gnd"
+merge "pinv_11_36/gnd" "gnd_uq1"
+merge "gnd_uq1" "pinv_11_41/gnd"
+merge "pinv_11_41/gnd" "gnd_uq0"
+merge "gnd_uq0" "pinv_11_42/gnd"
+merge "pinv_11_42/gnd" "pinv_11_37/gnd"
+merge "pinv_11_37/gnd" "contact_14_37/gnd"
+merge "contact_14_37/gnd" "contact_19_36/gnd"
+merge "contact_19_36/gnd" "contact_7_35/gnd"
+merge "contact_7_35/gnd" "contact_14_33/gnd"
+merge "contact_14_33/gnd" "contact_19_32/gnd"
+merge "contact_19_32/gnd" "contact_7_31/gnd"
+merge "contact_7_31/gnd" "contact_14_91/gnd"
+merge "contact_14_91/gnd" "contact_19_90/gnd"
+merge "contact_19_90/gnd" "contact_7_80/gnd"
+merge "contact_7_80/gnd" "contact_14_90/gnd"
+merge "contact_14_90/gnd" "contact_19_89/gnd"
+merge "contact_19_89/gnd" "contact_7_79/gnd"
+merge "contact_7_79/gnd" "contact_14_35/gnd"
+merge "contact_14_35/gnd" "contact_19_34/gnd"
+merge "contact_19_34/gnd" "contact_7_33/gnd"
+merge "contact_7_33/gnd" "pinv_11_44/gnd"
+merge "pinv_11_44/gnd" "pinv_11_43/gnd"
+merge "pinv_11_43/gnd" "pinv_11_39/gnd"
+merge "pinv_11_39/gnd" "pinv_11_38/gnd"
+merge "pinv_11_38/gnd" "gnd_uq2"
+merge "gnd_uq2" "contact_14_87/gnd"
+merge "contact_14_87/gnd" "contact_19_86/gnd"
+merge "contact_19_86/gnd" "contact_14_86/gnd"
+merge "contact_14_86/gnd" "contact_19_85/gnd"
+merge "contact_19_85/gnd" "contact_7_76/gnd"
+merge "contact_7_76/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "gnd"
+merge "pinv_11_19/A" "pinv_11_20/A" -557.539 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 378522 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_20/A" "pinv_11_21/A"
+merge "pinv_11_21/A" "pinv_11_22/A"
+merge "pinv_11_22/A" "pinv_11_23/A"
+merge "pinv_11_23/A" "pinv_11_24/Z"
+merge "pinv_11_24/Z" "li_64_7782#"
+merge "pinv_11_34/A" "pinv_11_35/A" -510.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 298248 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_35/A" "pinv_11_36/A"
+merge "pinv_11_36/A" "pinv_11_37/A"
+merge "pinv_11_37/A" "pinv_11_39/Z"
+merge "pinv_11_39/Z" "pinv_11_38/A"
+merge "pinv_11_38/A" "li_64_3464#"
+merge "pinv_11_9/A" "pinv_11_10/A" -584.315 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 262735 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_10/A" "pinv_11_11/A"
+merge "pinv_11_11/A" "pinv_11_12/A"
+merge "pinv_11_12/A" "pinv_11_13/A"
+merge "pinv_11_13/A" "pinv_11_14/Z"
+merge "pinv_11_14/Z" "pinv_11_10/nmos_m1_w0_360_sli_dli_da_p_0/G"
+merge "pinv_11_10/nmos_m1_w0_360_sli_dli_da_p_0/G" "pinv_11_11/nmos_m1_w0_360_sli_dli_da_p_0/G"
+merge "pinv_11_11/nmos_m1_w0_360_sli_dli_da_p_0/G" "pinv_11_12/nmos_m1_w0_360_sli_dli_da_p_0/G"
+merge "pinv_11_12/nmos_m1_w0_360_sli_dli_da_p_0/G" "pinv_11_13/nmos_m1_w0_360_sli_dli_da_p_0/G"
+merge "pinv_11_13/nmos_m1_w0_360_sli_dli_da_p_0/G" "pinv_11_14/nmos_m1_w0_360_sli_dli_da_p_0/D"
+merge "pinv_11_14/nmos_m1_w0_360_sli_dli_da_p_0/D" "li_64_10610#"
+merge "pinv_11_4/A" "pinv_11_5/A" -529.895 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 216104 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_5/A" "pinv_11_6/A"
+merge "pinv_11_6/A" "pinv_11_7/A"
+merge "pinv_11_7/A" "pinv_11_8/A"
+merge "pinv_11_8/A" "pinv_11_9/Z"
+merge "pinv_11_9/Z" "li_64_11948#"
+merge "pinv_11_40/vdd" "pinv_11_35/vdd" -1224.98 0 0 0 0 -674160 -17876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66728 -4692 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_35/vdd" "pinv_11_36/vdd"
+merge "pinv_11_36/vdd" "pinv_11_41/vdd"
+merge "pinv_11_41/vdd" "vdd_uq0"
+merge "vdd_uq0" "pinv_11_42/vdd"
+merge "pinv_11_42/vdd" "pinv_11_37/vdd"
+merge "pinv_11_37/vdd" "pinv_11_44/vdd"
+merge "pinv_11_44/vdd" "pinv_11_43/vdd"
+merge "pinv_11_43/vdd" "pinv_11_39/vdd"
+merge "pinv_11_39/vdd" "pinv_11_38/vdd"
+merge "pinv_11_38/vdd" "vdd"
+merge "pinv_11_5/vdd" "pinv_11_6/vdd" -1224.98 0 0 0 0 -674160 -17876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66728 -4692 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_6/vdd" "pinv_11_7/vdd"
+merge "pinv_11_7/vdd" "pinv_11_8/vdd"
+merge "pinv_11_8/vdd" "pinv_11_9/vdd"
+merge "pinv_11_9/vdd" "pinv_11_10/vdd"
+merge "pinv_11_10/vdd" "pinv_11_11/vdd"
+merge "pinv_11_11/vdd" "vdd_uq5"
+merge "vdd_uq5" "pinv_11_12/vdd"
+merge "pinv_11_12/vdd" "pinv_11_13/vdd"
+merge "pinv_11_13/vdd" "vdd_uq6"
+merge "vdd_uq6" "pinv_11_14/vdd"
+merge "pinv_11_40/A" "pinv_11_41/A" -634.355 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46342 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_41/A" "pinv_11_42/A"
+merge "pinv_11_42/A" "pinv_11_44/Z"
+merge "pinv_11_44/Z" "pinv_11_43/A"
+merge "pinv_11_43/A" "pinv_11_39/A"
+merge "pinv_11_39/A" "li_64_2126#"
+merge "pinv_11_0/vdd" "pinv_11_1/vdd" -313.919 0 0 0 0 -228096 -6912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3240 -608 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_1/vdd" "vdd_uq7"
+merge "vdd_uq7" "pinv_11_2/vdd"
+merge "pinv_11_2/vdd" "pinv_11_3/vdd"
+merge "pinv_11_3/vdd" "vdd_uq8"
+merge "vdd_uq8" "pinv_11_4/vdd"
+merge "pinv_11_25/vdd" "pinv_11_26/vdd" -1224.98 0 0 0 0 -674160 -17876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66728 -4692 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_26/vdd" "pinv_11_27/vdd"
+merge "pinv_11_27/vdd" "pinv_11_28/vdd"
+merge "pinv_11_28/vdd" "pinv_11_29/vdd"
+merge "pinv_11_29/vdd" "pinv_11_30/vdd"
+merge "pinv_11_30/vdd" "vdd_uq1"
+merge "vdd_uq1" "vdd_uq2"
+merge "vdd_uq2" "pinv_11_31/vdd"
+merge "pinv_11_31/vdd" "pinv_11_32/vdd"
+merge "pinv_11_32/vdd" "pinv_11_33/vdd"
+merge "pinv_11_33/vdd" "pinv_11_34/vdd"
+merge "pinv_11_14/A" "pinv_11_14/nmos_m1_w0_360_sli_dli_da_p_0/G" -521.302 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 253266 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_14/nmos_m1_w0_360_sli_dli_da_p_0/G" "pinv_11_15/A"
+merge "pinv_11_15/A" "pinv_11_16/A"
+merge "pinv_11_16/A" "pinv_11_17/A"
+merge "pinv_11_17/A" "pinv_11_18/A"
+merge "pinv_11_18/A" "pinv_11_19/Z"
+merge "pinv_11_19/Z" "li_64_9120#"
+merge "pinv_11_15/vdd" "pinv_11_16/vdd" -1224.98 0 0 0 0 -674160 -17876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -66728 -4692 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_16/vdd" "pinv_11_17/vdd"
+merge "pinv_11_17/vdd" "pinv_11_18/vdd"
+merge "pinv_11_18/vdd" "pinv_11_19/vdd"
+merge "pinv_11_19/vdd" "pinv_11_20/vdd"
+merge "pinv_11_20/vdd" "vdd_uq3"
+merge "vdd_uq3" "vdd_uq4"
+merge "vdd_uq4" "pinv_11_21/vdd"
+merge "pinv_11_21/vdd" "pinv_11_22/vdd"
+merge "pinv_11_22/vdd" "pinv_11_23/vdd"
+merge "pinv_11_23/vdd" "pinv_11_24/vdd"
+merge "pinv_11_24/A" "pinv_11_25/A" -512.881 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 289680 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_25/A" "pinv_11_26/A"
+merge "pinv_11_26/A" "pinv_11_27/A"
+merge "pinv_11_27/A" "pinv_11_28/A"
+merge "pinv_11_28/A" "pinv_11_29/Z"
+merge "pinv_11_29/Z" "li_64_6292#"
+merge "pinv_11_44/A" "in" -75.8239 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_29/A" "pinv_11_30/A" -565.865 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 342516 -1200 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_11_30/A" "pinv_11_31/A"
+merge "pinv_11_31/A" "pinv_11_32/A"
+merge "pinv_11_32/A" "pinv_11_33/A"
+merge "pinv_11_33/A" "pinv_11_34/Z"
+merge "pinv_11_34/Z" "li_64_4954#"
+merge "pinv_11_4/Z" "pinv_11_0/A" -200.677 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192559 -1000 0 0 222040 0 1401410 0 0 0 0 0 0 0
+merge "pinv_11_0/A" "pinv_11_1/A"
+merge "pinv_11_1/A" "pinv_11_2/A"
+merge "pinv_11_2/A" "pinv_11_3/A"
+merge "pinv_11_3/A" "pinv_11_4/nmos_m1_w0_360_sli_dli_da_p_0/D"
+merge "pinv_11_4/nmos_m1_w0_360_sli_dli_da_p_0/D" "out"

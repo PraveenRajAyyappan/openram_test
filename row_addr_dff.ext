@@ -1,0 +1,222 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_7 contact_7_0 1 0 363 0 1 271
+use contact_7 contact_7_7 1 0 551 0 1 -37
+use contact_19 contact_19_6 1 0 552 0 1 -32
+use contact_14 contact_14_6 1 0 555 0 1 -33
+use contact_7 contact_7_6 1 0 551 0 1 1377
+use contact_19 contact_19_5 1 0 552 0 1 1382
+use contact_14 contact_14_5 1 0 555 0 1 1381
+use contact_7 contact_7_8 1 0 551 0 1 1377
+use contact_19 contact_19_7 1 0 552 0 1 1382
+use contact_14 contact_14_7 1 0 555 0 1 1381
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_2 1 0 0 0 -1 2828
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_3 1 0 0 0 1 0
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_1 1 0 0 0 1 2828
+use contact_14 contact_14_4 1 0 555 0 1 2795
+use contact_19 contact_19_4 1 0 552 0 1 2796
+use contact_7 contact_7_5 1 0 551 0 1 2791
+use contact_14 contact_14_2 1 0 555 0 1 2795
+use contact_19 contact_19_2 1 0 552 0 1 2796
+use contact_7 contact_7_3 1 0 551 0 1 2791
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_0 1 0 0 0 -1 5656
+use contact_14 contact_14_3 1 0 555 0 1 4209
+use contact_19 contact_19_3 1 0 552 0 1 4210
+use contact_7 contact_7_4 1 0 551 0 1 4205
+use contact_14 contact_14_1 1 0 555 0 1 4209
+use contact_19 contact_19_1 1 0 552 0 1 4210
+use contact_7 contact_7_2 1 0 551 0 1 4205
+use contact_14 contact_14_0 1 0 555 0 1 5623
+use contact_19 contact_19_0 1 0 552 0 1 5624
+use contact_7 contact_7_1 1 0 551 0 1 5619
+port "dout_0" 5 1082 609 1148 661 m2
+port "dout_1" 6 1082 2167 1148 2219 m2
+port "dout_2" 7 1082 3437 1148 3489 m2
+port "dout_3" 8 1082 4995 1148 5047 m2
+port "clk" 9 0 278 1168 338 m3
+port "din_0" 1 137 538 203 590 m2
+port "din_1" 2 137 2238 203 2290 m2
+port "din_2" 3 137 3366 203 3418 m2
+port "din_3" 4 137 5066 203 5118 m2
+port "gnd_uq0" 12 535 -49 633 49 m3
+port "vdd_uq0" 14 535 1365 633 1463 m3
+port "gnd" 11 535 2779 633 2877 m3
+port "vdd" 10 535 4193 633 4291 m3
+port "gnd_uq1" 13 535 5607 633 5705 m3
+node "dout_0" 0 24.5546 1082 609 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "dout_1" 0 24.5546 1082 2167 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "dout_2" 0 24.5546 1082 3437 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "dout_3" 0 24.5546 1082 4995 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "clk" 26 1434.51 0 278 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160440 11424 70476 2468 0 0 0 0 0 0
+node "din_0" 0 24.5546 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "din_1" 0 24.5546 137 2238 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "din_2" 0 24.5546 137 3366 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "din_3" 0 24.5546 137 5066 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "gnd_uq0" 24 101.711 535 -49 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq0" 24 101.711 535 1365 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd" 24 101.711 535 2779 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd" 24 101.711 535 4193 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq1" 24 101.711 535 5607 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 4144 260 9604 392 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "clk" "din_2" 15.6627
+cap "clk" "vdd_uq0" 23.2704
+cap "gnd_uq1" "clk" 11.6352
+cap "clk" "dout_2" 3.79562
+cap "clk" "dout_0" 3.79562
+cap "clk" "dout_1" 3.79562
+cap "clk" "dout_3" 3.79562
+cap "clk" "din_0" 15.6627
+cap "clk" "vdd" 23.2704
+cap "din_1" "clk" 15.6627
+cap "clk" "gnd_uq0" 38.5959
+cap "clk" "gnd" 23.2704
+cap "din_3" "clk" 15.6627
+subcap "dout_2" -232.056
+subcap "clk" -927.686
+subcap "din_2" -147.404
+cap "clk" "gnd" 32.2235
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_47_611#" 41.5745
+cap "clk" "sky130_fd_bd_sram__openram_dff_2/QN" 7.88986
+cap "din_1" "din_2" 2.2549
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_3/a_47_611#" 15.5395
+cap "clk" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 2.97505
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_389_712#" 56.6426
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_1/a_28_102#" 2.42609
+cap "gnd" "vdd_uq0" 3.55271e-15
+cap "sky130_fd_bd_sram__openram_dff_2/a_239_76#" "sky130_fd_bd_sram__openram_dff_1/QN" 7.48656
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_197_102#" 4.3806
+cap "clk" "dout_0" 36.1747
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_739_102#" 4.3806
+cap "sky130_fd_bd_sram__openram_dff_2/QN" "sky130_fd_bd_sram__openram_dff_1/QN" 21.8877
+cap "clk" "din_1" 1.77636e-14
+cap "sky130_fd_bd_sram__openram_dff_2/a_28_102#" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 1.19377
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_239_76#" 134.503
+cap "sky130_fd_bd_sram__openram_dff_2/QN" "sky130_fd_bd_sram__openram_dff_3/QN" 15.5395
+cap "dout_1" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 0.864407
+cap "sky130_fd_bd_sram__openram_dff_1/a_28_102#" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 18.0303
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_28_102#" 58.4925
+cap "clk" "sky130_fd_bd_sram__openram_dff_1/a_47_611#" 0.744762
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "clk" 3.64025
+cap "clk" "sky130_fd_bd_sram__openram_dff_2/a_389_102#" 20.67
+cap "clk" "sky130_fd_bd_sram__openram_dff_2/a_389_712#" 56.6426
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_389_102#" 28.1527
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_1/a_47_611#" 11.0167
+cap "sky130_fd_bd_sram__openram_dff_2/a_239_76#" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 13.7678
+cap "dout_1" "dout_2" 9.6862
+cap "sky130_fd_bd_sram__openram_dff_2/a_239_76#" "sky130_fd_bd_sram__openram_dff_1/a_28_102#" 1.19584
+cap "dout_1" "dout_0" 10.0395
+cap "clk" "vdd_uq0" 12.5499
+cap "din_1" "din_0" 4.53947
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/a_547_102#" 4.3806
+cap "sky130_fd_bd_sram__openram_dff_2/a_239_76#" "dout_2" 0.864407
+cap "sky130_fd_bd_sram__openram_dff_2/QN" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 7.48656
+cap "clk" "din_0" 11.457
+cap "clk" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 12.2156
+cap "sky130_fd_bd_sram__openram_dff_2/a_28_102#" "sky130_fd_bd_sram__openram_dff_3/a_28_102#" 14.5789
+cap "clk" "sky130_fd_bd_sram__openram_dff_1/QN" 0.71102
+cap "clk" "dout_1" 1.44774
+cap "sky130_fd_bd_sram__openram_dff_1/a_47_611#" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 2.42609
+cap "clk" "sky130_fd_bd_sram__openram_dff_3/QN" 116.27
+cap "sky130_fd_bd_sram__openram_dff_2/a_239_76#" "sky130_fd_bd_sram__openram_dff_3/a_239_76#" 14.5789
+cap "clk" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 91.2949
+subcap "dout_1" -210.934
+subcap "din_1" -109.609
+cap "sky130_fd_bd_sram__openram_dff_0/a_28_102#" "sky130_fd_bd_sram__openram_dff_1/a_28_102#" 14.5789
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "dout_2" 1.44774
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "dout_3" 1.44774
+cap "din_2" "din_3" 4.53947
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 88.3192
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/QN" 7.88986
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_2/QN" 0.71102
+cap "sky130_fd_bd_sram__openram_dff_1/a_239_76#" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 18.3369
+cap "sky130_fd_bd_sram__openram_dff_1/a_239_76#" "dout_1" 0.864407
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "din_2" 1.77636e-14
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_0/a_389_712#" 56.6426
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "gnd" 11.804
+cap "dout_2" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 0.864407
+cap "dout_2" "dout_1" 11.9708
+cap "sky130_fd_bd_sram__openram_dff_1/QN" "sky130_fd_bd_sram__openram_dff_0/QN" 15.5395
+cap "sky130_fd_bd_sram__openram_dff_1/QN" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 7.48656
+cap "sky130_fd_bd_sram__openram_dff_1/a_47_611#" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 2.42609
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_0/a_389_102#" 20.3599
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "din_3" 1.77636e-14
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/a_47_611#" 3.64025
+cap "vdd" "gnd" 3.55271e-15
+cap "sky130_fd_bd_sram__openram_dff_0/a_239_76#" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 14.5789
+cap "sky130_fd_bd_sram__openram_dff_2/QN" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 7.48656
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_1/a_47_611#" 13.4563
+cap "sky130_fd_bd_sram__openram_dff_1/a_28_102#" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 23.6023
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/a_28_102#" 12.2156
+cap "dout_2" "dout_3" 10.0395
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_2/CLK" 0.744762
+cap "sky130_fd_bd_sram__openram_dff_1/a_47_611#" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 15.5395
+cap "sky130_fd_bd_sram__openram_dff_2/a_47_611#" "sky130_fd_bd_sram__openram_dff_1/a_28_102#" 2.42609
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_0/a_47_611#" 2.89548
+cap "sky130_fd_bd_sram__openram_dff_2/QN" "sky130_fd_bd_sram__openram_dff_1/QN" 24.1722
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/a_389_102#" 20.67
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/a_389_712#" 56.6426
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_0/QN" 7.17884
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "vdd" 12.5499
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 3.98885
+cap "sky130_fd_bd_sram__openram_dff_1/a_28_102#" "sky130_fd_bd_sram__openram_dff_2/a_239_76#" 1.19584
+cap "sky130_fd_bd_sram__openram_dff_1/a_239_76#" "sky130_fd_bd_sram__openram_dff_2/a_28_102#" 2.39168
+cap "sky130_fd_bd_sram__openram_dff_2/CLK" "sky130_fd_bd_sram__openram_dff_1/a_239_76#" 92.4922
+cap "din_1" "din_2" 4.53947
+cap "sky130_fd_bd_sram__openram_dff_0/a_28_102#" "sky130_fd_bd_sram__openram_dff_2/CLK" 12.2156
+subcap "dout_3" -193.047
+subcap "din_3" -96.7218
+cap "sky130_fd_bd_sram__openram_dff_0/a_389_102#" "sky130_fd_bd_sram__openram_dff_0/CLK" 0.31005
+cap "gnd_uq1" "sky130_fd_bd_sram__openram_dff_0/CLK" 9.07086
+merge "sky130_fd_bd_sram__openram_dff_2/D" "din_1" -21.3219 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26994 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_3/VDD" "sky130_fd_bd_sram__openram_dff_2/VDD" -472.301 0 0 0 0 -131440 -2692 0 0 -8976 -732 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43272 -2548 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_2/VDD" "vdd_uq0"
+merge "contact_7_1/gnd" "contact_19_0/gnd" -363.949 -35568 -1540 0 0 0 0 0 0 0 0 6864 -732 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 209252 -2688 0 0 0 0 0 0 0 0 0 0 0 0
+merge "contact_19_0/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_7_2/gnd"
+merge "contact_7_2/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "contact_19_3/gnd"
+merge "contact_19_3/gnd" "contact_14_3/gnd"
+merge "contact_14_3/gnd" "sky130_fd_bd_sram__openram_dff_0/gnd"
+merge "sky130_fd_bd_sram__openram_dff_0/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_14_2/gnd"
+merge "contact_14_2/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_14_4/gnd"
+merge "contact_14_4/gnd" "sky130_fd_bd_sram__openram_dff_1/gnd"
+merge "sky130_fd_bd_sram__openram_dff_1/gnd" "sky130_fd_bd_sram__openram_dff_1/GND"
+merge "sky130_fd_bd_sram__openram_dff_1/GND" "sky130_fd_bd_sram__openram_dff_3/gnd"
+merge "sky130_fd_bd_sram__openram_dff_3/gnd" "sky130_fd_bd_sram__openram_dff_2/gnd"
+merge "sky130_fd_bd_sram__openram_dff_2/gnd" "sky130_fd_bd_sram__openram_dff_2/GND"
+merge "sky130_fd_bd_sram__openram_dff_2/GND" "contact_14_7/gnd"
+merge "contact_14_7/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_7_8/gnd"
+merge "contact_7_8/gnd" "contact_14_5/gnd"
+merge "contact_14_5/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "contact_14_6/gnd"
+merge "contact_14_6/gnd" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "gnd"
+merge "sky130_fd_bd_sram__openram_dff_0/D" "din_3" -21.5182 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25146 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/CLK" "sky130_fd_bd_sram__openram_dff_1/CLK" -1325.31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44408 -736 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_1/CLK" "sky130_fd_bd_sram__openram_dff_3/CLK"
+merge "sky130_fd_bd_sram__openram_dff_3/CLK" "sky130_fd_bd_sram__openram_dff_2/CLK"
+merge "sky130_fd_bd_sram__openram_dff_2/CLK" "clk"
+merge "sky130_fd_bd_sram__openram_dff_0/GND" "gnd_uq1" -41.9403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1224 -140 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_3/GND" "gnd_uq0" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/VDD" "sky130_fd_bd_sram__openram_dff_1/VDD" -472.301 0 0 0 0 -131440 -2692 0 0 -8976 -732 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43272 -2548 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_1/VDD" "vdd"
+merge "sky130_fd_bd_sram__openram_dff_3/Q" "dout_0" -24.5546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_2/Q" "dout_1" -20.824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31680 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/Q" "dout_3" -21.0203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29832 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_1/Q" "dout_2" -19.7441 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41844 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_3/D" "din_0" -24.5546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_1/D" "din_2" -20.242 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37158 -236 0 0 0 0 0 0 0 0

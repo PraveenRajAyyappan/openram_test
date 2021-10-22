@@ -1,0 +1,218 @@
+timestamp 1634918361
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_7 contact_7_22 1 0 2082 0 1 -3614
+use contact_30 contact_30_44 1 0 2077 0 1 -3610
+use contact_7 contact_7_14 1 0 3250 0 1 -3614
+use contact_30 contact_30_28 1 0 3245 0 1 -3610
+use contact_7 contact_7_10 1 0 4418 0 1 -3614
+use contact_30 contact_30_20 1 0 4413 0 1 -3610
+use contact_7 contact_7_8 1 0 5586 0 1 -3614
+use contact_30 contact_30_16 1 0 5581 0 1 -3610
+use contact_7 contact_7_6 1 0 6754 0 1 -3614
+use contact_30 contact_30_12 1 0 6749 0 1 -3610
+use contact_7 contact_7_2 1 0 7922 0 1 -3614
+use contact_30 contact_30_4 1 0 7917 0 1 -3610
+use contact_7 contact_7_0 1 0 9090 0 1 -3614
+use contact_30 contact_30_0 1 0 9085 0 1 -3610
+use contact_7 contact_7_4 1 0 10258 0 1 -3614
+use contact_30 contact_30_8 1 0 10253 0 1 -3610
+use contact_7 contact_7_12 1 0 11426 0 1 -3614
+use contact_30 contact_30_24 1 0 11421 0 1 -3610
+use contact_7 contact_7_20 1 0 12594 0 1 -3614
+use contact_30 contact_30_40 1 0 12589 0 1 -3610
+use contact_7 contact_7_18 1 0 13762 0 1 -3614
+use contact_30 contact_30_36 1 0 13757 0 1 -3610
+use contact_7 contact_7_16 1 0 14930 0 1 -3614
+use contact_30 contact_30_32 1 0 14925 0 1 -3610
+use contact_30 contact_30_45 1 0 2077 0 1 -1981
+use contact_30 contact_30_47 1 0 9575 0 1 -1981
+use contact_30 contact_30_41 1 0 12589 0 1 -1981
+use contact_30 contact_30_43 1 0 12910 0 1 -1981
+use contact_30 contact_30_39 1 0 13604 0 1 -1981
+use contact_30 contact_30_37 1 0 13757 0 1 -1981
+use contact_30 contact_30_35 1 0 14158 0 1 -1981
+use contact_30 contact_30_33 1 0 14925 0 1 -1981
+use contact_30 contact_30_29 1 0 3245 0 1 -1737
+use contact_30 contact_30_21 1 0 4413 0 1 -1493
+use contact_30 contact_30_17 1 0 5581 0 1 -1249
+use contact_30 contact_30_13 1 0 6749 0 1 -1005
+use contact_30 contact_30_15 1 0 9860 0 1 -1005
+use contact_30 contact_30_31 1 0 10823 0 1 -1737
+use contact_30 contact_30_9 1 0 10253 0 1 -1005
+use contact_30 contact_30_25 1 0 11421 0 1 -1737
+use contact_30 contact_30_11 1 0 11662 0 1 -1005
+use contact_30 contact_30_27 1 0 12356 0 1 -1737
+use contact_30 contact_30_23 1 0 12071 0 1 -1493
+use contact_30 contact_30_19 1 0 13319 0 1 -1249
+use contact_30 contact_30_5 1 0 7917 0 1 -761
+use contact_30 contact_30_1 1 0 9085 0 1 -517
+use contact_30 contact_30_7 1 0 10414 0 1 -761
+use contact_30 contact_30_3 1 0 11108 0 1 -517
+use contact_7 contact_7_23 1 0 9580 0 1 268
+use contact_30 contact_30_46 1 0 9575 0 1 272
+use contact_7 contact_7_15 1 0 10828 0 1 268
+use contact_30 contact_30_30 1 0 10823 0 1 272
+use contact_7 contact_7_11 1 0 12076 0 1 268
+use contact_30 contact_30_22 1 0 12071 0 1 272
+use contact_7 contact_7_9 1 0 13324 0 1 268
+use contact_30 contact_30_18 1 0 13319 0 1 272
+use contact_19 contact_19_3 1 0 9866 0 1 1393
+use contact_7 contact_7_7 1 0 9865 0 1 1388
+use contact_30 contact_30_14 1 0 9860 0 1 1392
+use contact_19 contact_19_1 1 0 10420 0 1 1393
+use contact_7 contact_7_3 1 0 10419 0 1 1388
+use contact_30 contact_30_6 1 0 10414 0 1 1392
+use contact_19 contact_19_2 1 0 11668 0 1 1393
+use contact_7 contact_7_5 1 0 11667 0 1 1388
+use contact_30 contact_30_10 1 0 11662 0 1 1392
+use contact_19 contact_19_0 1 0 11114 0 1 1393
+use contact_7 contact_7_1 1 0 11113 0 1 1388
+use contact_30 contact_30_2 1 0 11108 0 1 1392
+use contact_19 contact_19_4 1 0 12362 0 1 1393
+use contact_7 contact_7_13 1 0 12361 0 1 1388
+use contact_30 contact_30_26 1 0 12356 0 1 1392
+use contact_19 contact_19_7 1 0 12916 0 1 1393
+use contact_7 contact_7_21 1 0 12915 0 1 1388
+use contact_30 contact_30_42 1 0 12910 0 1 1392
+use contact_19 contact_19_6 1 0 13610 0 1 1393
+use contact_7 contact_7_19 1 0 13609 0 1 1388
+use contact_30 contact_30_38 1 0 13604 0 1 1392
+use contact_19 contact_19_5 1 0 14164 0 1 1393
+use contact_7 contact_7_17 1 0 14163 0 1 1388
+use contact_30 contact_30_34 1 0 14158 0 1 1392
+node "m2_5591_n3614#" 11 2460.62 5591 -3614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8288 520 488912 16628 242424 8316 0 0 0 0
+node "m2_4423_n3614#" 10 2443.86 4423 -3614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8288 520 484112 16468 242424 8316 0 0 0 0
+node "m2_3255_n3614#" 10 2404.54 3255 -3614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8288 520 479312 16308 242424 8316 0 0 0 0
+node "m2_2087_n3614#" 10 2376.5 2087 -3614 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8288 520 474512 16148 242424 8316 0 0 0 0
+node "m1_14164_1399#" 6 1257.91 14164 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 70652 2686 309624 10556 0 0 0 0
+node "m1_13610_1399#" 6 1129.28 13610 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 33812 1458 309624 10556 0 0 0 0
+node "m1_12916_1399#" 6 1153.19 12916 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 43892 1794 309624 10556 0 0 0 0
+node "m1_12362_1399#" 6 1281.83 12362 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 80732 3022 309624 10556 0 0 0 0
+node "m1_11668_1399#" 7 1358.57 11668 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 109172 3970 309624 10556 0 0 0 0
+node "m1_11114_1399#" 7 1453.36 11114 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 146012 5198 309624 10556 0 0 0 0
+node "m1_10420_1399#" 7 1552.67 10420 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 174452 6146 309624 10556 0 0 0 0
+node "m1_9866_1399#" 8 1681.3 9866 1399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 8288 520 211292 7374 309624 10556 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_3255_n3614#" "m1_12362_1399#" 16.0362
+cap "m1_11668_1399#" "m2_4423_n3614#" 512.826
+cap "m1_11668_1399#" "m1_12362_1399#" 307.273
+cap "m2_2087_n3614#" "m1_9866_1399#" 472.627
+cap "m1_9866_1399#" "m1_11114_1399#" 249.514
+cap "m2_5591_n3614#" "m1_9866_1399#" 1127.86
+cap "m1_13610_1399#" "m1_14164_1399#" 515.22
+cap "m2_2087_n3614#" "m1_10420_1399#" 166.746
+cap "m1_10420_1399#" "m1_11114_1399#" 779.752
+cap "m2_5591_n3614#" "m1_10420_1399#" 414.931
+cap "m2_3255_n3614#" "m1_9866_1399#" 334.914
+cap "m1_11668_1399#" "m1_9866_1399#" 26.2422
+cap "m1_12916_1399#" "m2_5591_n3614#" 378.239
+cap "m2_3255_n3614#" "m1_10420_1399#" 247.293
+cap "m1_11668_1399#" "m1_10420_1399#" 81.7186
+cap "m2_2087_n3614#" "m1_11114_1399#" 323.726
+cap "m2_2087_n3614#" "m2_5591_n3614#" 453.785
+cap "m2_5591_n3614#" "m1_11114_1399#" 232.914
+cap "m2_4423_n3614#" "m1_12362_1399#" 794.91
+cap "m2_3255_n3614#" "m2_2087_n3614#" 2266.11
+cap "m2_3255_n3614#" "m1_11114_1399#" 340.318
+cap "m2_3255_n3614#" "m2_5591_n3614#" 855.075
+cap "m1_11668_1399#" "m2_2087_n3614#" 113.037
+cap "m1_11668_1399#" "m1_11114_1399#" 427.618
+cap "m1_11668_1399#" "m2_5591_n3614#" 545.113
+cap "m1_9866_1399#" "m2_4423_n3614#" 505.31
+cap "m2_5591_n3614#" "m1_14164_1399#" 136.538
+cap "m2_3255_n3614#" "m1_11668_1399#" 353.275
+cap "m1_10420_1399#" "m2_4423_n3614#" 277.351
+cap "m1_12916_1399#" "m2_4423_n3614#" 157.524
+cap "m1_12916_1399#" "m1_13610_1399#" 393.2
+cap "m1_12916_1399#" "m1_12362_1399#" 455.938
+cap "m2_2087_n3614#" "m2_4423_n3614#" 843.299
+cap "m1_11114_1399#" "m2_4423_n3614#" 36.09
+cap "m1_13610_1399#" "m2_5591_n3614#" 473.105
+cap "m2_5591_n3614#" "m2_4423_n3614#" 2320.89
+cap "m1_10420_1399#" "m1_9866_1399#" 1087.61
+cap "m2_5591_n3614#" "m1_12362_1399#" 185.01
+cap "m2_3255_n3614#" "m2_4423_n3614#" 2293.5
+merge "contact_30_34/gnd" "contact_7_17/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "contact_7_17/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_30_38/gnd"
+merge "contact_30_38/gnd" "contact_7_19/gnd"
+merge "contact_7_19/gnd" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "contact_30_18/gnd"
+merge "contact_30_18/gnd" "contact_7_9/gnd"
+merge "contact_7_9/gnd" "contact_30_42/gnd"
+merge "contact_30_42/gnd" "contact_7_21/gnd"
+merge "contact_7_21/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_30_26/gnd"
+merge "contact_30_26/gnd" "contact_7_13/gnd"
+merge "contact_7_13/gnd" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_30_2/gnd"
+merge "contact_30_2/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "contact_30_10/gnd"
+merge "contact_30_10/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_30_22/gnd"
+merge "contact_30_22/gnd" "contact_7_11/gnd"
+merge "contact_7_11/gnd" "contact_30_30/gnd"
+merge "contact_30_30/gnd" "contact_7_15/gnd"
+merge "contact_7_15/gnd" "contact_30_3/gnd"
+merge "contact_30_3/gnd" "contact_30_6/gnd"
+merge "contact_30_6/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_30_14/gnd"
+merge "contact_30_14/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "contact_19_3/gnd"
+merge "contact_19_3/gnd" "contact_30_46/gnd"
+merge "contact_30_46/gnd" "contact_7_23/gnd"
+merge "contact_7_23/gnd" "contact_30_7/gnd"
+merge "contact_30_7/gnd" "contact_30_1/gnd"
+merge "contact_30_1/gnd" "contact_30_5/gnd"
+merge "contact_30_5/gnd" "contact_30_19/gnd"
+merge "contact_30_19/gnd" "contact_30_33/gnd"
+merge "contact_30_33/gnd" "contact_30_35/gnd"
+merge "contact_30_35/gnd" "contact_30_37/gnd"
+merge "contact_30_37/gnd" "contact_30_39/gnd"
+merge "contact_30_39/gnd" "contact_30_32/gnd"
+merge "contact_30_32/gnd" "contact_7_16/gnd"
+merge "contact_7_16/gnd" "contact_30_36/gnd"
+merge "contact_30_36/gnd" "contact_7_18/gnd"
+merge "contact_7_18/gnd" "contact_30_23/gnd"
+merge "contact_30_23/gnd" "contact_30_27/gnd"
+merge "contact_30_27/gnd" "contact_30_11/gnd"
+merge "contact_30_11/gnd" "contact_30_25/gnd"
+merge "contact_30_25/gnd" "contact_30_31/gnd"
+merge "contact_30_31/gnd" "contact_30_43/gnd"
+merge "contact_30_43/gnd" "contact_30_41/gnd"
+merge "contact_30_41/gnd" "contact_30_40/gnd"
+merge "contact_30_40/gnd" "contact_7_20/gnd"
+merge "contact_7_20/gnd" "contact_30_24/gnd"
+merge "contact_30_24/gnd" "contact_7_12/gnd"
+merge "contact_7_12/gnd" "contact_30_9/gnd"
+merge "contact_30_9/gnd" "contact_30_15/gnd"
+merge "contact_30_15/gnd" "contact_30_47/gnd"
+merge "contact_30_47/gnd" "contact_30_8/gnd"
+merge "contact_30_8/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "contact_30_0/gnd"
+merge "contact_30_0/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "contact_30_4/gnd"
+merge "contact_30_4/gnd" "contact_7_2/gnd"
+merge "contact_7_2/gnd" "contact_30_13/gnd"
+merge "contact_30_13/gnd" "contact_30_17/gnd"
+merge "contact_30_17/gnd" "contact_30_12/gnd"
+merge "contact_30_12/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "contact_30_16/gnd"
+merge "contact_30_16/gnd" "contact_7_8/gnd"
+merge "contact_7_8/gnd" "contact_30_21/gnd"
+merge "contact_30_21/gnd" "contact_30_29/gnd"
+merge "contact_30_29/gnd" "contact_30_45/gnd"
+merge "contact_30_45/gnd" "contact_30_20/gnd"
+merge "contact_30_20/gnd" "contact_7_10/gnd"
+merge "contact_7_10/gnd" "contact_30_28/gnd"
+merge "contact_30_28/gnd" "contact_7_14/gnd"
+merge "contact_7_14/gnd" "contact_30_44/gnd"
+merge "contact_30_44/gnd" "contact_7_22/gnd"
+merge "contact_7_22/gnd" "gnd"

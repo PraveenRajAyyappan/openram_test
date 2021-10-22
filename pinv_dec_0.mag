@@ -1,0 +1,123 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634918361
+<< checkpaint >>
+rect -1216 -1260 2472 1750
+<< nwell >>
+rect 504 0 1212 490
+<< pwell >>
+rect 185 328 287 462
+<< psubdiff >>
+rect 211 412 261 436
+rect 211 378 219 412
+rect 253 378 261 412
+rect 211 354 261 378
+<< nsubdiff >>
+rect 833 412 883 436
+rect 833 378 841 412
+rect 875 378 883 412
+rect 833 354 883 378
+<< psubdiffcont >>
+rect 219 378 253 412
+<< nsubdiffcont >>
+rect 841 378 875 412
+<< poly >>
+rect 44 187 110 203
+rect 44 153 60 187
+rect 94 185 110 187
+rect 94 155 136 185
+rect 336 155 532 185
+rect 94 153 110 155
+rect 44 137 110 153
+<< polycont >>
+rect 60 153 94 187
+<< locali >>
+rect 219 412 253 428
+rect 219 362 253 378
+rect 841 412 875 428
+rect 841 362 875 378
+rect 219 237 253 253
+rect 60 187 94 203
+rect 219 187 253 203
+rect 841 237 875 253
+rect 841 187 875 203
+rect 60 137 94 153
+rect 203 103 1194 137
+<< viali >>
+rect 219 378 253 412
+rect 841 378 875 412
+rect 219 203 253 237
+rect 841 203 875 237
+<< metal1 >>
+rect 207 412 265 418
+rect 207 378 219 412
+rect 253 378 265 412
+rect 207 372 265 378
+rect 829 412 887 418
+rect 829 378 841 412
+rect 875 378 887 412
+rect 829 372 887 378
+rect 222 243 250 372
+rect 844 243 872 372
+rect 207 237 265 243
+rect 207 203 219 237
+rect 253 203 265 237
+rect 207 197 265 203
+rect 829 237 887 243
+rect 829 203 841 237
+rect 875 203 887 237
+rect 829 197 887 203
+rect 222 0 250 197
+rect 844 0 872 197
+use contact_14  contact_14_0
+timestamp 1634918361
+transform 1 0 829 0 1 187
+box 0 0 1 1
+use contact_14  contact_14_1
+timestamp 1634918361
+transform 1 0 207 0 1 187
+box 0 0 1 1
+use contact_16  contact_16_0
+timestamp 1634918361
+transform 1 0 44 0 1 137
+box 0 0 1 1
+use contact_14  contact_14_2
+timestamp 1634918361
+transform 1 0 207 0 1 362
+box 0 0 1 1
+use contact_15  contact_15_0
+timestamp 1634918361
+transform 1 0 211 0 1 354
+box 0 0 1 1
+use contact_14  contact_14_3
+timestamp 1634918361
+transform 1 0 829 0 1 362
+box 0 0 1 1
+use contact_13  contact_13_0
+timestamp 1634918361
+transform 1 0 833 0 1 354
+box 0 0 1 1
+use nmos_m1_w0_740_sli_dli_da_p  nmos_m1_w0_740_sli_dli_da_p_0
+timestamp 1634918361
+transform 0 1 162 -1 0 245
+box -26 -26 176 174
+use pmos_m1_w3_000_sli_dli_da_p  pmos_m1_w3_000_sli_dli_da_p_0
+timestamp 1634918361
+transform 0 1 558 -1 0 245
+box -59 -54 209 654
+<< labels >>
+rlabel locali s 77 170 77 170 4 A
+port 1 nsew
+rlabel locali s 698 120 698 120 4 Z
+port 2 nsew
+rlabel metal1 s 222 0 250 395 4 gnd
+port 3 nsew
+rlabel metal1 s 844 0 872 395 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 1194 395
+string GDS_FILE sky130_sram_0kbytes_1rw1r_8x16_2.gds
+string GDS_END 1002438
+string GDS_START 1000874
+<< end >>

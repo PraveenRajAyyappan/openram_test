@@ -1,0 +1,262 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use pinv_dec pinv_dec_1 1 0 320 0 1 0
+use pinv_dec pinv_dec_0 1 0 320 0 -1 790
+use contact_17 contact_17_9 1 0 61 0 1 141
+use contact_19 contact_19_4 1 0 486 0 1 363
+use contact_7 contact_7_4 1 0 485 0 1 358
+use contact_17 contact_17_7 1 0 1123 0 1 270
+use contact_17 contact_17_6 1 0 1203 0 1 162
+use contact_17 contact_17_5 1 0 1283 0 1 462
+use contact_14 contact_14_1 1 0 1033 0 1 87
+use contact_19 contact_19_11 1 0 1030 0 1 88
+use contact_20 contact_20_1 1 0 1124 0 1 279
+use contact_19 contact_19_9 1 0 882 0 1 363
+use contact_7 contact_7_9 1 0 881 0 1 358
+use contact_7 contact_7_2 1 0 2583 0 1 358
+use contact_19 contact_19_2 1 0 2584 0 1 363
+use contact_7 contact_7_3 1 0 1779 0 1 365
+use contact_19 contact_19_3 1 0 1780 0 1 370
+use contact_7 contact_7_7 1 0 2204 0 1 365
+use contact_19 contact_19_7 1 0 2205 0 1 370
+use contact_7 contact_7_8 1 0 2979 0 1 358
+use contact_19 contact_19_8 1 0 2980 0 1 363
+use and2_dec and2_dec_2 1 0 1542 0 -1 790
+use and2_dec and2_dec_3 1 0 1542 0 1 0
+use and2_dec and2_dec_1 1 0 1542 0 1 790
+use contact_17 contact_17_8 1 0 141 0 1 591
+use contact_17 contact_17_4 1 0 1203 0 1 570
+use contact_17 contact_17_2 1 0 1363 0 1 952
+use contact_14 contact_14_0 1 0 1033 0 1 637
+use contact_19 contact_19_10 1 0 1030 0 1 638
+use contact_20 contact_20_0 1 0 1204 0 1 674
+use contact_21 contact_21_3 1 0 61 0 1 1258
+use contact_17 contact_17_3 1 0 1123 0 1 1060
+use contact_17 contact_17_1 1 0 1283 0 1 1252
+use contact_21 contact_21_2 1 0 1283 0 1 1258
+use contact_19 contact_19_1 1 0 1780 0 1 1160
+use contact_7 contact_7_1 1 0 1779 0 1 1155
+use contact_19 contact_19_5 1 0 2205 0 1 1160
+use contact_7 contact_7_5 1 0 2204 0 1 1155
+use contact_19 contact_19_0 1 0 2584 0 1 1153
+use contact_7 contact_7_0 1 0 2583 0 1 1148
+use contact_19 contact_19_6 1 0 2980 0 1 1153
+use contact_7 contact_7_6 1 0 2979 0 1 1148
+use contact_21 contact_21_0 1 0 1363 0 1 1366
+use contact_21 contact_21_1 1 0 141 0 1 1366
+use contact_17 contact_17_0 1 0 1363 0 1 1360
+use and2_dec and2_dec_0 1 0 1542 0 -1 1580
+port "vdd_uq0" 10 2963 346 3061 444 m3
+port "vdd_uq0" 9 2963 1136 3061 1234 m3
+port "gnd_uq0" 13 2567 346 2665 444 m3
+port "gnd_uq0" 12 2567 1136 2665 1234 m3
+port "vdd" 7 2188 353 2286 451 m3
+port "vdd" 7 2188 1143 2286 1241 m3
+port "gnd" 8 1763 1143 1861 1241 m3
+port "gnd" 8 1763 353 1861 451 m3
+port "vdd_uq1" 11 865 346 963 444 m3
+port "gnd_uq1" 14 469 346 567 444 m3
+port "out_0" 3 2871 120 2871 120 li
+port "out_1" 4 2871 670 2871 670 li
+port "out_2" 5 2871 910 2871 910 li
+port "in_0" 1 71 141 117 199 m1
+port "in_1" 2 151 591 197 649 m1
+port "out_3" 6 2871 1460 2871 1460 li
+node "vdd_uq0" 8 397.101 2963 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45744 3200 8288 520 19208 784 0 0 0 0 0 0
+node "gnd_uq0" 8 397.101 2567 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45744 3200 8288 520 19208 784 0 0 0 0 0 0
+node "vdd" 5 414.679 2188 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78056 3220 8288 520 19208 784 0 0 0 0 0 0
+node "gnd" 5 415.856 1763 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75104 3220 8288 520 19208 784 0 0 0 0 0 0
+node "vdd_uq1" 3 207.288 865 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21752 1548 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq1" 3 207.288 469 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21752 1548 4144 260 9604 392 0 0 0 0 0 0
+node "out_0" 207 172.562 2871 120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "out_1" 207 172.562 2871 670 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1045_637#" 414 652.009 1045 637 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33456 2172 48952 3408 10624 676 0 0 0 0 0 0 0 0
+node "out_2" 207 172.562 2871 910 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1045_87#" 471 720.23 1045 87 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38896 2492 48070 3372 12844 850 0 0 0 0 0 0 0 0
+node "in_0" 901 1283.95 71 141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 79322 4870 89064 6304 0 0 0 0 0 0 0 0 0 0
+node "in_1" 815 1194.69 151 591 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 71162 4390 89064 6304 0 0 0 0 0 0 0 0 0 0
+node "out_3" 207 172.562 2871 1460 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_1045_87#" "gnd_uq1" 57.2972
+cap "out_1" "out_0" 36.9012
+cap "out_2" "out_0" 25.1865
+cap "out_1" "gnd_uq0" 15.6083
+cap "gnd_uq0" "out_3" 15.6083
+cap "gnd_uq0" "out_2" 15.6083
+cap "vdd_uq0" "out_0" 15.6083
+cap "gnd_uq0" "vdd_uq0" 248.004
+cap "in_0" "in_1" 3558.16
+cap "in_0" "li_1045_637#" 1664.55
+cap "in_0" "vdd_uq1" 126.364
+cap "gnd_uq0" "out_0" 15.6083
+cap "in_0" "gnd" 147.852
+cap "in_0" "li_1045_87#" 790.958
+cap "in_0" "gnd_uq1" 122.723
+cap "li_1045_637#" "in_1" 638.807
+cap "vdd_uq0" "vdd" 118.19
+cap "in_1" "vdd_uq1" 115.593
+cap "gnd_uq0" "gnd" 113.532
+cap "li_1045_637#" "vdd_uq1" 133.111
+cap "gnd" "in_1" 179.269
+cap "li_1045_637#" "gnd" 129.255
+cap "out_1" "out_3" 25.1865
+cap "out_1" "out_2" 92.432
+cap "li_1045_87#" "in_1" 591.627
+cap "out_2" "out_3" 36.9012
+cap "li_1045_87#" "li_1045_637#" 1805.19
+cap "gnd_uq0" "vdd" 261.165
+cap "li_1045_87#" "vdd_uq1" 174.127
+cap "gnd_uq1" "in_1" 101.797
+cap "li_1045_637#" "gnd_uq1" 51.2678
+cap "vdd" "in_1" 12.4893
+cap "gnd_uq1" "vdd_uq1" 119.111
+cap "li_1045_87#" "gnd" 112.859
+cap "out_1" "vdd_uq0" 15.6083
+cap "vdd_uq0" "out_3" 15.6083
+cap "vdd_uq0" "out_2" 15.6083
+cap "gnd" "vdd" 241.445
+subcap "vdd_uq0" -459.437
+subcap "out_0" -115.936
+subcap "out_1" -115.936
+subcap "out_2" -115.936
+subcap "out_3" -115.936
+cap "out_3" "out_1" 1.77636e-15
+cap "out_2" "gnd" 2.83089
+cap "out_2" "out_1" -7.10543e-15
+cap "vdd_uq0" "gnd" -104.352
+cap "gnd" "and2_dec_3/pinv_dec_0/A" 40.0601
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 62.7484
+cap "gnd" "in_1" 3.45801
+cap "pinv_dec_0/Z" "in_0" 60.7373
+cap "in_0" "pinv_dec_1/Z" 127.671
+cap "gnd" "and2_dec_1/pinv_dec_0/A" 42.1221
+cap "in_0" "vdd_uq1" 3.82073
+cap "vdd" "and2_dec_2/pinv_dec_0/A" 78.7014
+cap "and2_dec_0/pinv_dec_0/A" "vdd" 68.4811
+cap "out_1" "gnd" 2.83089
+cap "vdd_uq0" "vdd" -46.7883
+cap "out_2" "out_0" 1.77636e-15
+cap "vdd" "and2_dec_3/pinv_dec_0/A" 41.4655
+cap "vdd" "in_1" -3.55271e-15
+cap "pinv_dec_0/Z" "pinv_dec_1/Z" 69.4598
+cap "in_0" "in_1" 55.723
+cap "vdd" "gnd" -400.026
+cap "vdd" "and2_dec_1/pinv_dec_0/A" 51.6858
+cap "in_0" "gnd" 3.7761
+cap "pinv_dec_1/Z" "vdd_uq1" 8.40967
+cap "pinv_dec_0/Z" "vdd_uq1" 11.8924
+cap "out_0" "gnd" -10.2648
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 62.7484
+cap "pinv_dec_0/Z" "in_1" 80.0095
+cap "pinv_dec_1/Z" "in_1" 26.9432
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 343.436
+cap "pinv_dec_1/Z" "gnd" 6.05554
+cap "pinv_dec_0/Z" "gnd" 8.10655
+cap "vdd_uq1" "in_1" 3.24105
+cap "gnd" "vdd_uq1" -99.4607
+cap "out_3" "gnd" -10.2648
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 119.337
+cap "gnd" "and2_dec_2/pinv_dec_0/A" 69.1411
+cap "and2_dec_0/pinv_dec_0/A" "gnd" 67.0791
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 343.436
+subcap "gnd_uq0" -531.793
+subcap "vdd" -1335.84
+subcap "out_0" -151.114
+subcap "out_1" -151.114
+subcap "out_2" -151.114
+subcap "out_3" -151.114
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 4.82258
+cap "out_3" "out_1" -1.77636e-15
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 3.55952
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 1.96711
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_0/pinv_dec_0/A" 1.96711
+cap "out_2" "vdd_uq0" 2.83089
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 3.55952
+cap "vdd_uq0" "out_1" 2.83089
+cap "vdd_uq0" "out_3" -10.2648
+cap "out_2" "out_0" -1.77636e-15
+cap "gnd_uq0" "vdd_uq0" -104.352
+cap "vdd" "vdd_uq0" -46.7883
+cap "vdd_uq0" "out_0" -10.2648
+merge "and2_dec_0/gnd_uq0" "and2_dec_1/gnd_uq0" -915.694 -980 -1864 0 0 0 0 0 0 0 0 54076 -1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20628 -824 246624 -9012 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/gnd_uq0" "and2_dec_3/gnd_uq0"
+merge "and2_dec_3/gnd_uq0" "and2_dec_2/gnd_uq0"
+merge "and2_dec_2/gnd_uq0" "and2_dec_0/gnd"
+merge "and2_dec_0/gnd" "contact_17_0/gnd"
+merge "contact_17_0/gnd" "contact_21_1/gnd"
+merge "contact_21_1/gnd" "contact_21_0/gnd"
+merge "contact_21_0/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_21_2/gnd"
+merge "contact_21_2/gnd" "contact_17_1/gnd"
+merge "contact_17_1/gnd" "contact_17_3/gnd"
+merge "contact_17_3/gnd" "contact_21_3/gnd"
+merge "contact_21_3/gnd" "contact_20_0/gnd"
+merge "contact_20_0/gnd" "contact_19_10/gnd"
+merge "contact_19_10/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_17_2/gnd"
+merge "contact_17_2/gnd" "contact_17_4/gnd"
+merge "contact_17_4/gnd" "contact_17_8/gnd"
+merge "contact_17_8/gnd" "and2_dec_1/gnd"
+merge "and2_dec_1/gnd" "and2_dec_3/gnd"
+merge "and2_dec_3/gnd" "and2_dec_2/gnd"
+merge "and2_dec_2/gnd" "gnd_uq0"
+merge "gnd_uq0" "contact_19_8/gnd"
+merge "contact_19_8/gnd" "contact_7_8/gnd"
+merge "contact_7_8/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "contact_19_3/gnd"
+merge "contact_19_3/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_7_2/gnd"
+merge "contact_7_2/gnd" "contact_7_9/gnd"
+merge "contact_7_9/gnd" "contact_19_9/gnd"
+merge "contact_19_9/gnd" "contact_20_1/gnd"
+merge "contact_20_1/gnd" "contact_19_11/gnd"
+merge "contact_19_11/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_17_5/gnd"
+merge "contact_17_5/gnd" "contact_17_6/gnd"
+merge "contact_17_6/gnd" "contact_17_7/gnd"
+merge "contact_17_7/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_17_9/gnd"
+merge "contact_17_9/gnd" "pinv_dec_0/gnd"
+merge "pinv_dec_0/gnd" "pinv_dec_1/gnd"
+merge "pinv_dec_1/gnd" "gnd"
+merge "gnd" "gnd_uq1"
+merge "and2_dec_0/vdd_uq0" "and2_dec_1/vdd_uq0" -386.98 0 0 0 0 -126160 -2752 0 0 33000 -528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13200 -400 185784 -3648 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/vdd_uq0" "and2_dec_3/vdd_uq0"
+merge "and2_dec_3/vdd_uq0" "and2_dec_2/vdd_uq0"
+merge "and2_dec_2/vdd_uq0" "vdd_uq0"
+merge "pinv_dec_0/vdd" "pinv_dec_1/vdd" -220.568 0 0 0 0 -63080 -1044 0 0 -4100 -264 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 -23928 -1744 0 0 0 0 0 0 0 0 0 0
+merge "pinv_dec_1/vdd" "vdd_uq1"
+merge "and2_dec_0/A" "and2_dec_2/A" -65.8044 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4556 -472 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/A" "pinv_dec_1/A"
+merge "pinv_dec_1/A" "in_0"
+merge "and2_dec_3/B" "and2_dec_2/B" -68.706 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3978 -438 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/B" "pinv_dec_0/Z"
+merge "pinv_dec_0/Z" "li_1045_637#"
+merge "and2_dec_0/B" "and2_dec_1/B" -65.8044 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4556 -472 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/B" "pinv_dec_0/A"
+merge "pinv_dec_0/A" "in_1"
+merge "and2_dec_0/vdd" "and2_dec_1/vdd" -311.351 0 0 0 0 -19620 -3728 0 0 61250 -244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62086 -216 933940 -3648 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/vdd" "and2_dec_3/vdd"
+merge "and2_dec_3/vdd" "and2_dec_2/vdd"
+merge "and2_dec_2/vdd" "vdd"
+merge "and2_dec_3/Z" "out_0" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/Z" "out_1" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/Z" "out_2" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0/Z" "out_3" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/A" "and2_dec_3/A" -72.2467 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3978 -438 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_3/A" "pinv_dec_1/Z"
+merge "pinv_dec_1/Z" "li_1045_87#"

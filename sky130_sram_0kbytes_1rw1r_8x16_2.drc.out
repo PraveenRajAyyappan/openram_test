@@ -1,0 +1,23 @@
+Friday 22 October 2021 09:29:36 PM IST: Starting DRC using Magic /usr/local/bin/magic
+
+Magic 8.3 revision 197 - Compiled on Friday 22 October 2021 08:33:25 PM IST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.225-0-g6c05bc4
+sky130_sram_0kbytes_1rw1r_8x16_2: 10000 rects
+Finished loading cell sky130_sram_0kbytes_1rw1r_8x16_2
+Scaled magic input cell contact_35 geometry by factor of 2
+Processing timestamp mismatches: sky130_fd_bd_sram__openram_dp_cell_dummy, sky130_fd_bd_sram__openram_dp_cell_replica, sky130_fd_bd_sram__openram_dp_cell.
+Finished expanding
+Finished drc check
+Loading DRC CIF style.
+Finished drc catchup
+Total DRC errors found: 16
+Friday 22 October 2021 09:29:38 PM IST: Finished (0) DRC using Magic /usr/local/bin/magic

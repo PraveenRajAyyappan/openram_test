@@ -1,0 +1,520 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_7 1 0 0 0 1 0
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_6 -1 0 1248 0 1 0
+use contact_7 contact_7_7 1 0 279 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_5 1 0 1248 0 1 0
+use contact_7 contact_7_6 1 0 903 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_4 -1 0 2496 0 1 0
+use contact_7 contact_7_5 1 0 1527 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_3 1 0 2496 0 1 0
+use contact_7 contact_7_4 1 0 2151 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_2 -1 0 3744 0 1 0
+use contact_7 contact_7_3 1 0 2775 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_1 1 0 3744 0 1 0
+use contact_7 contact_7_2 1 0 3399 0 1 192
+use sky130_fd_bd_sram__openram_dp_cell_cap_col sky130_fd_bd_sram__openram_dp_cell_cap_col_0 -1 0 4992 0 1 0
+use contact_7 contact_7_1 1 0 4023 0 1 192
+use contact_7 contact_7_0 1 0 4647 0 1 192
+port "vdd_uq0" 34 4631 180 4729 278 m3
+port "vdd" 33 4007 180 4105 278 m3
+port "vdd_uq1" 35 3383 180 3481 278 m3
+port "vdd_uq2" 36 2759 180 2857 278 m3
+port "vdd_uq3" 37 2135 180 2233 278 m3
+port "vdd_uq4" 38 1511 180 1609 278 m3
+port "vdd_uq5" 39 887 180 985 278 m3
+port "vdd_uq6" 40 263 180 361 278 m3
+port "bl0_7" 29 4878 0 4914 395 m1
+port "br0_7" 30 4806 0 4842 395 m1
+port "bl1_7" 31 4662 0 4698 395 m1
+port "br1_7" 32 4590 0 4626 395 m1
+port "br1_6" 28 4110 0 4146 395 m1
+port "bl1_6" 27 4038 0 4074 395 m1
+port "br0_6" 26 3894 0 3930 395 m1
+port "bl0_6" 25 3822 0 3858 395 m1
+port "bl0_5" 21 3630 0 3666 395 m1
+port "br0_5" 22 3558 0 3594 395 m1
+port "bl1_5" 23 3414 0 3450 395 m1
+port "br1_5" 24 3342 0 3378 395 m1
+port "br1_4" 20 2862 0 2898 395 m1
+port "bl1_4" 19 2790 0 2826 395 m1
+port "br0_4" 18 2646 0 2682 395 m1
+port "bl0_4" 17 2574 0 2610 395 m1
+port "bl0_3" 13 2382 0 2418 395 m1
+port "br0_3" 14 2310 0 2346 395 m1
+port "bl1_3" 15 2166 0 2202 395 m1
+port "br1_3" 16 2094 0 2130 395 m1
+port "br1_2" 12 1614 0 1650 395 m1
+port "bl1_2" 11 1542 0 1578 395 m1
+port "br0_2" 10 1398 0 1434 395 m1
+port "bl0_2" 9 1326 0 1362 395 m1
+port "bl0_1" 5 1134 0 1170 395 m1
+port "br0_1" 6 1062 0 1098 395 m1
+port "bl1_1" 7 918 0 954 395 m1
+port "br1_1" 8 846 0 882 395 m1
+port "br1_0" 4 366 0 402 395 m1
+port "bl1_0" 3 294 0 330 395 m1
+port "br0_0" 2 150 0 186 395 m1
+port "bl0_0" 1 78 0 114 395 m1
+node "vdd_uq0" 0 52.5719 4631 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd" 0 52.5719 4007 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq1" 0 52.5719 3383 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq2" 0 52.5719 2759 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq3" 0 52.5719 2135 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq4" 0 52.5719 1511 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq5" 0 52.5719 887 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq6" 0 52.5719 263 180 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4144 260 9604 392 0 0 0 0 0 0
+node "bl0_7" 1 90.6657 4878 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_7" 1 90.6657 4806 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_7" 1 90.6657 4662 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_7" 1 90.6657 4590 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_6" 1 90.6657 4110 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_6" 1 90.6657 4038 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_6" 1 90.6657 3894 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_6" 1 90.6657 3822 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_5" 1 90.6657 3630 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_5" 1 90.6657 3558 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_5" 1 90.6657 3414 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_5" 1 90.6657 3342 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_4" 1 90.6657 2862 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_4" 1 90.6657 2790 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_4" 1 90.6657 2646 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_4" 1 90.6657 2574 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_3" 1 90.6657 2382 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_3" 1 90.6657 2310 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_3" 1 90.6657 2166 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_3" 1 90.6657 2094 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_2" 1 90.6657 1614 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_2" 1 90.6657 1542 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_2" 1 90.6657 1398 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_2" 1 90.6657 1326 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_1" 1 90.6657 1134 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_1" 1 90.6657 1062 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_1" 1 90.6657 918 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_1" 1 90.6657 846 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br1_0" 1 90.6657 366 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl1_0" 1 90.6657 294 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "br0_0" 1 90.6657 150 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+node "bl0_0" 1 90.6657 78 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14220 862 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "bl1_0" "br0_1" 24.2828
+cap "bl1_1" "br0_2" 40.0338
+cap "bl1_1" "bl0_2" 47.7823
+cap "br1_3" "br1_4" 24.2828
+cap "bl1_2" "br1_3" 34.4477
+cap "bl1_5" "br1_4" 34.4477
+cap "br0_6" "bl0_5" 77.9605
+cap "bl0_7" "bl1_7" 98.75
+cap "bl0_7" "br1_6" 24.2828
+cap "bl1_2" "vdd_uq4" 55.3701
+cap "bl0_4" "br1_4" 70.5357
+cap "br0_5" "br1_4" 26.9318
+cap "br1_2" "bl0_3" 24.2828
+cap "br1_7" "br0_7" 98.75
+cap "bl1_0" "br1_0" 493.75
+cap "vdd_uq4" "vdd_uq5" 18.2517
+cap "bl1_2" "bl0_1" 47.7823
+cap "bl1_3" "br0_3" 164.583
+cap "bl1_6" "bl0_5" 47.7823
+cap "br1_3" "br0_2" 26.9318
+cap "br1_3" "bl0_2" 24.2828
+cap "bl1_7" "br0_7" 164.583
+cap "br1_6" "br0_7" 26.9318
+cap "vdd_uq1" "vdd_uq2" 18.2517
+cap "bl1_5" "bl0_5" 98.75
+cap "br1_1" "bl0_1" 70.5357
+cap "br1_1" "bl0_0" 24.2828
+cap "br1_1" "bl1_2" 26.9318
+cap "br1_0" "br0_0" 98.75
+cap "bl0_1" "br0_2" 77.9605
+cap "bl0_1" "bl0_2" 113.942
+cap "br1_2" "br0_1" 34.4477
+cap "br0_5" "bl0_5" 493.75
+cap "br1_5" "br1_6" 24.2828
+cap "br0_4" "br1_3" 34.4477
+cap "bl1_5" "br0_4" 24.2828
+cap "bl1_2" "br0_2" 164.583
+cap "bl1_2" "bl0_2" 98.75
+cap "bl0_3" "br1_3" 70.5357
+cap "br1_7" "bl1_7" 493.75
+cap "br1_4" "bl0_5" 24.2828
+cap "bl1_1" "br0_1" 164.583
+cap "bl0_6" "br1_5" 40.0338
+cap "bl1_0" "br0_0" 164.583
+cap "br1_7" "br1_6" 40.0338
+cap "bl0_4" "br0_4" 493.75
+cap "bl1_4" "br1_3" 26.9318
+cap "bl1_4" "bl1_5" 30.2296
+cap "bl0_4" "bl0_3" 113.942
+cap "br1_2" "bl1_3" 34.4477
+cap "br1_1" "br0_2" 34.4477
+cap "br1_1" "bl0_2" 40.0338
+cap "bl0_6" "br1_7" 24.2828
+cap "vdd_uq6" "bl1_0" 55.3701
+cap "bl1_7" "br1_6" 34.4477
+cap "br0_4" "br1_4" 98.75
+cap "bl0_2" "br0_2" 493.75
+cap "bl1_4" "bl0_4" 98.75
+cap "bl0_3" "br1_4" 40.0338
+cap "bl1_4" "br0_5" 24.2828
+cap "bl1_1" "br1_0" 34.4477
+cap "vdd_uq1" "vdd" 18.2517
+cap "bl0_6" "br1_6" 70.5357
+cap "br1_5" "br0_6" 34.4477
+cap "br1_2" "br0_3" 26.9318
+cap "vdd_uq2" "vdd_uq3" 18.2517
+cap "bl1_6" "br0_7" 24.2828
+cap "bl1_4" "br1_4" 493.75
+cap "bl1_1" "bl1_0" 30.2296
+cap "br1_7" "br0_6" 26.9318
+cap "bl0_1" "br0_1" 493.75
+cap "bl1_3" "br1_3" 493.75
+cap "br1_5" "bl1_6" 26.9318
+cap "bl1_2" "br0_1" 40.0338
+cap "bl1_7" "br0_6" 24.2828
+cap "bl1_3" "vdd_uq3" 55.3701
+cap "br1_6" "br0_6" 98.75
+cap "br1_7" "bl1_6" 34.4477
+cap "br1_5" "bl1_5" 493.75
+cap "bl0_4" "bl1_3" 47.7823
+cap "bl0_6" "br0_6" 493.75
+cap "bl1_1" "br0_0" 24.2828
+cap "vdd" "bl1_6" 55.3701
+cap "br0_4" "bl0_3" 77.9605
+cap "br1_3" "br0_3" 98.75
+cap "br1_1" "br0_1" 98.75
+cap "bl0_1" "br1_0" 24.2828
+cap "vdd" "vdd_uq0" 18.2517
+cap "bl0_0" "br1_0" 70.5357
+cap "br1_5" "bl0_4" 24.2828
+cap "bl1_2" "bl1_3" 30.2296
+cap "br0_5" "br1_5" 98.75
+cap "bl1_3" "br1_4" 26.9318
+cap "bl1_7" "bl1_6" 30.2296
+cap "bl1_6" "br1_6" 493.75
+cap "bl1_7" "vdd_uq0" 55.3701
+cap "br0_1" "br0_2" 59.25
+cap "bl0_2" "br0_1" 77.9605
+cap "bl1_4" "br0_4" 164.583
+cap "bl0_4" "br0_3" 77.9605
+cap "bl0_0" "bl1_0" 98.75
+cap "br1_5" "br1_4" 40.0338
+cap "bl1_4" "bl0_3" 47.7823
+cap "bl0_6" "bl1_6" 98.75
+cap "bl1_5" "br1_6" 26.9318
+cap "bl1_1" "br1_2" 26.9318
+cap "br1_1" "br1_0" 40.0338
+cap "br1_4" "br0_3" 34.4477
+cap "bl1_2" "br0_3" 24.2828
+cap "bl0_6" "bl1_5" 47.7823
+cap "br0_5" "br1_6" 34.4477
+cap "bl1_3" "br0_2" 24.2828
+cap "vdd_uq1" "bl1_5" 55.3701
+cap "br1_1" "bl1_0" 34.4477
+cap "br0_5" "bl0_6" 77.9605
+cap "bl0_0" "br0_0" 493.75
+cap "bl1_6" "br0_6" 164.583
+cap "bl1_4" "vdd_uq2" 55.3701
+cap "br1_2" "br1_3" 40.0338
+cap "br1_5" "bl0_5" 70.5357
+cap "br0_4" "bl1_3" 40.0338
+cap "bl1_5" "br0_6" 40.0338
+cap "bl1_3" "bl0_3" 98.75
+cap "br1_5" "br0_4" 26.9318
+cap "br1_1" "br0_0" 26.9318
+cap "vdd_uq6" "vdd_uq5" 18.2517
+cap "bl0_1" "br1_2" 40.0338
+cap "br0_5" "br0_6" 59.25
+cap "bl1_4" "bl1_3" 30.2296
+cap "bl1_2" "br1_2" 493.75
+cap "bl0_7" "br0_7" 493.75
+cap "br0_4" "br0_3" 59.25
+cap "br1_6" "bl0_5" 40.0338
+cap "bl1_5" "bl1_6" 30.2296
+cap "bl0_3" "br0_3" 493.75
+cap "bl1_1" "bl0_1" 98.75
+cap "bl1_4" "br1_5" 34.4477
+cap "bl1_1" "bl1_2" 30.2296
+cap "bl0_6" "bl0_5" 113.942
+cap "br1_1" "br1_2" 24.2828
+cap "bl1_4" "br0_3" 40.0338
+cap "bl1_1" "vdd_uq5" 55.3701
+cap "br0_5" "bl1_6" 40.0338
+cap "br1_0" "br0_1" 26.9318
+cap "br1_2" "br0_2" 98.75
+cap "br1_2" "bl0_2" 70.5357
+cap "bl0_4" "br1_3" 40.0338
+cap "br1_1" "bl1_1" 493.75
+cap "vdd_uq4" "vdd_uq3" 18.2517
+cap "bl0_7" "br1_7" 70.5357
+cap "br0_5" "bl1_5" 164.583
+subcap "br0_5" -149.051
+subcap "bl1_5" -137.959
+subcap "br1_5" -132.413
+subcap "br1_4" -95.4413
+subcap "bl1_4" -39.2605
+cap "bl1_5" "bl1_4" 2.89495
+cap "bl0_0" "bl1_0" -98.75
+cap "bl0_3" "br1_2" 4.85656
+cap "bl0_3" "br1_4" 4.00338
+cap "bl1_3" "bl0_3" -98.75
+cap "br0_4" "vdd_uq1" 61.7301
+cap "bl1_0" "br1_0" -493.75
+cap "bl0_1" "bl0_2" 22.7885
+cap "br0_1" "vdd_uq1" 65.7439
+cap "bl0_2" "br1_2" -70.5357
+cap "br1_2" "br1_3" 8.00676
+cap "br1_3" "br1_4" 2.42828
+cap "bl0_4" "bl1_4" -98.75
+cap "br0_3" "br1_2" 5.38636
+cap "bl1_3" "br1_3" -493.75
+cap "br0_3" "br1_4" 3.44477
+cap "bl1_1" "bl1_2" 6.04592
+cap "br0_1" "br0_2" 11.85
+cap "bl1_3" "br0_3" -164.583
+cap "bl1_1" "br0_0" 4.85656
+cap "br0_1" "br1_0" 5.38636
+cap "bl1_1" "br1_1" -493.75
+cap "br0_1" "bl1_0" 4.85656
+cap "bl0_3" "vdd_uq1" 71.6836
+cap "bl0_2" "vdd_uq1" 71.6836
+cap "br1_3" "vdd_uq1" 72.8508
+cap "vdd_uq1" "br1_5" 18.2127
+cap "br0_3" "vdd_uq1" 65.7439
+cap "bl0_1" "bl1_2" 9.55645
+cap "bl0_2" "br0_2" -493.75
+cap "bl0_1" "br1_1" -70.5357
+cap "br0_2" "br1_3" 5.38636
+cap "bl1_2" "br1_2" -493.75
+cap "bl0_3" "br0_4" 15.5921
+cap "br1_2" "br1_1" 4.85656
+cap "bl1_3" "bl1_2" 6.04592
+cap "br0_4" "br1_3" 6.88953
+cap "bl1_4" "br1_4" -143.347
+cap "br0_4" "br1_5" 2.69318
+cap "bl1_3" "bl1_4" 6.04592
+cap "br0_3" "br0_4" 11.85
+cap "br0_1" "bl0_2" 15.5921
+cap "bl1_2" "vdd_uq1" 41.7291
+cap "br0_0" "vdd_uq1" 8.02764
+cap "br1_1" "vdd_uq1" 72.8508
+cap "bl0_0" "br0_0" -493.75
+cap "bl0_0" "br1_1" 4.85656
+cap "br0_5" "bl1_4" 2.34499
+cap "br0_2" "bl1_2" -164.583
+cap "bl0_3" "br1_3" -70.5357
+cap "bl0_4" "br1_4" -35.2679
+cap "br0_0" "br1_0" -98.75
+cap "br0_2" "br1_1" 6.88953
+cap "bl1_0" "br0_0" -164.583
+cap "br1_0" "br1_1" 8.00676
+cap "bl1_3" "bl0_4" 9.55645
+cap "bl1_4" "vdd_uq1" 53.5916
+cap "br0_3" "bl0_3" -493.75
+cap "bl1_5" "vdd_uq1" 16.2185
+cap "bl1_0" "br1_1" 6.88953
+cap "bl0_2" "br1_3" 4.85656
+cap "bl1_1" "bl0_1" -98.75
+cap "bl1_1" "br1_2" 5.38636
+cap "br0_3" "br1_3" -98.75
+cap "br0_1" "bl1_2" 8.00676
+cap "br0_1" "br1_1" -98.75
+cap "bl0_4" "vdd_uq1" 71.6836
+cap "bl1_5" "br0_4" 2.42828
+cap "br0_4" "bl1_4" -164.583
+cap "bl1_1" "vdd_uq1" 41.7291
+cap "bl0_1" "br1_2" 8.00676
+cap "bl0_2" "bl1_2" -98.75
+cap "bl0_4" "br0_4" -493.75
+cap "bl0_2" "br1_1" 8.00676
+cap "bl1_2" "br1_3" 6.88953
+cap "bl1_3" "br1_2" 6.88953
+cap "bl0_3" "bl1_4" 9.55645
+cap "bl1_3" "br1_4" 2.69318
+cap "bl1_1" "br0_2" 8.00676
+cap "br0_3" "bl1_2" 4.85656
+cap "bl1_1" "br1_0" 6.88953
+cap "bl1_1" "bl1_0" 6.04592
+cap "bl1_4" "br1_3" 5.38636
+cap "bl1_4" "br1_5" 3.27952
+cap "br0_3" "bl1_4" 8.00676
+cap "bl0_1" "vdd_uq1" 71.6836
+cap "br1_2" "vdd_uq1" 72.8508
+cap "bl0_3" "bl0_4" 22.7885
+cap "vdd_uq1" "br1_4" 18.2127
+cap "bl1_1" "br0_1" -164.583
+cap "bl1_3" "vdd_uq1" 41.7291
+cap "bl0_1" "br0_2" 15.5921
+cap "bl0_1" "br1_0" 4.85656
+cap "br0_2" "br1_2" -98.75
+cap "bl1_3" "br0_2" 4.85656
+cap "bl0_4" "br1_3" 8.00676
+cap "bl0_4" "br1_5" 2.42828
+cap "br0_0" "br1_1" 5.38636
+cap "bl1_2" "br1_1" 5.38636
+cap "br0_3" "bl0_4" 15.5921
+cap "br0_5" "vdd_uq1" 4.01382
+cap "br0_4" "br1_4" -49.375
+cap "bl1_3" "br0_4" 8.00676
+cap "bl1_1" "bl0_2" 9.55645
+cap "br0_1" "bl0_1" -493.75
+cap "br0_1" "br1_2" 6.88953
+cap "br0_2" "vdd_uq1" 65.7439
+cap "br1_0" "vdd_uq1" 36.4254
+cap "bl0_0" "br1_0" -70.5357
+cap "bl1_0" "vdd_uq1" 0.196878
+subcap "bl1_4" -34.7481
+subcap "br0_4" -99.7547
+subcap "bl0_4" -105.3
+subcap "bl0_3" -120.089
+subcap "br0_3" -125.635
+subcap "bl1_3" -136.727
+subcap "br1_3" -142.272
+cap "bl1_4" "br0_5" 4.85656
+cap "br1_6" "bl1_5" 5.38636
+cap "vdd" "br0_5" 61.7301
+cap "br1_5" "br0_6" 6.88953
+cap "br1_5" "bl0_5" -70.5357
+cap "bl1_6" "br1_7" 6.88953
+cap "br1_7" "bl0_6" 4.85656
+cap "bl1_4" "br1_5" 6.88953
+cap "bl1_4" "bl1_3" 2.97241
+cap "br1_6" "br1_7" 8.00676
+cap "br0_4" "bl1_5" 2.42828
+cap "br1_5" "vdd" 54.6381
+cap "br0_6" "bl1_6" -164.583
+cap "br0_6" "bl0_6" -493.75
+cap "bl1_6" "bl0_5" 9.55645
+cap "bl0_5" "bl0_6" 22.7885
+cap "br1_4" "bl0_4" -35.2679
+cap "br1_6" "bl0_7" 4.85656
+cap "br0_7" "bl1_6" 4.85656
+cap "br0_6" "br1_6" -98.75
+cap "br1_6" "bl0_5" 8.00676
+cap "br1_5" "br0_5" -98.75
+cap "br0_4" "br1_4" -49.375
+cap "br1_4" "br1_3" 2.42828
+cap "bl1_7" "br1_7" -493.75
+cap "br0_7" "br1_6" 5.38636
+cap "bl1_6" "vdd" 41.7291
+cap "vdd" "bl0_6" 71.6836
+cap "bl1_7" "bl0_7" -98.75
+cap "vdd" "br1_6" 72.8508
+cap "bl1_4" "bl0_4" -46.7763
+cap "bl1_7" "br0_6" 4.85656
+cap "bl1_6" "br0_5" 8.00676
+cap "bl1_7" "br0_7" -164.583
+cap "bl0_6" "br0_5" 15.5921
+cap "br1_4" "bl1_5" 6.88953
+cap "br0_4" "bl1_4" -75.3178
+cap "bl1_4" "br1_3" 2.65299
+cap "bl1_7" "vdd" 0.196878
+cap "br1_6" "br0_5" 6.88953
+cap "br0_4" "vdd" 4.01382
+cap "br1_5" "bl1_6" 5.38636
+cap "br1_5" "bl0_6" 8.00676
+cap "br0_6" "bl1_5" 8.00676
+cap "br1_5" "br1_6" 4.85656
+cap "bl0_5" "bl1_5" -98.75
+cap "br1_5" "bl0_4" 2.42828
+cap "bl1_4" "bl1_5" 6.04592
+cap "br1_7" "bl0_7" -70.5357
+cap "bl1_6" "bl0_6" -98.75
+cap "vdd" "bl1_5" 25.5106
+cap "bl1_6" "br1_6" -493.75
+cap "br0_6" "br1_7" 5.38636
+cap "br0_4" "br1_5" 2.69318
+cap "br1_4" "bl0_5" 4.85656
+cap "bl1_4" "br1_4" -493.75
+cap "br1_6" "bl0_6" -70.5357
+cap "br0_7" "br1_7" -98.75
+cap "br1_4" "bl0_3" 4.00338
+cap "br1_4" "vdd" 54.6381
+cap "br0_7" "bl0_7" -493.75
+cap "vdd" "br1_7" 36.4254
+cap "bl1_5" "br0_5" -164.583
+cap "bl1_7" "bl1_6" 6.04592
+cap "br0_6" "bl0_5" 15.5921
+cap "br1_4" "br0_3" 3.44477
+cap "br0_6" "vdd" 65.7439
+cap "vdd" "bl0_5" 71.6836
+cap "br1_5" "bl1_5" -493.75
+cap "br1_4" "br0_5" 5.38636
+cap "bl1_7" "br1_6" 6.88953
+cap "br0_7" "vdd" 8.02764
+cap "bl1_4" "bl0_3" 4.65314
+cap "bl1_4" "vdd" -119.376
+cap "br1_4" "br1_5" 8.00676
+cap "bl1_4" "br0_3" 3.9152
+cap "br0_6" "br0_5" 11.85
+cap "bl0_5" "br0_5" -493.75
+cap "bl1_6" "bl1_5" 6.04592
+cap "bl0_6" "bl1_5" 9.55645
+cap "br1_4" "bl1_3" 2.69318
+merge "contact_7_0/gnd" "contact_7_1/gnd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "contact_7_1/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/gnd" "contact_7_2/gnd"
+merge "contact_7_2/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/gnd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/gnd" "gnd"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/BR0" "br0_5" -42.0116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 285190 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/BR1" "br1_5" -55.8761 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 199870 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/VDD" "vdd_uq0" -613.845 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19216 -3620 0 0 0 0 0 0 0 0
+merge "vdd_uq0" "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/VDD" "vdd"
+merge "vdd" "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/VDD" "vdd_uq1"
+merge "vdd_uq1" "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/VDD" "vdd_uq2"
+merge "vdd_uq2" "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/VDD" "vdd_uq3"
+merge "vdd_uq3" "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/VDD" "vdd_uq4"
+merge "vdd_uq4" "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/VDD" "vdd_uq5"
+merge "vdd_uq5" "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/VDD"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/VDD" "vdd_uq6"
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/BR0" "br0_2" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/BR1" "br1_2" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/BL0" "bl0_0" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/BL0" "bl0_5" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/BL0" "bl0_1" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/BR0" "br0_0" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_2/BL1" "bl1_5" -51.2546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 228310 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/BL0" "bl0_2" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/BR0" "br0_1" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/BL0" "bl0_3" -66.1461 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136670 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_5/BL1" "bl1_2" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/BL0" "bl0_4" -78.4701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60830 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/BR0" "br0_3" -61.5246 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 165110 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/BR0" "br0_4" -83.0916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32390 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/BR0" "br0_6" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/BL0" "bl0_6" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/BR1" "br1_6" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/BL0" "bl0_7" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/BR0" "br0_7" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/BR1" "br1_3" -47.6601 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250430 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/BR1" "br1_0" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_1/BL1" "bl1_6" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_4/BL1" "bl1_3" -52.2816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 221990 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_7/BL1" "bl1_0" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/BL1" "bl1_1" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/BR1" "br1_7" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_6/BR1" "br1_1" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/BR1" "br1_4" -86.6861 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10270 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_3/BL1" "bl1_4" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dp_cell_cap_col_0/BL1" "bl1_7" -90.6657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14220 -862 0 0 0 0 0 0 0 0 0 0

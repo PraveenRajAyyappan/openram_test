@@ -1,0 +1,1105 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_7 contact_7_3 1 0 6958 0 1 3123
+use contact_19 contact_19_3 1 0 6959 0 1 3128
+use contact_7 contact_7_4 1 0 6116 0 1 3108
+use contact_19 contact_19_4 1 0 6117 0 1 3113
+use contact_7 contact_7_5 1 0 6541 0 1 3107
+use contact_19 contact_19_5 1 0 6542 0 1 3112
+use contact_7 contact_7_6 1 0 7580 0 1 3123
+use contact_19 contact_19_6 1 0 7581 0 1 3128
+use contact_7 contact_7_0 1 0 5709 0 1 6474
+use contact_19 contact_19_0 1 0 5710 0 1 6479
+use contact_14 contact_14_0 1 0 5713 0 1 6478
+use contact_7 contact_7_1 1 0 6541 0 1 6468
+use contact_19 contact_19_1 1 0 6542 0 1 6473
+use contact_7 contact_7_2 1 0 7580 0 1 6480
+use contact_19 contact_19_2 1 0 7581 0 1 6486
+use contact_19 contact_19_7 1 0 5950 0 1 6587
+use contact_14 contact_14_1 1 0 5953 0 1 6586
+use and2_dec_0 and2_dec_0_0 1 0 5879 0 1 6320
+use wordline_driver_array wordline_driver_array_0 1 0 5879 0 1 0
+use hierarchical_decoder hierarchical_decoder_0 1 0 0 0 1 0
+port "vdd_uq0" 25 5668 346 5766 444 m3
+port "gnd_uq0" 69 5272 346 5370 444 m3
+port "vdd" 23 4893 353 4991 451 m3
+port "gnd" 24 4468 353 4566 451 m3
+port "vdd_uq1" 26 3330 346 3428 444 m3
+port "gnd_uq1" 70 2934 346 3032 444 m3
+port "vdd_uq2" 27 2555 353 2653 451 m3
+port "gnd_uq2" 71 2130 353 2228 451 m3
+port "vdd_uq3" 28 1232 346 1330 444 m3
+port "gnd_uq3" 72 836 346 934 444 m3
+port "vdd_uq4" 29 5668 741 5766 839 m3
+port "gnd_uq4" 73 5272 741 5370 839 m3
+port "vdd_uq5" 30 4893 773 4991 871 m3
+port "gnd_uq5" 74 4468 771 4566 869 m3
+port "vdd_uq6" 31 5668 1136 5766 1234 m3
+port "gnd_uq6" 75 5272 1136 5370 1234 m3
+port "vdd_uq7" 32 4893 1143 4991 1241 m3
+port "gnd_uq7" 76 4468 1143 4566 1241 m3
+port "vdd_uq8" 33 3330 1136 3428 1234 m3
+port "gnd_uq8" 77 2934 1136 3032 1234 m3
+port "vdd_uq9" 34 2555 1143 2653 1241 m3
+port "gnd_uq9" 78 2130 1143 2228 1241 m3
+port "vdd_uq10" 35 5668 1531 5766 1629 m3
+port "gnd_uq10" 79 5272 1531 5370 1629 m3
+port "vdd_uq11" 36 4893 1563 4991 1661 m3
+port "gnd_uq11" 80 4468 1561 4566 1659 m3
+port "vdd_uq12" 37 5668 1926 5766 2024 m3
+port "gnd_uq12" 81 5272 1926 5370 2024 m3
+port "vdd_uq13" 38 4893 1933 4991 2031 m3
+port "gnd_uq13" 82 4468 1933 4566 2031 m3
+port "vdd_uq14" 39 5668 2321 5766 2419 m3
+port "gnd_uq14" 83 5272 2321 5370 2419 m3
+port "vdd_uq15" 40 4893 2353 4991 2451 m3
+port "gnd_uq15" 84 4468 2351 4566 2449 m3
+port "vdd_uq16" 41 5668 2716 5766 2814 m3
+port "gnd_uq16" 85 5272 2716 5370 2814 m3
+port "vdd_uq17" 42 4893 2723 4991 2821 m3
+port "gnd_uq17" 86 4468 2723 4566 2821 m3
+port "vdd_uq18" 43 3330 2716 3428 2814 m3
+port "gnd_uq18" 87 2934 2716 3032 2814 m3
+port "vdd_uq19" 44 2555 2723 2653 2821 m3
+port "gnd_uq19" 88 2130 2723 2228 2821 m3
+port "vdd_uq20" 45 1232 2716 1330 2814 m3
+port "gnd_uq20" 89 836 2716 934 2814 m3
+port "vdd_uq21" 46 5668 3111 5766 3209 m3
+port "gnd_uq21" 90 5272 3111 5370 3209 m3
+port "vdd_uq22" 47 4893 3143 4991 3241 m3
+port "gnd_uq22" 91 4468 3141 4566 3239 m3
+port "vdd_uq23" 48 5668 3506 5766 3604 m3
+port "gnd_uq23" 92 5272 3506 5370 3604 m3
+port "vdd_uq24" 49 4893 3513 4991 3611 m3
+port "gnd_uq24" 93 4468 3513 4566 3611 m3
+port "vdd_uq25" 50 3330 3506 3428 3604 m3
+port "gnd_uq25" 94 2934 3506 3032 3604 m3
+port "vdd_uq26" 51 2555 3513 2653 3611 m3
+port "gnd_uq26" 95 2130 3513 2228 3611 m3
+port "vdd_uq27" 52 5668 3901 5766 3999 m3
+port "gnd_uq27" 96 5272 3901 5370 3999 m3
+port "vdd_uq28" 53 4893 3933 4991 4031 m3
+port "gnd_uq28" 97 4468 3931 4566 4029 m3
+port "vdd_uq29" 54 5668 4296 5766 4394 m3
+port "gnd_uq29" 98 5272 4296 5370 4394 m3
+port "vdd_uq30" 55 4893 4303 4991 4401 m3
+port "gnd_uq30" 99 4468 4303 4566 4401 m3
+port "vdd_uq31" 56 5668 4691 5766 4789 m3
+port "gnd_uq31" 100 5272 4691 5370 4789 m3
+port "vdd_uq32" 57 4893 4723 4991 4821 m3
+port "gnd_uq32" 101 4468 4721 4566 4819 m3
+port "vdd_uq33" 58 5668 5086 5766 5184 m3
+port "gnd_uq33" 102 5272 5086 5370 5184 m3
+port "vdd_uq34" 59 4893 5093 4991 5191 m3
+port "gnd_uq34" 103 4468 5093 4566 5191 m3
+port "vdd_uq35" 60 5668 5481 5766 5579 m3
+port "gnd_uq35" 104 5272 5481 5370 5579 m3
+port "vdd_uq36" 61 4893 5513 4991 5611 m3
+port "gnd_uq36" 105 4468 5511 4566 5609 m3
+port "vdd_uq37" 62 5668 5876 5766 5974 m3
+port "gnd_uq37" 106 5272 5876 5370 5974 m3
+port "vdd_uq38" 63 4893 5883 4991 5981 m3
+port "gnd_uq38" 107 4468 5883 4566 5981 m3
+port "vdd_uq39" 64 7564 3111 7662 3209 m3
+port "gnd_uq39" 108 6942 3111 7040 3209 m3
+port "vdd_uq40" 65 6525 3095 6623 3193 m3
+port "gnd_uq40" 109 6100 3096 6198 3194 m3
+port "addr_3" 4 259 0 287 3950 m1
+port "addr_2" 3 179 0 207 3950 m1
+port "addr_1" 2 99 0 127 3950 m1
+port "addr_0" 1 19 0 47 3950 m1
+port "vdd_uq41" 66 7564 6468 7662 6566 m3
+port "vdd_uq42" 67 6525 6456 6623 6554 m3
+port "wl_0" 6 7935 120 7935 120 li
+port "wl_1" 7 7935 670 7935 670 li
+port "wl_2" 8 7935 910 7935 910 li
+port "wl_3" 9 7935 1460 7935 1460 li
+port "wl_4" 10 7935 1700 7935 1700 li
+port "wl_5" 11 7935 2250 7935 2250 li
+port "wl_6" 12 7935 2490 7935 2490 li
+port "wl_7" 13 7935 3040 7935 3040 li
+port "wl_8" 14 7935 3280 7935 3280 li
+port "wl_9" 15 7935 3830 7935 3830 li
+port "wl_10" 16 7935 4070 7935 4070 li
+port "wl_11" 17 7935 4620 7935 4620 li
+port "wl_12" 18 7935 4860 7935 4860 li
+port "wl_13" 19 7935 5410 7935 5410 li
+port "wl_14" 20 7935 5650 7935 5650 li
+port "wl_15" 21 7935 6200 7935 6200 li
+port "rbl_wl" 22 7453 6440 7453 6440 li
+port "vdd_uq43" 68 5693 6462 5791 6560 m3
+port "wl_en" 5 5968 6605 5996 6633 m2
+node "vdd_uq0" 0 40.9003 5668 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq0" 0 40.9003 5272 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd" 0 40.9003 4893 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd" 0 40.9003 4468 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq1" 0 40.9003 3330 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq1" 0 40.9003 2934 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq2" 0 40.9003 2555 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq2" 0 40.9003 2130 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq3" 0 40.9003 1232 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq3" 0 40.9003 836 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq4" 0 40.9003 5668 741 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq4" 0 40.9003 5272 741 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq5" 0 40.9003 4893 773 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq5" 0 40.9003 4468 771 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq6" 0 40.9003 5668 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq6" 0 40.9003 5272 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq7" 0 40.9003 4893 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq7" 0 40.9003 4468 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq8" 0 40.9003 3330 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq8" 0 40.9003 2934 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq9" 0 40.9003 2555 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq9" 0 40.9003 2130 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq10" 0 40.9003 5668 1531 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq10" 0 40.9003 5272 1531 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq11" 0 40.9003 4893 1563 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq11" 0 40.9003 4468 1561 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq12" 0 40.9003 5668 1926 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq12" 0 40.9003 5272 1926 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq13" 0 40.9003 4893 1933 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq13" 0 40.9003 4468 1933 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq14" 0 40.9003 5668 2321 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq14" 0 40.9003 5272 2321 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq15" 0 40.9003 4893 2353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq15" 0 40.9003 4468 2351 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq16" 0 40.9003 5668 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq16" 0 40.9003 5272 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq17" 0 40.9003 4893 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq17" 0 40.9003 4468 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq18" 0 40.9003 3330 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq18" 0 40.9003 2934 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq19" 0 40.9003 2555 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq19" 0 40.9003 2130 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq20" 0 40.9003 1232 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq20" 0 40.9003 836 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq21" 0 40.9003 5668 3111 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq21" 0 40.9003 5272 3111 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq22" 0 40.9003 4893 3143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq22" 0 40.9003 4468 3141 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq23" 0 40.9003 5668 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq23" 0 40.9003 5272 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq24" 0 40.9003 4893 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq24" 0 40.9003 4468 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq25" 0 40.9003 3330 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq25" 0 40.9003 2934 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq26" 0 40.9003 2555 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq26" 0 40.9003 2130 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq27" 0 40.9003 5668 3901 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq27" 0 40.9003 5272 3901 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq28" 0 40.9003 4893 3933 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq28" 0 40.9003 4468 3931 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq29" 0 40.9003 5668 4296 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq29" 0 40.9003 5272 4296 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq30" 0 40.9003 4893 4303 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq30" 0 40.9003 4468 4303 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq31" 0 40.9003 5668 4691 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq31" 0 40.9003 5272 4691 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq32" 0 40.9003 4893 4723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq32" 0 40.9003 4468 4721 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq33" 0 40.9003 5668 5086 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq33" 0 40.9003 5272 5086 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq34" 0 40.9003 4893 5093 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq34" 0 40.9003 4468 5093 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq35" 0 40.9003 5668 5481 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq35" 0 40.9003 5272 5481 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq36" 0 40.9003 4893 5513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq36" 0 40.9003 4468 5511 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq37" 0 40.9003 5668 5876 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq37" 0 40.9003 5272 5876 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq38" 0 40.9003 4893 5883 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq38" 0 40.9003 4468 5883 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq39" 0 81 7564 3111 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq39" 0 81 6942 3111 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq40" 0 81 6525 3095 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "gnd_uq40" 0 81 6100 3096 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "addr_3" 18 833.462 259 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110600 7956 0 0 0 0 0 0 0 0 0 0
+node "addr_2" 18 833.462 179 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110600 7956 0 0 0 0 0 0 0 0 0 0
+node "addr_1" 18 833.462 99 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110600 7956 0 0 0 0 0 0 0 0 0 0
+node "addr_0" 18 833.462 19 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110600 7956 0 0 0 0 0 0 0 0 0 0
+node "vdd_uq41" 0 81 7564 6468 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "vdd_uq42" 0 81 6525 6456 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "wl_0" 15 17.2701 7935 120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_103#" 107 93.3602 5848 103 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_1" 15 17.2701 7935 670 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_653#" 107 93.3602 5848 653 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_2" 15 17.2701 7935 910 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_893#" 107 93.3602 5848 893 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_3" 15 17.2701 7935 1460 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_1443#" 107 93.3602 5848 1443 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_4" 15 17.2701 7935 1700 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_1683#" 107 93.3602 5848 1683 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_5" 15 17.2701 7935 2250 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_2233#" 107 93.3602 5848 2233 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_6" 15 17.2701 7935 2490 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_2473#" 107 93.3602 5848 2473 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_7" 15 17.2701 7935 3040 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_3023#" 107 93.3602 5848 3023 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_8" 15 17.2701 7935 3280 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_3263#" 107 93.3602 5848 3263 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_9" 15 17.2701 7935 3830 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_3813#" 107 93.3602 5848 3813 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_10" 15 17.2701 7935 4070 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_4053#" 107 93.3602 5848 4053 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_11" 15 17.2701 7935 4620 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_4603#" 107 93.3602 5848 4603 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_12" 15 17.2701 7935 4860 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_4843#" 107 93.3602 5848 4843 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_13" 15 17.2701 7935 5410 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_5393#" 107 93.3602 5848 5393 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_14" 15 17.2701 7935 5650 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_5633#" 107 93.3602 5848 5633 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl_15" 15 17.2701 7935 6200 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 124 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_5848_6183#" 107 93.3602 5848 6183 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10098 662 0 0 0 0 0 0 0 0 0 0 0 0
+node "rbl_wl" 356 289.667 7453 6440 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33694 2050 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd_uq43" 104 154.208 5693 6462 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9826 646 3328 232 4144 260 9604 392 0 0 0 0 0 0
+node "wl_en" 25 109.863 5968 6605 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 11336 804 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_5848_3263#" "li_5848_3023#" 12.9036
+cap "wl_9" "wl_7" 1.22222
+cap "vdd_uq15" "vdd_uq11" 8.92197
+cap "rbl_wl" "wl_15" 4.48544
+cap "vdd_uq15" "vdd_uq13" 19.1739
+cap "gnd_uq26" "gnd_uq19" 8.92197
+cap "gnd_uq29" "gnd_uq27" 20.7879
+cap "gnd_uq11" "vdd_uq11" 18.4954
+cap "gnd_uq22" "gnd_uq17" 19.2937
+cap "vdd_uq34" "vdd_uq38" 8.92197
+cap "wl_11" "wl_12" 4.48544
+cap "li_5848_4053#" "li_5848_4843#" 5.61121
+cap "gnd_uq5" "gnd_uq7" 22.5328
+cap "vdd_uq12" "gnd_uq12" 20.7181
+cap "gnd_uq40" "vdd_uq40" 34.937
+cap "li_5848_3023#" "li_5848_2473#" 21.0229
+cap "gnd_uq13" "vdd_uq13" 18.8807
+cap "gnd_uq24" "gnd_uq23" 8.1204
+cap "gnd_uq25" "vdd_uq25" 20.7181
+cap "gnd_uq4" "vdd_uq4" 20.7181
+cap "vdd_uq17" "vdd_uq16" 8.46824
+cap "gnd_uq21" "gnd_uq23" 20.7879
+cap "gnd_uq37" "vdd_uq38" 20.4021
+cap "gnd" "gnd_uq7" 8.92197
+cap "gnd_uq9" "gnd_uq8" 8.1204
+cap "gnd_uq17" "gnd_uq13" 8.92197
+cap "gnd_uq21" "gnd_uq14" 8.92197
+cap "gnd_uq29" "gnd_uq33" 8.92197
+cap "wl_2" "wl_1" 4.48544
+cap "li_5848_893#" "li_5848_103#" 5.61121
+cap "vdd_uq42" "vdd_uq43" 14.9732
+cap "gnd_uq31" "gnd_uq29" 20.7879
+cap "vdd_uq34" "vdd_uq32" 22.6985
+cap "gnd_uq11" "gnd_uq7" 19.2937
+cap "gnd_uq2" "gnd_uq9" 8.92197
+cap "gnd_uq13" "gnd_uq7" 8.92197
+cap "gnd_uq31" "vdd_uq32" 14.7972
+cap "gnd_uq39" "vdd_uq39" 22.5131
+cap "wl_en" "vdd_uq42" 6.72727
+cap "addr_0" "addr_2" 1346.59
+cap "vdd_uq34" "vdd_uq30" 8.92197
+cap "vdd_uq29" "vdd_uq27" 20.7879
+cap "vdd_uq34" "vdd_uq36" 19.1739
+cap "vdd" "gnd_uq0" 20.4021
+cap "gnd_uq40" "gnd_uq39" 12.9215
+cap "gnd_uq15" "gnd_uq22" 8.92197
+cap "gnd_uq15" "vdd_uq15" 18.4954
+cap "li_5848_3813#" "li_5848_3023#" 5.61121
+cap "gnd_uq15" "gnd_uq11" 8.92197
+cap "li_5848_5393#" "li_5848_4843#" 21.0229
+cap "wl_14" "wl_12" 1.22222
+cap "vdd_uq15" "vdd_uq14" 6.1418
+cap "gnd_uq15" "gnd_uq13" 19.2937
+cap "gnd_uq16" "gnd_uq12" 8.92197
+cap "li_5848_4603#" "li_5848_4843#" 12.9036
+cap "wl_11" "wl_13" 1.22222
+cap "gnd_uq34" "gnd_uq38" 8.92197
+cap "gnd_uq6" "gnd_uq7" 8.1204
+cap "vdd_uq26" "gnd_uq25" 20.4021
+cap "vdd_uq22" "vdd_uq24" 22.6985
+cap "vdd_uq1" "vdd_uq8" 8.92197
+cap "wl_2" "wl_4" 1.22222
+cap "vdd_uq22" "vdd_uq21" 6.1418
+cap "vdd_uq30" "vdd_uq24" 8.92197
+cap "gnd_uq6" "vdd_uq6" 20.7181
+cap "gnd_uq18" "vdd_uq18" 20.7181
+cap "wl_5" "wl_4" 1.7907
+cap "gnd_uq33" "vdd_uq33" 20.7181
+cap "li_5848_893#" "li_5848_653#" 12.9036
+cap "wl_3" "wl_1" 1.22222
+cap "gnd_uq1" "vdd_uq1" 20.7181
+cap "vdd_uq34" "vdd_uq33" 8.46824
+cap "gnd_uq34" "gnd_uq32" 22.5328
+cap "gnd_uq34" "gnd_uq30" 8.92197
+cap "gnd_uq31" "vdd_uq31" 20.7181
+cap "vdd_uq35" "vdd_uq36" 6.1418
+cap "gnd_uq34" "gnd_uq36" 19.2937
+cap "vdd_uq28" "gnd_uq27" 14.7972
+cap "gnd_uq27" "gnd_uq23" 20.7879
+cap "gnd_uq28" "gnd_uq22" 8.92197
+cap "vdd_uq11" "vdd_uq10" 6.1418
+cap "gnd_uq37" "vdd_uq37" 20.7181
+cap "vdd_uq4" "vdd_uq10" 8.92197
+cap "gnd_uq10" "gnd_uq12" 20.7879
+cap "gnd_uq23" "vdd_uq23" 20.7181
+cap "vdd_uq16" "vdd_uq23" 8.92197
+cap "vdd_uq36" "vdd_uq38" 22.6985
+cap "gnd_uq8" "vdd_uq8" 20.7181
+cap "vdd_uq16" "vdd_uq12" 8.92197
+cap "gnd_uq20" "vdd_uq20" 20.7181
+cap "wl_14" "wl_13" 4.48544
+cap "li_5848_5633#" "li_5848_4843#" 5.61121
+cap "gnd_uq15" "gnd_uq14" 6.06799
+cap "vdd_uq16" "vdd_uq14" 20.7879
+cap "vdd_uq17" "vdd_uq13" 8.92197
+cap "vdd_uq21" "gnd_uq40" 15.6557
+cap "gnd_uq24" "gnd_uq17" 8.92197
+cap "vdd_uq17" "gnd_uq17" 18.8807
+cap "vdd_uq5" "vdd" 19.1739
+cap "addr_2" "addr_3" 3418.27
+cap "gnd_uq14" "vdd_uq14" 20.7181
+cap "gnd_uq26" "vdd_uq26" 18.8807
+cap "li_5848_5633#" "vdd_uq43" 4.73611
+cap "gnd_uq0" "vdd_uq0" 20.7181
+cap "gnd_uq1" "gnd_uq8" 8.92197
+cap "vdd_uq30" "gnd_uq29" 20.4021
+cap "wl_3" "wl_4" 4.48544
+cap "li_5848_893#" "li_5848_1683#" 5.61121
+cap "wl_en" "li_5848_5633#" 0.0445946
+cap "gnd_uq30" "gnd_uq24" 8.92197
+cap "vdd_uq30" "vdd_uq32" 19.1739
+cap "vdd_uq7" "gnd_uq6" 20.4021
+cap "vdd_uq19" "gnd_uq18" 20.4021
+cap "vdd_uq32" "vdd_uq36" 8.92197
+cap "li_5848_2233#" "li_5848_1683#" 21.0229
+cap "li_5848_1443#" "li_5848_653#" 5.61121
+cap "vdd_uq6" "vdd_uq10" 20.7879
+cap "vdd_uq5" "vdd_uq11" 8.92197
+cap "vdd_uq5" "vdd_uq4" 6.1418
+cap "gnd_uq27" "vdd_uq27" 20.7181
+cap "wl_4" "wl_6" 1.22222
+cap "vdd_uq2" "gnd_uq1" 20.4021
+cap "vdd_uq27" "vdd_uq23" 20.7879
+cap "gnd_uq34" "gnd_uq33" 8.1204
+cap "vdd_uq35" "vdd_uq33" 20.7879
+cap "gnd_uq1" "gnd_uq2" 8.1204
+cap "gnd_uq34" "vdd_uq34" 18.8807
+cap "vdd_uq35" "vdd_uq31" 8.92197
+cap "wl_15" "wl_14" 1.7907
+cap "li_5848_6183#" "li_5848_5393#" 5.61121
+cap "gnd_uq35" "gnd_uq36" 6.06799
+cap "vdd_uq35" "vdd_uq37" 20.7879
+cap "gnd_uq28" "vdd_uq28" 18.4954
+cap "vdd_uq28" "vdd_uq24" 19.1739
+cap "vdd_uq29" "vdd_uq23" 8.92197
+cap "gnd_uq11" "gnd_uq10" 6.06799
+cap "vdd_uq12" "vdd_uq10" 20.7879
+cap "vdd_uq11" "vdd_uq13" 22.6985
+cap "vdd_uq10" "vdd_uq14" 8.92197
+cap "gnd_uq4" "gnd_uq10" 8.92197
+cap "gnd_uq13" "gnd_uq12" 8.1204
+cap "vdd_uq24" "gnd_uq23" 20.4021
+cap "gnd_uq27" "gnd_uq21" 8.92197
+cap "gnd_uq16" "vdd_uq16" 20.7181
+cap "gnd_uq16" "gnd_uq23" 8.92197
+cap "vdd_uq37" "vdd_uq38" 8.46824
+cap "gnd_uq36" "gnd_uq38" 22.5328
+cap "vdd_uq9" "gnd_uq8" 20.4021
+cap "vdd_uq16" "vdd_uq21" 20.7879
+cap "vdd_uq15" "vdd_uq22" 8.92197
+cap "vdd_uq22" "gnd_uq22" 18.4954
+cap "gnd_uq16" "gnd_uq14" 20.7879
+cap "gnd_uq5" "gnd" 19.2937
+cap "wl_3" "wl_2" 1.7907
+cap "vdd_uq2" "vdd_uq9" 8.92197
+cap "wl_13" "wl_12" 1.7907
+cap "vdd_uq31" "vdd_uq32" 6.1418
+cap "gnd_uq30" "gnd_uq32" 19.2937
+cap "li_5848_1443#" "li_5848_1683#" 12.9036
+cap "wl_3" "wl_5" 1.22222
+cap "wl_8" "wl_10" 1.22222
+cap "gnd_uq19" "vdd_uq19" 18.8807
+cap "gnd_uq32" "gnd_uq36" 8.92197
+cap "addr_1" "addr_2" 3418.27
+cap "addr_0" "addr_3" 838.443
+cap "wl_11" "wl_10" 1.7907
+cap "gnd_uq6" "gnd_uq10" 20.7879
+cap "gnd_uq5" "gnd_uq11" 8.92197
+cap "gnd_uq6" "gnd_uq12" 8.92197
+cap "wl_5" "wl_6" 4.48544
+cap "li_5848_1683#" "li_5848_2473#" 5.61121
+cap "gnd_uq5" "gnd_uq4" 6.06799
+cap "vdd_uq6" "vdd_uq4" 20.7879
+cap "vdd_uq25" "vdd_uq18" 8.92197
+cap "rbl_wl" "wl_14" 1.22222
+cap "gnd_uq35" "gnd_uq33" 20.7879
+cap "vdd" "vdd_uq0" 8.46824
+cap "vdd_uq27" "vdd_uq21" 8.92197
+cap "vdd_uq40" "gnd_uq39" 28.8168
+cap "wl_en" "vdd_uq43" 36.0604
+cap "gnd_uq35" "gnd_uq31" 8.92197
+cap "li_5848_6183#" "li_5848_5633#" 21.0229
+cap "gnd_uq35" "gnd_uq37" 20.7879
+cap "gnd_uq28" "gnd_uq24" 19.2937
+cap "gnd_uq29" "gnd_uq23" 8.92197
+cap "vdd_uq28" "vdd_uq32" 8.92197
+cap "gnd_uq15" "gnd_uq17" 22.5328
+cap "vdd_uq12" "vdd_uq13" 8.46824
+cap "gnd_uq11" "gnd_uq13" 22.5328
+cap "gnd_uq10" "gnd_uq14" 8.92197
+cap "gnd_uq14" "gnd_uq12" 20.7879
+cap "vdd_uq17" "vdd_uq24" 8.92197
+cap "gnd_uq24" "vdd_uq24" 18.8807
+cap "vdd_uq26" "vdd_uq25" 8.46824
+cap "vdd_uq28" "vdd_uq22" 8.92197
+cap "vdd_uq4" "vdd_uq0" 20.7879
+cap "vdd_uq17" "gnd_uq16" 20.4021
+cap "gnd_uq37" "gnd_uq38" 8.1204
+cap "gnd_uq9" "vdd_uq9" 18.8807
+cap "gnd_uq16" "gnd_uq21" 20.7879
+cap "vdd_uq30" "vdd_uq28" 22.6985
+cap "gnd_uq21" "vdd_uq21" 20.7181
+cap "vdd_uq7" "vdd_uq5" 22.6985
+cap "wl_1" "wl_0" 1.7907
+cap "vdd_uq37" "vdd_uq43" 9.42418
+cap "vdd_uq7" "vdd" 8.92197
+cap "li_5848_1443#" "li_5848_893#" 21.0229
+cap "li_5848_1443#" "li_5848_2233#" 5.61121
+cap "gnd_uq31" "gnd_uq32" 6.06799
+cap "vdd_uq31" "vdd_uq33" 20.7879
+cap "wl_9" "wl_10" 4.48544
+cap "li_5848_3263#" "li_5848_4053#" 5.61121
+cap "vdd_uq33" "vdd_uq37" 8.92197
+cap "wl_8" "wl_6" 1.22222
+cap "li_5848_4603#" "li_5848_4053#" 21.0229
+cap "vdd_uq7" "vdd_uq11" 19.1739
+cap "vdd_uq6" "vdd_uq12" 8.92197
+cap "gnd_uq6" "gnd_uq4" 20.7879
+cap "vdd_uq7" "vdd_uq13" 8.92197
+cap "gnd_uq25" "gnd_uq18" 8.92197
+cap "li_5848_2233#" "li_5848_2473#" 12.9036
+cap "wl_5" "wl_7" 1.22222
+cap "vdd_uq6" "vdd_uq0" 8.92197
+cap "gnd_uq10" "vdd_uq10" 20.7181
+cap "addr_0" "addr_1" 3418.27
+cap "gnd" "gnd_uq0" 8.1204
+cap "gnd_uq3" "vdd_uq3" 20.7181
+cap "gnd_uq35" "vdd_uq35" 20.7181
+cap "vdd_uq15" "gnd_uq14" 14.7972
+cap "gnd_uq29" "vdd_uq29" 20.7181
+cap "vdd_uq21" "vdd_uq40" 6.80632
+cap "gnd_uq28" "gnd_uq32" 8.92197
+cap "gnd_uq16" "gnd_uq17" 8.1204
+cap "vdd_uq7" "gnd_uq7" 18.8807
+cap "vdd_uq12" "vdd_uq14" 20.7879
+cap "gnd_uq26" "gnd_uq25" 8.1204
+cap "gnd_uq4" "gnd_uq0" 20.7879
+cap "wl_15" "wl_13" 1.22222
+cap "vdd_uq17" "vdd_uq22" 19.1739
+cap "vdd_uq30" "vdd_uq29" 8.46824
+cap "gnd_uq30" "gnd_uq28" 22.5328
+cap "gnd_uq31" "gnd_uq27" 8.92197
+cap "vdd_uq22" "gnd_uq21" 14.7972
+cap "gnd_uq38" "vdd_uq38" 18.8807
+cap "li_5848_653#" "li_5848_103#" 21.0229
+cap "vdd_uq7" "vdd_uq6" 8.46824
+cap "vdd_uq19" "vdd_uq18" 8.46824
+cap "li_5848_6183#" "vdd_uq43" 11.2986
+cap "wl_9" "wl_8" 1.7907
+cap "wl_en" "li_5848_6183#" 0.060219
+cap "vdd_uq2" "vdd_uq1" 8.46824
+cap "vdd_uq34" "gnd_uq33" 20.4021
+cap "li_5848_3813#" "li_5848_4053#" 12.9036
+cap "wl_9" "wl_11" 1.22222
+cap "gnd_uq31" "gnd_uq33" 20.7879
+cap "li_5848_5393#" "li_5848_4603#" 5.61121
+cap "gnd_uq33" "gnd_uq37" 8.92197
+cap "wl_8" "wl_7" 4.48544
+cap "li_5848_3263#" "li_5848_2473#" 5.61121
+cap "gnd_uq6" "gnd_uq0" 8.92197
+cap "vdd_uq26" "vdd_uq19" 8.92197
+cap "gnd_uq35" "vdd_uq36" 14.7972
+cap "li_5848_2233#" "li_5848_3023#" 5.61121
+cap "gnd_uq28" "gnd_uq27" 6.06799
+cap "wl_10" "wl_12" 1.22222
+cap "vdd_uq11" "gnd_uq10" 14.7972
+cap "vdd_uq13" "gnd_uq12" 20.4021
+cap "vdd_uq24" "vdd_uq23" 8.46824
+cap "gnd_uq24" "gnd_uq22" 22.5328
+cap "wl_7" "wl_6" 1.7907
+cap "vdd_uq17" "vdd_uq15" 22.6985
+cap "vdd_uq9" "vdd_uq8" 8.46824
+cap "gnd_uq21" "gnd_uq22" 6.06799
+cap "vdd_uq21" "vdd_uq23" 20.7879
+cap "vdd_uq31" "vdd_uq27" 8.92197
+cap "gnd_uq5" "vdd_uq5" 18.4954
+cap "vdd_uq21" "vdd_uq14" 8.92197
+cap "gnd_uq21" "gnd_uq40" 7.16301
+cap "vdd_uq29" "vdd_uq33" 8.92197
+cap "wl_2" "wl_0" 1.22222
+cap "gnd_uq32" "vdd_uq32" 18.4954
+cap "gnd" "vdd" 18.8807
+cap "gnd_uq30" "gnd_uq29" 8.1204
+cap "vdd_uq31" "vdd_uq29" 20.7879
+cap "gnd_uq19" "gnd_uq18" 8.1204
+cap "addr_1" "addr_3" 1346.59
+cap "vdd_uq28" "vdd_uq27" 6.1418
+cap "gnd_uq30" "vdd_uq30" 18.8807
+cap "li_5848_3813#" "li_5848_3263#" 21.0229
+cap "vdd_uq5" "gnd_uq4" 14.7972
+cap "li_5848_5633#" "li_5848_5393#" 12.9036
+cap "gnd_uq36" "vdd_uq36" 18.4954
+cap "li_5848_3813#" "li_5848_4603#" 5.61121
+cap "vdd_uq2" "gnd_uq2" 18.8807
+subcap "vdd_uq1" -858.934
+subcap "vdd_uq8" -858.934
+subcap "addr_3" -359.848
+cap "vdd_uq19" "gnd_uq1" -6.39996
+cap "vdd_uq2" "vdd_uq1" -8.46824
+cap "addr_2" "addr_1" -2374.62
+cap "addr_1" "addr_3" -935.455
+cap "vdd_uq2" "gnd_uq1" -58.1636
+cap "addr_0" "addr_1" -2374.62
+cap "vdd_uq20" "gnd_uq1" -5.91946
+cap "vdd_uq19" "vdd_uq18" -0.977105
+cap "addr_2" "addr_3" -2374.62
+cap "addr_0" "addr_2" -935.455
+cap "addr_0" "addr_3" -582.453
+cap "vdd_uq3" "gnd_uq1" -20.7181
+subcap "vdd_uq2" -155.488
+subcap "vdd_uq9" -155.488
+subcap "vdd_uq18" -8.60565
+subcap "vdd_uq25" -8.60565
+subcap "li_5848_103#" -92.2082
+subcap "li_5848_653#" -92.2082
+subcap "li_5848_893#" -92.2082
+subcap "li_5848_1443#" -92.2082
+subcap "li_5848_1683#" -92.2082
+subcap "li_5848_2233#" -92.2082
+subcap "li_5848_2473#" -92.2082
+cap "gnd" "vdd_uq18" -5.91946
+cap "hierarchical_decoder_0/and2_dec_12/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "wordline_driver_array_0/in_6" "gnd" 2.06784
+cap "vdd_uq2" "vdd_uq1" -8.46824
+cap "gnd" "vdd_uq0" -65.1141
+cap "hierarchical_decoder_0/and2_dec_15/pinv_dec_0/A" "wordline_driver_array_0/in_0" 4.50229
+cap "hierarchical_decoder_0/and2_dec_13/pinv_dec_0/A" "wordline_driver_array_0/in_2" 4.50229
+cap "wordline_driver_array_0/in_5" "hierarchical_decoder_0/and2_dec_10/pinv_dec_0/A" 4.50229
+cap "hierarchical_decoder_0/and2_dec_11/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "wordline_driver_array_0/in_3" "gnd" 2.06784
+cap "wordline_driver_array_0/in_1" "hierarchical_decoder_0/and2_dec_14/pinv_dec_0/A" 4.50229
+cap "gnd" "vdd_uq2" -20.4021
+cap "vdd_uq19" "vdd_uq18" -0.977105
+cap "wordline_driver_array_0/in_4" "gnd" 2.06784
+cap "wordline_driver_array_0/in_3" "hierarchical_decoder_0/and2_dec_12/pinv_dec_0/A" 4.50229
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_9/pinv_dec_0/A" 1.75898
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_13/pinv_dec_0/A" 1.75898
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_15/pinv_dec_0/A" 1.75898
+cap "wordline_driver_array_0/in_5" "gnd" 2.06784
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_14/pinv_dec_0/A" 1.75898
+cap "gnd" "vdd_uq19" -2.35409
+cap "gnd" "wordline_driver_array_0/in_0" 2.06784
+cap "gnd" "wordline_driver_array_0/in_2" 2.06784
+cap "hierarchical_decoder_0/and2_dec_9/pinv_dec_0/A" "wordline_driver_array_0/in_6" 4.50229
+cap "hierarchical_decoder_0/and2_dec_10/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "gnd" "vdd" -226.48
+cap "wordline_driver_array_0/in_1" "gnd" 2.06784
+cap "vdd" "vdd_uq0" -22.8922
+cap "gnd" "vdd_uq1" -41.4362
+cap "hierarchical_decoder_0/and2_dec_11/pinv_dec_0/A" "wordline_driver_array_0/in_4" 4.50229
+cap "wordline_driver_array_0/en" "gnd" 39.6315
+subcap "wl_7" -81.2082
+subcap "li_5848_3023#" -147.663
+subcap "wl_8" -136.209
+subcap "li_5848_3263#" -469.541
+cap "hierarchical_decoder_0/and2_dec_11/pinv_dec_0/A" "wordline_driver_array_0/in_4" 4.50229
+cap "wl_2" "wl_0" -1.22222
+cap "hierarchical_decoder_0/and2_dec_15/pinv_dec_0/A" "wordline_driver_array_0/in_0" 4.50229
+cap "vdd_uq40" "wordline_driver_array_0/in_1" 1.77532
+cap "wordline_driver_array_0/wordline_driver_13/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/in_6" "gnd_uq0" 8.30117
+cap "wordline_driver_array_0/in_4" "vdd_uq40" 1.77532
+cap "wordline_driver_array_0/in_2" "wordline_driver_array_0/in_0" -1.48413
+cap "hierarchical_decoder_0/and2_dec_9/pinv_dec_0/A" "wordline_driver_array_0/in_6" 4.50229
+cap "wordline_driver_array_0/wordline_driver_14/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/in_3" "hierarchical_decoder_0/and2_dec_12/pinv_dec_0/A" 4.50229
+cap "vdd_uq40" "wordline_driver_array_0/in_6" 1.77532
+cap "vdd" "vdd_uq0" -22.8922
+cap "wordline_driver_array_0/wordline_driver_14/pinv_dec_0_0/A" "wordline_driver_array_0/in_1" 10.2061
+cap "wl_1" "wl_3" -1.22222
+cap "wordline_driver_array_0/in_3" "wordline_driver_array_0/in_5" -1.48413
+cap "wordline_driver_array_0/in_0" "vdd_uq0" 17.2745
+cap "hierarchical_decoder_0/and2_dec_10/pinv_dec_0/A" "wordline_driver_array_0/in_5" 4.50229
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_0" 48.8312
+cap "wordline_driver_array_0/wordline_driver_9/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/in_7" "wordline_driver_array_0/in_5" -0.742063
+cap "wordline_driver_array_0/in_2" "wordline_driver_array_0/in_3" -4.63784
+cap "wordline_driver_array_0/wordline_driver_11/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/in_0" "wordline_driver_array_0/in_1" -4.63784
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_12/pinv_dec_0/A" 8.11213
+cap "wl_1" "wl_2" -4.48544
+cap "wordline_driver_array_0/in_0" "gnd_uq0" 8.30117
+cap "wl_4" "wl_6" -1.22222
+cap "wordline_driver_array_0/wordline_driver_11/pinv_dec_0_0/A" "wordline_driver_array_0/in_4" 10.2061
+cap "wordline_driver_array_0/in_5" "vdd_uq0" 17.2745
+cap "wordline_driver_array_0/in_3" "wordline_driver_array_0/wordline_driver_12/pinv_dec_0_0/A" 10.2061
+cap "hierarchical_decoder_0/and2_dec_13/pinv_dec_0/A" "wordline_driver_array_0/in_2" 4.50229
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_15/pinv_dec_0/A" 8.11213
+cap "wl_1" "wl_0" -1.7907
+cap "wl_8" "wl_6" -0.611111
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_5" 48.8312
+cap "wordline_driver_array_0/wordline_driver_15/pinv_dec_0_0/A" "wordline_driver_array_0/in_0" 10.2061
+cap "wordline_driver_array_0/in_2" "vdd_uq0" 17.2745
+cap "wordline_driver_array_0/in_3" "vdd_uq0" 17.2745
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_2" 48.8312
+cap "wordline_driver_array_0/in_4" "wordline_driver_array_0/in_5" -4.63784
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_3" 48.8312
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_10/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/wordline_driver_10/pinv_dec_0_0/A" "wordline_driver_array_0/in_5" 10.2061
+cap "wordline_driver_array_0/in_2" "wordline_driver_array_0/in_1" -3.71798
+cap "wl_7" "wl_6" -0.895349
+cap "wordline_driver_array_0/wordline_driver_9/pinv_dec_0_0/A" "wordline_driver_array_0/in_6" 10.2061
+cap "wordline_driver_array_0/in_3" "wordline_driver_array_0/in_1" -1.48413
+cap "wordline_driver_array_0/in_4" "wordline_driver_array_0/in_2" -1.48413
+cap "vdd_uq40" "wordline_driver_array_0/in_0" 1.77532
+cap "wordline_driver_array_0/in_5" "gnd_uq0" 8.30117
+cap "wordline_driver_array_0/in_4" "wordline_driver_array_0/in_3" -3.71798
+cap "wordline_driver_array_0/wordline_driver_12/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wl_4" "wl_3" -4.48544
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_14/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/in_2" "gnd_uq0" 8.30117
+cap "wordline_driver_array_0/in_3" "gnd_uq0" 8.30117
+cap "wordline_driver_array_0/in_1" "hierarchical_decoder_0/and2_dec_14/pinv_dec_0/A" 4.50229
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_13/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/in_6" "wordline_driver_array_0/in_5" -3.71798
+cap "wordline_driver_array_0/en" "vdd_uq0" 229.84
+cap "wl_5" "wl_6" -4.48544
+cap "wl_4" "wl_2" -1.22222
+cap "vdd_uq0" "wordline_driver_array_0/in_1" 17.2745
+cap "vdd_uq40" "wordline_driver_array_0/in_5" 1.77532
+cap "wordline_driver_array_0/in_4" "vdd_uq0" 17.2745
+cap "wl_4" "wl_5" -1.7907
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_1" 48.8312
+cap "wordline_driver_array_0/wordline_driver_10/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/in_7" "wordline_driver_array_0/in_6" -2.31892
+cap "vdd_uq40" "wordline_driver_array_0/in_2" 1.77532
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_4" 48.8312
+cap "gnd_uq0" "vdd_uq0" 251.476
+cap "vdd_uq40" "wordline_driver_array_0/in_3" 1.77532
+cap "wl_3" "wl_2" -1.7907
+cap "wordline_driver_array_0/en" "gnd_uq0" 39.6315
+cap "wordline_driver_array_0/wordline_driver_15/pinv_dec_0_0/A" "vdd_uq0" 3.3733
+cap "wordline_driver_array_0/wordline_driver_13/pinv_dec_0_0/A" "wordline_driver_array_0/in_2" 10.2061
+cap "gnd_uq0" "wordline_driver_array_0/in_1" 8.30117
+cap "wl_3" "wl_5" -1.22222
+cap "wl_7" "wl_5" -0.611111
+cap "wordline_driver_array_0/in_6" "vdd_uq0" 17.2745
+cap "wordline_driver_array_0/in_4" "gnd_uq0" 8.30117
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/in_6" -0.742063
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_6" 48.8312
+cap "hierarchical_decoder_0/and2_dec_9/pinv_dec_0/A" "wordline_driver_array_0/en" 8.11213
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_11/pinv_dec_0/A" 8.11213
+cap "vdd_uq40" "vdd_uq0" 3.22053
+cap "wordline_driver_array_0/in_4" "wordline_driver_array_0/in_6" -1.48413
+subcap "vdd_uq18" -504.508
+subcap "vdd_uq25" -504.508
+cap "addr_0" "addr_1" -1043.65
+cap "addr_0" "addr_3" -255.991
+cap "addr_1" "addr_2" -1043.65
+cap "gnd_uq18" "vdd_uq19" -51.7636
+cap "addr_3" "addr_2" -1043.65
+cap "vdd_uq19" "vdd_uq18" -7.49114
+cap "addr_1" "addr_3" -411.136
+cap "addr_0" "addr_2" -411.136
+cap "gnd_uq18" "vdd_uq20" -14.7987
+subcap "li_5848_3023#" -92.2082
+subcap "li_5848_3263#" -92.2082
+subcap "li_5848_3813#" -92.2082
+subcap "li_5848_4053#" -92.2082
+subcap "li_5848_4603#" -92.2082
+subcap "li_5848_4843#" -92.2082
+subcap "li_5848_5393#" -92.2082
+cap "gnd_uq12" "wordline_driver_array_0/in_9" 2.06784
+cap "gnd_uq12" "wordline_driver_array_0/in_13" 2.06784
+cap "wordline_driver_array_0/in_8" "gnd_uq12" 2.06784
+cap "hierarchical_decoder_0/and2_dec_6/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "vdd_uq19" "vdd_uq18" -7.49114
+cap "gnd_uq12" "wordline_driver_array_0/in_11" 2.06784
+cap "gnd_uq12" "vdd_uq13" -261.178
+cap "wordline_driver_array_0/in_11" "hierarchical_decoder_0/and2_dec_4/pinv_dec_0/A" 4.50229
+cap "hierarchical_decoder_0/and2_dec_8/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "hierarchical_decoder_0/and2_dec_7/pinv_dec_0/A" "wordline_driver_array_0/in_8" 4.50229
+cap "wordline_driver_array_0/in_13" "hierarchical_decoder_0/and2_dec_2/pinv_dec_0/A" 4.50229
+cap "gnd_uq12" "wordline_driver_array_0/in_12" 2.06784
+cap "hierarchical_decoder_0/and2_dec_5/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "gnd_uq12" "vdd_uq19" -18.048
+cap "gnd_uq12" "wordline_driver_array_0/en" 43.5065
+cap "hierarchical_decoder_0/and2_dec_3/pinv_dec_0/A" "wordline_driver_array_0/in_12" 4.50229
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_4/pinv_dec_0/A" 1.75898
+cap "hierarchical_decoder_0/and2_dec_3/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "gnd_uq12" "vdd_uq12" -76.2131
+cap "hierarchical_decoder_0/and2_dec_7/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "wordline_driver_array_0/in_7" "hierarchical_decoder_0/and2_dec_8/pinv_dec_0/A" 4.50229
+cap "wordline_driver_array_0/in_9" "hierarchical_decoder_0/and2_dec_6/pinv_dec_0/A" 4.50229
+cap "hierarchical_decoder_0/and2_dec_5/pinv_dec_0/A" "wordline_driver_array_0/in_10" 4.50229
+cap "gnd_uq12" "vdd_uq18" -35.5168
+cap "gnd_uq12" "wordline_driver_array_0/in_10" 2.06784
+cap "hierarchical_decoder_0/and2_dec_2/pinv_dec_0/A" "wordline_driver_array_0/en" 1.75898
+cap "vdd_uq13" "vdd_uq12" -26.6145
+cap "gnd_uq12" "wordline_driver_array_0/in_7" 2.06784
+subcap "wl_5" -126.584
+subcap "li_5848_2233#" -447.342
+subcap "wl_6" -71.5831
+subcap "li_5848_2473#" -125.464
+subcap "wl_14" -37.6662
+subcap "li_5848_5633#" -242.262
+subcap "wl_15" -163.709
+subcap "li_5848_6183#" -337.943
+cap "vdd_uq12" "wordline_driver_array_0/wordline_driver_5/pinv_dec_0_0/A" 3.3733
+cap "vdd_uq40" "wordline_driver_array_0/in_9" 1.77532
+cap "wl_8" "wl_9" -1.7907
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/wordline_driver_7/pinv_dec_0_0/A" 10.2061
+cap "wordline_driver_array_0/in_11" "vdd_uq40" 1.77532
+cap "vdd_uq12" "gnd_uq12" 255.199
+cap "wordline_driver_array_0/wordline_driver_3/pinv_dec_0_0/A" "vdd_uq12" 3.3733
+cap "wl_9" "wl_10" -4.48544
+cap "vdd_uq12" "wordline_driver_array_0/wordline_driver_6/pinv_dec_0_0/A" 3.3733
+cap "wordline_driver_array_0/in_7" "wordline_driver_array_0/in_6" -2.31892
+cap "vdd_uq12" "vdd_uq40" 5.26341
+cap "wordline_driver_array_0/in_11" "wordline_driver_array_0/wordline_driver_4/pinv_dec_0_0/A" 10.2061
+cap "wordline_driver_array_0/in_13" "hierarchical_decoder_0/and2_dec_2/pinv_dec_0/A" 4.50229
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_2/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/in_12" "wordline_driver_array_0/in_10" -1.48413
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_10" 48.8312
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_7/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_6/pinv_dec_0/A" 8.11213
+cap "wl_7" "wl_6" -0.895349
+cap "hierarchical_decoder_0/and2_dec_5/pinv_dec_0/A" "wordline_driver_array_0/in_10" 4.50229
+cap "wordline_driver_array_0/in_9" "wordline_driver_array_0/in_10" -3.71798
+cap "wordline_driver_array_0/in_9" "hierarchical_decoder_0/and2_dec_6/pinv_dec_0/A" 4.50229
+cap "hierarchical_decoder_0/and2_dec_8/pinv_dec_0/A" "wordline_driver_array_0/in_7" 4.50229
+cap "hierarchical_decoder_0/and2_dec_4/pinv_dec_0/A" "wordline_driver_array_0/en" 8.11213
+cap "wordline_driver_array_0/in_11" "wordline_driver_array_0/in_10" -4.63784
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_7" 48.8312
+cap "wl_11" "wl_9" -1.22222
+cap "gnd_uq12" "wordline_driver_array_0/in_8" 8.30117
+cap "vdd_uq12" "wordline_driver_array_0/wordline_driver_4/pinv_dec_0_0/A" 3.3733
+cap "wordline_driver_array_0/in_7" "wordline_driver_array_0/in_9" -1.48413
+cap "vdd_uq13" "vdd_uq12" -26.6145
+cap "wl_14" "wl_12" -0.611111
+cap "hierarchical_decoder_0/and2_dec_8/pinv_dec_0/A" "wordline_driver_array_0/en" 8.11213
+cap "wl_7" "wl_5" -0.611111
+cap "wordline_driver_array_0/in_11" "hierarchical_decoder_0/and2_dec_4/pinv_dec_0/A" 4.50229
+cap "wordline_driver_array_0/in_12" "wordline_driver_array_0/en" 48.8312
+cap "wordline_driver_array_0/in_12" "wordline_driver_array_0/in_13" -4.63784
+cap "wl_7" "wl_9" -1.22222
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_13" 48.8312
+cap "vdd_uq40" "wordline_driver_array_0/in_8" 1.77532
+cap "wl_14" "wl_13" -2.24272
+cap "wordline_driver_array_0/en" "hierarchical_decoder_0/and2_dec_5/pinv_dec_0/A" 8.11213
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_9" 48.8312
+cap "vdd_uq12" "wordline_driver_array_0/in_10" 17.2745
+cap "wordline_driver_array_0/in_12" "wordline_driver_array_0/in_11" -3.71798
+cap "wordline_driver_array_0/in_11" "wordline_driver_array_0/in_13" -1.48413
+cap "wordline_driver_array_0/in_11" "wordline_driver_array_0/en" 48.8312
+cap "wordline_driver_array_0/in_11" "wordline_driver_array_0/in_9" -1.48413
+cap "wl_8" "wl_10" -1.22222
+cap "wordline_driver_array_0/in_13" "wordline_driver_array_0/wordline_driver_2/pinv_dec_0_0/A" 10.2061
+cap "vdd_uq12" "wordline_driver_array_0/in_7" 17.2745
+cap "hierarchical_decoder_0/and2_dec_3/pinv_dec_0/A" "wordline_driver_array_0/in_12" 4.50229
+cap "hierarchical_decoder_0/and2_dec_3/pinv_dec_0/A" "wordline_driver_array_0/en" 8.11213
+cap "vdd_uq40" "gnd_uq12" -10.2534
+cap "wordline_driver_array_0/wordline_driver_8/pinv_dec_0_0/A" "wordline_driver_array_0/in_7" 10.2061
+cap "wordline_driver_array_0/in_12" "vdd_uq12" 17.2745
+cap "wordline_driver_array_0/en" "vdd_uq12" 252.634
+cap "vdd_uq12" "wordline_driver_array_0/in_13" 17.2745
+cap "wordline_driver_array_0/in_12" "wordline_driver_array_0/in_14" -0.742063
+cap "wordline_driver_array_0/in_14" "wordline_driver_array_0/in_13" -1.85899
+cap "vdd_uq12" "wordline_driver_array_0/in_9" 17.2745
+cap "wordline_driver_array_0/in_8" "hierarchical_decoder_0/and2_dec_7/pinv_dec_0/A" 4.50229
+cap "wl_12" "wl_10" -1.22222
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/in_10" -1.48413
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/in_6" -0.742063
+cap "wl_15" "wl_13" -0.611111
+cap "wordline_driver_array_0/in_11" "vdd_uq12" 17.2745
+cap "wordline_driver_array_0/wordline_driver_5/pinv_dec_0_0/A" "wordline_driver_array_0/in_10" 10.2061
+cap "vdd_uq12" "wordline_driver_array_0/wordline_driver_2/pinv_dec_0_0/A" 3.3733
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/in_7" -3.71798
+cap "wl_7" "wl_8" -4.48544
+cap "wl_12" "wl_13" -1.7907
+cap "wl_11" "wl_10" -1.7907
+cap "wordline_driver_array_0/en" "wordline_driver_array_0/in_8" 48.8312
+cap "wordline_driver_array_0/in_7" "wordline_driver_array_0/in_5" -0.742063
+cap "gnd_uq12" "wordline_driver_array_0/in_10" 8.30117
+cap "wl_12" "wl_11" -4.48544
+cap "wordline_driver_array_0/in_8" "wordline_driver_array_0/in_9" -4.63784
+cap "wordline_driver_array_0/wordline_driver_8/pinv_dec_0_0/A" "vdd_uq12" 3.3733
+cap "wl_11" "wl_13" -1.22222
+cap "wordline_driver_array_0/in_15" "wordline_driver_array_0/in_13" -0.742063
+cap "gnd_uq12" "wordline_driver_array_0/in_7" 8.30117
+cap "vdd_uq12" "wordline_driver_array_0/wordline_driver_7/pinv_dec_0_0/A" 3.3733
+cap "vdd_uq40" "wordline_driver_array_0/in_10" 1.77532
+cap "wordline_driver_array_0/in_12" "gnd_uq12" 8.30117
+cap "vdd_uq40" "wordline_driver_array_0/in_7" 1.77532
+cap "wl_8" "wl_6" -0.611111
+cap "wordline_driver_array_0/en" "gnd_uq12" 69.2009
+cap "gnd_uq12" "wordline_driver_array_0/in_13" 8.30117
+cap "wordline_driver_array_0/wordline_driver_3/pinv_dec_0_0/A" "wordline_driver_array_0/in_12" 10.2061
+cap "gnd_uq12" "wordline_driver_array_0/in_9" 8.30117
+cap "vdd_uq12" "wordline_driver_array_0/in_8" 17.2745
+cap "vdd_uq39" "gnd_uq12" -3.93939
+cap "wordline_driver_array_0/in_12" "vdd_uq40" 1.77532
+cap "wordline_driver_array_0/en" "vdd_uq40" 6.50264
+cap "vdd_uq40" "wordline_driver_array_0/in_13" 1.77532
+cap "wordline_driver_array_0/wordline_driver_6/pinv_dec_0_0/A" "wordline_driver_array_0/in_9" 10.2061
+cap "wordline_driver_array_0/in_11" "gnd_uq12" 8.30117
+subcap "li_5848_5633#" -92.2082
+subcap "li_5848_6183#" -92.2082
+subcap "vdd_uq43" -223.586
+cap "wordline_driver_array_0/in_14" "hierarchical_decoder_0/and2_dec_1/pinv_dec_0/A" 4.50229
+cap "hierarchical_decoder_0/and2_dec_0/pinv_dec_0/A" "wl_en" 1.75898
+cap "wordline_driver_array_0/in_15" "gnd_uq32" 2.06784
+cap "gnd_uq32" "vdd_uq33" -14.0587
+cap "wordline_driver_array_0/in_15" "hierarchical_decoder_0/and2_dec_0/pinv_dec_0/A" 4.50229
+cap "gnd_uq32" "wl_en" 9.88876
+cap "hierarchical_decoder_0/and2_dec_1/pinv_dec_0/A" "wl_en" 1.75898
+cap "vdd_uq32" "vdd_uq33" -5.86263
+cap "wordline_driver_array_0/in_14" "gnd_uq32" 2.06784
+cap "gnd_uq32" "vdd_uq32" -59.6528
+subcap "wl_12" -170.126
+subcap "li_5848_4843#" -352.743
+subcap "wl_13" -44.0829
+subcap "li_5848_5393#" -257.062
+subcap "rbl_wl" -205.366
+subcap "wl_en" -57.6936
+cap "wordline_driver_array_0/in_14" "vdd_uq42" 1.77532
+cap "vdd_uq33" "vdd_uq42" 0.920152
+cap "gnd_uq33" "and2_dec_0_0/pinv_dec_0_0/A" 9.40789
+cap "gnd_uq33" "rbl_wl" 13.0957
+cap "wl_en" "wordline_driver_array_0/in_15" 69.1683
+cap "vdd_uq33" "wordline_driver_array_0/wordline_driver_1/pinv_dec_0_0/A" 3.3733
+cap "vdd_uq32" "vdd_uq33" -5.86263
+cap "vdd_uq33" "vdd_uq43" 17.1487
+cap "wordline_driver_array_0/wordline_driver_1/pinv_dec_0_0/A" "wordline_driver_array_0/in_14" 10.2061
+cap "wordline_driver_array_0/in_14" "vdd_uq43" 15.6777
+cap "gnd_uq33" "vdd_uq42" -10.3571
+cap "wordline_driver_array_0/in_14" "wordline_driver_array_0/in_12" -0.742063
+cap "gnd_uq33" "wl_15" 9.73285
+cap "wordline_driver_array_0/wordline_driver_0/pinv_dec_0_0/A" "wordline_driver_array_0/in_15" 10.2061
+cap "wl_14" "wl_13" -2.24272
+cap "wl_13" "wl_15" -0.611111
+cap "wordline_driver_array_0/in_13" "wordline_driver_array_0/in_15" -0.742063
+cap "vdd_uq33" "wl_en" 57.2303
+cap "gnd_uq33" "wordline_driver_array_0/wordline_driver_1/pinv_dec_0_0/A" 7.34589
+cap "gnd_uq33" "vdd_uq43" 8.27642
+cap "wordline_driver_array_0/in_14" "wl_en" 63.4063
+cap "vdd_uq33" "wordline_driver_array_0/in_15" 17.2745
+cap "vdd_uq42" "and2_dec_0_0/pinv_dec_0_0/A" 78.2049
+cap "wordline_driver_array_0/in_14" "wordline_driver_array_0/in_15" -4.63784
+cap "wl_14" "wl_12" -0.611111
+cap "rbl_wl" "wl_15" 154.267
+cap "wl_14" "rbl_wl" 42.0357
+cap "and2_dec_0_0/pinv_dec_0_0/A" "vdd_uq43" 1.72116
+cap "gnd_uq33" "wl_en" 30.9698
+cap "vdd_uq33" "wordline_driver_array_0/wordline_driver_0/pinv_dec_0_0/A" 3.3733
+cap "hierarchical_decoder_0/and2_dec_1/pinv_dec_0/A" "wl_en" 8.11213
+cap "wordline_driver_array_0/wordline_driver_1/pinv_dec_0_0/A" "and2_dec_0_0/pinv_dec_0_0/A" 64.7155
+cap "gnd_uq33" "wordline_driver_array_0/in_15" 8.30117
+cap "wordline_driver_array_0/in_14" "wordline_driver_array_0/in_13" -1.85899
+cap "wl_14" "wl_15" -1.7907
+cap "vdd_uq42" "vdd_uq43" 21.0856
+cap "vdd_uq33" "wordline_driver_array_0/in_14" 17.2745
+cap "and2_dec_0_0/pinv_dec_0_0/A" "wl_en" 7.22399
+cap "gnd_uq33" "wordline_driver_array_0/wordline_driver_0/pinv_dec_0_0/A" 9.40789
+cap "gnd_uq33" "vdd_uq41" 0.0707057
+cap "wordline_driver_array_0/wordline_driver_1/pinv_dec_0_0/A" "vdd_uq42" 3.30988
+cap "vdd_uq42" "wl_en" 4.37383
+cap "gnd_uq33" "wordline_driver_array_0/in_14" 8.30117
+cap "hierarchical_decoder_0/and2_dec_1/pinv_dec_0/A" "wordline_driver_array_0/in_14" 4.50229
+cap "gnd_uq33" "vdd_uq33" 75.3365
+cap "vdd_uq41" "and2_dec_0_0/pinv_dec_0_0/A" 28.1242
+cap "wordline_driver_array_0/wordline_driver_0/pinv_dec_0_0/A" "and2_dec_0_0/pinv_dec_0_0/A" 124.16
+cap "vdd_uq42" "wordline_driver_array_0/in_15" 1.77532
+cap "vdd_uq41" "rbl_wl" 24.6125
+cap "wl_en" "vdd_uq43" 59.7828
+cap "vdd_uq41" "wl_15" 9.73285
+cap "wordline_driver_array_0/wordline_driver_0/pinv_dec_0_0/A" "vdd_uq42" 10.2085
+cap "wl_en" "hierarchical_decoder_0/and2_dec_0/pinv_dec_0/A" 8.11213
+cap "vdd_uq43" "wordline_driver_array_0/in_15" 37.9897
+cap "wordline_driver_array_0/in_15" "hierarchical_decoder_0/and2_dec_0/pinv_dec_0/A" 4.50229
+merge "hierarchical_decoder_0/addr_0" "addr_0" -833.462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110600 -7956 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wordline_driver_3/vdd_uq0" "wordline_driver_array_0/vdd_uq0" 267.566 0 0 0 0 549408 -1416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5630 -436 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/vdd_uq0" "vdd_uq41"
+merge "vdd_uq41" "and2_dec_0_0/vdd_uq0"
+merge "and2_dec_0_0/vdd_uq0" "and2_dec_0_0/pinv_dec_0_0/vdd"
+merge "and2_dec_0_0/pinv_dec_0_0/vdd" "vdd_uq39"
+merge "hierarchical_decoder_0/decode_7" "wordline_driver_array_0/in_7" -46.7602 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78507 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_7" "li_5848_3023#"
+merge "contact_19_2/gnd" "contact_7_2/gnd" -2356.92 -222180 -448 0 0 0 0 0 0 0 0 -1757952 -240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1794336 -224 -1160745 -632 0 0 -287300 -15680 0 0 0 0 0 0
+merge "contact_7_2/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "wordline_driver_array_0/wordline_driver_3/gnd"
+merge "wordline_driver_array_0/wordline_driver_3/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "and2_dec_0_0/gnd"
+merge "and2_dec_0_0/gnd" "and2_dec_0_0/gnd_uq0"
+merge "and2_dec_0_0/gnd_uq0" "gnd_uq27"
+merge "gnd_uq27" "gnd_uq28"
+merge "gnd_uq28" "gnd_uq29"
+merge "gnd_uq29" "gnd_uq30"
+merge "gnd_uq30" "gnd_uq31"
+merge "gnd_uq31" "gnd_uq32"
+merge "gnd_uq32" "gnd_uq33"
+merge "gnd_uq33" "gnd_uq34"
+merge "gnd_uq34" "gnd_uq35"
+merge "gnd_uq35" "gnd_uq36"
+merge "gnd_uq36" "gnd_uq37"
+merge "gnd_uq37" "gnd_uq38"
+merge "gnd_uq38" "and2_dec_0_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/gnd"
+merge "and2_dec_0_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/gnd" "hierarchical_decoder_0/gnd_uq4"
+merge "hierarchical_decoder_0/gnd_uq4" "hierarchical_decoder_0/gnd_uq9"
+merge "hierarchical_decoder_0/gnd_uq9" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "gnd_uq39"
+merge "gnd_uq39" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_19_3/gnd"
+merge "contact_19_3/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "wordline_driver_array_0/gnd"
+merge "wordline_driver_array_0/gnd" "gnd_uq0"
+merge "gnd_uq0" "gnd_uq4"
+merge "gnd_uq4" "gnd_uq5"
+merge "gnd_uq5" "gnd_uq6"
+merge "gnd_uq6" "gnd_uq7"
+merge "gnd_uq7" "gnd_uq10"
+merge "gnd_uq10" "gnd_uq11"
+merge "gnd_uq11" "gnd_uq12"
+merge "gnd_uq12" "gnd_uq13"
+merge "gnd_uq13" "gnd_uq14"
+merge "gnd_uq14" "gnd_uq15"
+merge "gnd_uq15" "gnd_uq16"
+merge "gnd_uq16" "gnd_uq17"
+merge "gnd_uq17" "gnd_uq21"
+merge "gnd_uq21" "gnd_uq22"
+merge "gnd_uq22" "gnd_uq23"
+merge "gnd_uq23" "gnd_uq24"
+merge "gnd_uq24" "gnd_uq40"
+merge "gnd_uq40" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "hierarchical_decoder_0/gnd"
+merge "hierarchical_decoder_0/gnd" "gnd"
+merge "gnd" "gnd_uq1"
+merge "gnd_uq1" "gnd_uq2"
+merge "gnd_uq2" "gnd_uq3"
+merge "gnd_uq3" "gnd_uq8"
+merge "gnd_uq8" "gnd_uq9"
+merge "gnd_uq9" "gnd_uq18"
+merge "gnd_uq18" "gnd_uq19"
+merge "gnd_uq19" "gnd_uq20"
+merge "gnd_uq20" "gnd_uq25"
+merge "gnd_uq25" "gnd_uq26"
+merge "hierarchical_decoder_0/addr_1" "addr_1" -833.462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110600 -7956 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_8" "wordline_driver_array_0/in_8" -105.492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -332483 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_8" "li_5848_3263#"
+merge "hierarchical_decoder_0/decode_12" "wordline_driver_array_0/in_12" -97.2754 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296951 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_12" "li_5848_4843#"
+merge "hierarchical_decoder_0/vdd_uq9" "vdd_uq27" -597.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64530 -5880 0 0 0 0 0 0
+merge "vdd_uq27" "vdd_uq29"
+merge "vdd_uq29" "vdd_uq31"
+merge "vdd_uq31" "vdd_uq33"
+merge "vdd_uq33" "vdd_uq35"
+merge "vdd_uq35" "vdd_uq37"
+merge "vdd_uq37" "vdd_uq0"
+merge "vdd_uq0" "vdd_uq4"
+merge "vdd_uq4" "vdd_uq6"
+merge "vdd_uq6" "vdd_uq10"
+merge "vdd_uq10" "vdd_uq12"
+merge "vdd_uq12" "vdd_uq14"
+merge "vdd_uq14" "vdd_uq16"
+merge "vdd_uq16" "vdd_uq21"
+merge "vdd_uq21" "vdd_uq23"
+merge "hierarchical_decoder_0/addr_2" "addr_2" -833.462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110600 -7956 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_9" "wordline_driver_array_0/in_9" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_9" "li_5848_3813#"
+merge "hierarchical_decoder_0/vdd_uq0" "vdd_uq1" -74.0096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84672 -784 0 0 0 0 0 0
+merge "vdd_uq1" "vdd_uq8"
+merge "hierarchical_decoder_0/addr_3" "addr_3" -833.462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110600 -7956 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wordline_driver_3/B" "and2_dec_0_0/A" -146.507 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11254 -136 0 0 -249096 -56 0 0 0 0 0 0 0 0
+merge "and2_dec_0_0/A" "wordline_driver_array_0/en"
+merge "wordline_driver_array_0/en" "wl_en"
+merge "hierarchical_decoder_0/vdd" "vdd_uq2" -79.6397 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 -784 0 0 0 0 0 0
+merge "vdd_uq2" "vdd_uq9"
+merge "hierarchical_decoder_0/decode_4" "wordline_driver_array_0/in_4" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_4" "li_5848_1683#"
+merge "hierarchical_decoder_0/vdd_uq1" "vdd_uq3" -40.9003 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9604 -392 0 0 0 0 0 0
+merge "and2_dec_0_0/B" "vdd_uq43" -15.9404 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10744 -134 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_5" "wordline_driver_array_0/in_5" -100.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -308837 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_5" "li_5848_2233#"
+merge "hierarchical_decoder_0/vdd_uq10" "vdd_uq28" -683.911 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1082809 -5880 0 0 0 0 0 0
+merge "vdd_uq28" "vdd_uq30"
+merge "vdd_uq30" "vdd_uq32"
+merge "vdd_uq32" "vdd_uq34"
+merge "vdd_uq34" "vdd_uq36"
+merge "vdd_uq36" "vdd_uq38"
+merge "vdd_uq38" "vdd"
+merge "vdd" "vdd_uq5"
+merge "vdd_uq5" "vdd_uq7"
+merge "vdd_uq7" "vdd_uq11"
+merge "vdd_uq11" "vdd_uq13"
+merge "vdd_uq13" "vdd_uq15"
+merge "vdd_uq15" "vdd_uq17"
+merge "vdd_uq17" "vdd_uq22"
+merge "vdd_uq22" "vdd_uq24"
+merge "wordline_driver_array_0/wl_0" "wl_0" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_1" "wl_1" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_2" "wl_2" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_3" "wl_3" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wordline_driver_3/vdd" "and2_dec_0_0/vdd" -205.116 0 0 0 0 -53312 -1176 0 0 -3192 -244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2660 -216 -5800 -432 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0_0/vdd" "vdd_uq42"
+merge "wordline_driver_array_0/wl_4" "wl_4" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_13" "wordline_driver_array_0/in_13" -53.1543 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -106157 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_13" "li_5848_5393#"
+merge "wordline_driver_array_0/wl_5" "wl_5" -14.1816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12404 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_0" "wordline_driver_array_0/in_0" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_0" "li_5848_103#"
+merge "wordline_driver_array_0/wl_6" "wl_6" -15.7356 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5684 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_1" "wordline_driver_array_0/in_1" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_1" "li_5848_653#"
+merge "wordline_driver_array_0/wl_7" "wl_7" -15.4636 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6860 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_2" "wordline_driver_array_0/in_2" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_2" "li_5848_893#"
+merge "wordline_driver_array_0/wl_8" "wl_8" -13.9096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13580 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0_0/Z" "rbl_wl" -289.667 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33694 -2050 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_10" "wl_10" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wordline_driver_4/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd" "wordline_driver_array_0/vdd" 252.162 0 0 0 0 342720 0 0 0 193956 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161630 0 112200 -204 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/vdd" "vdd_uq40"
+merge "vdd_uq40" "wordline_driver_array_0/wordline_driver_11/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd"
+merge "wordline_driver_array_0/wordline_driver_11/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd" "and2_dec_0_0/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd"
+merge "hierarchical_decoder_0/decode_3" "wordline_driver_array_0/in_3" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_3" "li_5848_1443#"
+merge "hierarchical_decoder_0/vdd_uq4" "vdd_uq18" -98.6984 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -244512 -784 0 0 0 0 0 0
+merge "vdd_uq18" "vdd_uq25"
+merge "wordline_driver_array_0/wl_9" "wl_9" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_11" "wl_11" -17.2701 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/vdd_uq5" "vdd_uq19" -82.4658 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28077 -784 0 0 0 0 0 0
+merge "vdd_uq19" "vdd_uq26"
+merge "wordline_driver_array_0/wl_12" "wl_12" -12.9513 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17724 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/vdd_uq6" "vdd_uq20" -40.9003 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9604 -392 0 0 0 0 0 0
+merge "wordline_driver_array_0/wl_13" "wl_13" -16.5126 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2324 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_6" "wordline_driver_array_0/in_6" -41.2921 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54861 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_6" "li_5848_2473#"
+merge "hierarchical_decoder_0/decode_10" "wordline_driver_array_0/in_10" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_10" "li_5848_4053#"
+merge "wordline_driver_array_0/wl_14" "wl_14" -16.6939 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1540 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_11" "wordline_driver_array_0/in_11" -24.1789 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19142 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_11" "li_5848_4603#"
+merge "wordline_driver_array_0/wl_15" "wl_15" -13.1326 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16940 -124 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_decoder_0/decode_14" "wordline_driver_array_0/in_14" -49.5088 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -90393 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_14" "li_5848_5633#"
+merge "hierarchical_decoder_0/decode_15" "wordline_driver_array_0/in_15" -93.63 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -281187 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "wordline_driver_array_0/in_15" "li_5848_6183#"

@@ -1,0 +1,1308 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_14 contact_14_11 1 0 432 0 1 137
+use contact_17 contact_17_35 1 0 0 0 1 141
+use contact_14 contact_14_10 1 0 512 0 1 587
+use contact_17 contact_17_34 1 0 80 0 1 591
+use contact_7 contact_7_29 1 0 4484 0 1 365
+use contact_20 contact_20_6 1 0 3669 0 1 363
+use contact_20 contact_20_7 1 0 3589 0 1 -32
+use contact_19 contact_19_67 1 0 3495 0 1 88
+use contact_14 contact_14_7 1 0 3498 0 1 87
+use contact_17 contact_17_30 1 0 3908 0 1 162
+use contact_17 contact_17_31 1 0 3588 0 1 270
+use contact_7 contact_7_27 1 0 4484 0 1 783
+use contact_19 contact_19_27 1 0 4485 0 1 788
+use contact_19 contact_19_29 1 0 4485 0 1 370
+use contact_20 contact_20_5 1 0 3749 0 1 758
+use contact_19 contact_19_66 1 0 3495 0 1 638
+use contact_14 contact_14_6 1 0 3498 0 1 637
+use contact_17 contact_17_28 1 0 3908 0 1 570
+use contact_17 contact_17_29 1 0 3668 0 1 462
+use and2_dec and2_dec_13 1 0 4247 0 1 790
+use and2_dec and2_dec_14 1 0 4247 0 -1 790
+use and2_dec and2_dec_15 1 0 4247 0 1 0
+use contact_7 contact_7_58 1 0 4909 0 1 365
+use contact_19 contact_19_58 1 0 4910 0 1 370
+use contact_7 contact_7_28 1 0 5288 0 1 358
+use contact_19 contact_19_28 1 0 5289 0 1 363
+use contact_7 contact_7_59 1 0 5684 0 1 358
+use contact_19 contact_19_59 1 0 5685 0 1 363
+use contact_7 contact_7_56 1 0 4909 0 1 785
+use contact_19 contact_19_56 1 0 4910 0 1 790
+use contact_7 contact_7_26 1 0 5288 0 1 753
+use contact_19 contact_19_26 1 0 5289 0 1 758
+use contact_7 contact_7_57 1 0 5684 0 1 753
+use contact_19 contact_19_57 1 0 5685 0 1 758
+use contact_7 contact_7_25 1 0 4484 0 1 1155
+use contact_19 contact_19_25 1 0 4485 0 1 1160
+use contact_20 contact_20_4 1 0 3829 0 1 1153
+use contact_19 contact_19_65 1 0 3495 0 1 878
+use contact_14 contact_14_5 1 0 3498 0 1 877
+use contact_17 contact_17_26 1 0 3908 0 1 952
+use contact_17 contact_17_27 1 0 3748 0 1 1060
+use contact_7 contact_7_23 1 0 4484 0 1 1573
+use contact_19 contact_19_23 1 0 4485 0 1 1578
+use contact_19 contact_19_64 1 0 3495 0 1 1428
+use contact_14 contact_14_4 1 0 3498 0 1 1427
+use contact_17 contact_17_24 1 0 3908 0 1 1360
+use contact_17 contact_17_25 1 0 3828 0 1 1252
+use and2_dec and2_dec_11 1 0 4247 0 1 1580
+use and2_dec and2_dec_12 1 0 4247 0 -1 1580
+use contact_7 contact_7_54 1 0 4909 0 1 1155
+use contact_19 contact_19_54 1 0 4910 0 1 1160
+use contact_7 contact_7_24 1 0 5288 0 1 1148
+use contact_19 contact_19_24 1 0 5289 0 1 1153
+use contact_7 contact_7_55 1 0 5684 0 1 1148
+use contact_19 contact_19_55 1 0 5685 0 1 1153
+use contact_7 contact_7_52 1 0 4909 0 1 1575
+use contact_19 contact_19_52 1 0 4910 0 1 1580
+use contact_7 contact_7_22 1 0 5288 0 1 1543
+use contact_19 contact_19_22 1 0 5289 0 1 1548
+use contact_7 contact_7_53 1 0 5684 0 1 1543
+use contact_19 contact_19_53 1 0 5685 0 1 1548
+use hierarchical_predecode2x4 hierarchical_predecode2x4_1 1 0 367 0 1 0
+use contact_7 contact_7_21 1 0 4484 0 1 1945
+use contact_19 contact_19_21 1 0 4485 0 1 1950
+use contact_17 contact_17_21 1 0 3668 0 1 2042
+use contact_17 contact_17_22 1 0 3988 0 1 1742
+use contact_17 contact_17_23 1 0 3588 0 1 1850
+use contact_7 contact_7_19 1 0 4484 0 1 2363
+use contact_19 contact_19_19 1 0 4485 0 1 2368
+use contact_20 contact_20_3 1 0 3909 0 1 2338
+use contact_19 contact_19_63 1 0 3495 0 1 2458
+use contact_14 contact_14_3 1 0 3498 0 1 2457
+use contact_17 contact_17_20 1 0 3988 0 1 2150
+use and2_dec and2_dec_9 1 0 4247 0 1 2370
+use and2_dec and2_dec_10 1 0 4247 0 -1 2370
+use contact_7 contact_7_50 1 0 4909 0 1 1945
+use contact_19 contact_19_50 1 0 4910 0 1 1950
+use contact_7 contact_7_20 1 0 5288 0 1 1938
+use contact_19 contact_19_20 1 0 5289 0 1 1943
+use contact_7 contact_7_51 1 0 5684 0 1 1938
+use contact_19 contact_19_51 1 0 5685 0 1 1943
+use contact_7 contact_7_48 1 0 4909 0 1 2365
+use contact_19 contact_19_48 1 0 4910 0 1 2370
+use contact_7 contact_7_18 1 0 5288 0 1 2333
+use contact_19 contact_19_18 1 0 5289 0 1 2338
+use contact_7 contact_7_49 1 0 5684 0 1 2333
+use contact_19 contact_19_49 1 0 5685 0 1 2338
+use contact_14 contact_14_9 1 0 432 0 1 2507
+use contact_17 contact_17_33 1 0 160 0 1 2511
+use contact_14 contact_14_8 1 0 512 0 1 2957
+use contact_17 contact_17_32 1 0 240 0 1 2961
+use contact_7 contact_7_17 1 0 4484 0 1 2735
+use contact_19 contact_19_17 1 0 4485 0 1 2740
+use contact_20 contact_20_2 1 0 3989 0 1 2733
+use contact_17 contact_17_17 1 0 3828 0 1 2832
+use contact_17 contact_17_18 1 0 3988 0 1 2532
+use contact_17 contact_17_19 1 0 3748 0 1 2640
+use contact_7 contact_7_15 1 0 4484 0 1 3153
+use contact_19 contact_19_15 1 0 4485 0 1 3158
+use contact_20 contact_20_1 1 0 4069 0 1 3128
+use contact_19 contact_19_61 1 0 3495 0 1 3248
+use contact_14 contact_14_1 1 0 3498 0 1 3247
+use contact_19 contact_19_62 1 0 3495 0 1 3008
+use contact_14 contact_14_2 1 0 3498 0 1 3007
+use contact_17 contact_17_14 1 0 4068 0 1 3322
+use contact_17 contact_17_16 1 0 3988 0 1 2940
+use and2_dec and2_dec_7 1 0 4247 0 1 3160
+use and2_dec and2_dec_8 1 0 4247 0 -1 3160
+use contact_7 contact_7_46 1 0 4909 0 1 2735
+use contact_19 contact_19_46 1 0 4910 0 1 2740
+use contact_7 contact_7_16 1 0 5288 0 1 2728
+use contact_19 contact_19_16 1 0 5289 0 1 2733
+use contact_7 contact_7_47 1 0 5684 0 1 2728
+use contact_19 contact_19_47 1 0 5685 0 1 2733
+use contact_7 contact_7_14 1 0 5288 0 1 3123
+use contact_19 contact_19_14 1 0 5289 0 1 3128
+use contact_7 contact_7_45 1 0 5684 0 1 3123
+use contact_19 contact_19_45 1 0 5685 0 1 3128
+use contact_7 contact_7_44 1 0 4909 0 1 3155
+use contact_19 contact_19_44 1 0 4910 0 1 3160
+use hierarchical_predecode2x4 hierarchical_predecode2x4_0 1 0 367 0 1 2370
+use contact_7 contact_7_13 1 0 4484 0 1 3525
+use contact_19 contact_19_13 1 0 4485 0 1 3530
+use contact_20 contact_20_0 1 0 4149 0 1 3523
+use contact_19 contact_19_60 1 0 3495 0 1 3798
+use contact_14 contact_14_0 1 0 3498 0 1 3797
+use contact_17 contact_17_12 1 0 4068 0 1 3730
+use contact_17 contact_17_13 1 0 3668 0 1 3622
+use contact_17 contact_17_15 1 0 3588 0 1 3430
+use and2_dec and2_dec_6 1 0 4247 0 -1 3950
+use contact_7 contact_7_12 1 0 5288 0 1 3518
+use contact_19 contact_19_12 1 0 5289 0 1 3523
+use contact_7 contact_7_42 1 0 4909 0 1 3525
+use contact_19 contact_19_42 1 0 4910 0 1 3530
+use contact_7 contact_7_43 1 0 5684 0 1 3518
+use contact_19 contact_19_43 1 0 5685 0 1 3523
+use contact_7 contact_7_9 1 0 4484 0 1 4315
+use contact_19 contact_19_9 1 0 4485 0 1 4320
+use contact_7 contact_7_11 1 0 4484 0 1 3943
+use contact_19 contact_19_11 1 0 4485 0 1 3948
+use contact_17 contact_17_9 1 0 3828 0 1 4412
+use contact_17 contact_17_10 1 0 4068 0 1 4112
+use contact_17 contact_17_11 1 0 3748 0 1 4220
+use and2_dec and2_dec_4 1 0 4247 0 -1 4740
+use and2_dec and2_dec_5 1 0 4247 0 1 3950
+use contact_19 contact_19_40 1 0 4910 0 1 3950
+use contact_7 contact_7_40 1 0 4909 0 1 3945
+use contact_19 contact_19_10 1 0 5289 0 1 3918
+use contact_7 contact_7_10 1 0 5288 0 1 3913
+use contact_19 contact_19_41 1 0 5685 0 1 3918
+use contact_7 contact_7_41 1 0 5684 0 1 3913
+use contact_19 contact_19_38 1 0 4910 0 1 4320
+use contact_7 contact_7_38 1 0 4909 0 1 4315
+use contact_19 contact_19_8 1 0 5289 0 1 4313
+use contact_7 contact_7_8 1 0 5288 0 1 4308
+use contact_19 contact_19_39 1 0 5685 0 1 4313
+use contact_7 contact_7_39 1 0 5684 0 1 4308
+use contact_7 contact_7_7 1 0 4484 0 1 4733
+use contact_19 contact_19_7 1 0 4485 0 1 4738
+use contact_17 contact_17_6 1 0 4148 0 1 4902
+use contact_17 contact_17_8 1 0 4068 0 1 4520
+use and2_dec and2_dec_3 1 0 4247 0 1 4740
+use contact_7 contact_7_6 1 0 5288 0 1 4703
+use contact_19 contact_19_6 1 0 5289 0 1 4708
+use contact_7 contact_7_36 1 0 4909 0 1 4735
+use contact_19 contact_19_36 1 0 4910 0 1 4740
+use contact_7 contact_7_37 1 0 5684 0 1 4703
+use contact_19 contact_19_37 1 0 5685 0 1 4708
+use contact_17 contact_17_7 1 0 3588 0 1 5010
+use contact_7 contact_7_3 1 0 4484 0 1 5523
+use contact_19 contact_19_3 1 0 4485 0 1 5528
+use contact_7 contact_7_5 1 0 4484 0 1 5105
+use contact_19 contact_19_5 1 0 4485 0 1 5110
+use contact_17 contact_17_4 1 0 4148 0 1 5310
+use contact_17 contact_17_5 1 0 3668 0 1 5202
+use and2_dec and2_dec_1 1 0 4247 0 1 5530
+use and2_dec and2_dec_2 1 0 4247 0 -1 5530
+use contact_19 contact_19_34 1 0 4910 0 1 5110
+use contact_7 contact_7_34 1 0 4909 0 1 5105
+use contact_19 contact_19_4 1 0 5289 0 1 5103
+use contact_7 contact_7_4 1 0 5288 0 1 5098
+use contact_19 contact_19_35 1 0 5685 0 1 5103
+use contact_7 contact_7_35 1 0 5684 0 1 5098
+use contact_19 contact_19_32 1 0 4910 0 1 5530
+use contact_7 contact_7_32 1 0 4909 0 1 5525
+use contact_19 contact_19_2 1 0 5289 0 1 5498
+use contact_7 contact_7_2 1 0 5288 0 1 5493
+use contact_19 contact_19_33 1 0 5685 0 1 5498
+use contact_7 contact_7_33 1 0 5684 0 1 5493
+use contact_7 contact_7_1 1 0 4484 0 1 5895
+use contact_19 contact_19_1 1 0 4485 0 1 5900
+use contact_17 contact_17_0 1 0 4148 0 1 6100
+use contact_17 contact_17_1 1 0 3828 0 1 5992
+use contact_17 contact_17_2 1 0 4148 0 1 5692
+use contact_17 contact_17_3 1 0 3748 0 1 5800
+use and2_dec and2_dec_0 1 0 4247 0 -1 6320
+use contact_7 contact_7_0 1 0 5288 0 1 5888
+use contact_19 contact_19_0 1 0 5289 0 1 5893
+use contact_7 contact_7_30 1 0 4909 0 1 5895
+use contact_19 contact_19_30 1 0 4910 0 1 5900
+use contact_7 contact_7_31 1 0 5684 0 1 5888
+use contact_19 contact_19_31 1 0 5685 0 1 5893
+port "vdd_uq0" 58 3330 346 3428 444 m3
+port "gnd_uq0" 97 2934 346 3032 444 m3
+port "vdd" 21 2555 353 2653 451 m3
+port "gnd" 22 2130 353 2228 451 m3
+port "vdd_uq1" 59 1232 346 1330 444 m3
+port "gnd_uq1" 98 836 346 934 444 m3
+port "vdd_uq2" 60 3330 1136 3428 1234 m3
+port "gnd_uq2" 99 2934 1136 3032 1234 m3
+port "vdd_uq3" 61 2555 1143 2653 1241 m3
+port "gnd_uq3" 100 2130 1143 2228 1241 m3
+port "vdd_uq4" 62 3330 2716 3428 2814 m3
+port "gnd_uq4" 101 2934 2716 3032 2814 m3
+port "vdd_uq5" 63 2555 2723 2653 2821 m3
+port "gnd_uq5" 102 2130 2723 2228 2821 m3
+port "vdd_uq6" 64 1232 2716 1330 2814 m3
+port "gnd_uq6" 103 836 2716 934 2814 m3
+port "vdd_uq7" 65 3330 3506 3428 3604 m3
+port "gnd_uq7" 104 2934 3506 3032 3604 m3
+port "vdd_uq8" 66 2555 3513 2653 3611 m3
+port "gnd_uq8" 105 2130 3513 2228 3611 m3
+port "vdd_uq9" 81 5668 1926 5766 2024 m3
+port "vdd_uq9" 80 5668 4296 5766 4394 m3
+port "vdd_uq9" 79 5668 2321 5766 2419 m3
+port "vdd_uq9" 78 5668 5481 5766 5579 m3
+port "vdd_uq9" 77 5668 346 5766 444 m3
+port "vdd_uq9" 76 5668 3111 5766 3209 m3
+port "vdd_uq9" 75 5668 2716 5766 2814 m3
+port "vdd_uq9" 74 5668 4691 5766 4789 m3
+port "vdd_uq9" 73 5668 1136 5766 1234 m3
+port "vdd_uq9" 72 5668 3901 5766 3999 m3
+port "vdd_uq9" 71 5668 5086 5766 5184 m3
+port "vdd_uq9" 70 5668 5876 5766 5974 m3
+port "vdd_uq9" 69 5668 3506 5766 3604 m3
+port "vdd_uq9" 68 5668 741 5766 839 m3
+port "vdd_uq9" 67 5668 1531 5766 1629 m3
+port "gnd_uq9" 120 5272 4691 5370 4789 m3
+port "gnd_uq9" 119 5272 3901 5370 3999 m3
+port "gnd_uq9" 118 5272 3111 5370 3209 m3
+port "gnd_uq9" 117 5272 1926 5370 2024 m3
+port "gnd_uq9" 116 5272 1136 5370 1234 m3
+port "gnd_uq9" 115 5272 2716 5370 2814 m3
+port "gnd_uq9" 114 5272 5086 5370 5184 m3
+port "gnd_uq9" 113 5272 5481 5370 5579 m3
+port "gnd_uq9" 112 5272 3506 5370 3604 m3
+port "gnd_uq9" 111 5272 1531 5370 1629 m3
+port "gnd_uq9" 110 5272 4296 5370 4394 m3
+port "gnd_uq9" 109 5272 2321 5370 2419 m3
+port "gnd_uq9" 108 5272 5876 5370 5974 m3
+port "gnd_uq9" 107 5272 346 5370 444 m3
+port "gnd_uq9" 106 5272 741 5370 839 m3
+port "vdd_uq10" 96 4893 2723 4991 2821 m3
+port "vdd_uq10" 95 4893 3513 4991 3611 m3
+port "vdd_uq10" 94 4893 4303 4991 4401 m3
+port "vdd_uq10" 93 4893 1933 4991 2031 m3
+port "vdd_uq10" 92 4893 5513 4991 5611 m3
+port "vdd_uq10" 91 4893 3933 4991 4031 m3
+port "vdd_uq10" 90 4893 3143 4991 3241 m3
+port "vdd_uq10" 89 4893 5883 4991 5981 m3
+port "vdd_uq10" 88 4893 1563 4991 1661 m3
+port "vdd_uq10" 87 4893 353 4991 451 m3
+port "vdd_uq10" 86 4893 2353 4991 2451 m3
+port "vdd_uq10" 85 4893 773 4991 871 m3
+port "vdd_uq10" 84 4893 4723 4991 4821 m3
+port "vdd_uq10" 83 4893 5093 4991 5191 m3
+port "vdd_uq10" 82 4893 1143 4991 1241 m3
+port "gnd_uq10" 135 4468 1933 4566 2031 m3
+port "gnd_uq10" 134 4468 3931 4566 4029 m3
+port "gnd_uq10" 133 4468 4303 4566 4401 m3
+port "gnd_uq10" 132 4468 353 4566 451 m3
+port "gnd_uq10" 131 4468 771 4566 869 m3
+port "gnd_uq10" 130 4468 1143 4566 1241 m3
+port "gnd_uq10" 129 4468 5883 4566 5981 m3
+port "gnd_uq10" 128 4468 3513 4566 3611 m3
+port "gnd_uq10" 127 4468 2723 4566 2821 m3
+port "gnd_uq10" 126 4468 1561 4566 1659 m3
+port "gnd_uq10" 125 4468 5093 4566 5191 m3
+port "gnd_uq10" 124 4468 4721 4566 4819 m3
+port "gnd_uq10" 123 4468 3141 4566 3239 m3
+port "gnd_uq10" 122 4468 2351 4566 2449 m3
+port "gnd_uq10" 121 4468 5511 4566 5609 m3
+port "decode_0" 5 5576 120 5576 120 li
+port "addr_0" 1 19 0 47 3950 m1
+port "addr_1" 2 99 0 127 3950 m1
+port "decode_1" 6 5576 670 5576 670 li
+port "decode_2" 7 5576 910 5576 910 li
+port "decode_3" 8 5576 1460 5576 1460 li
+port "decode_4" 9 5576 1700 5576 1700 li
+port "decode_5" 10 5576 2250 5576 2250 li
+port "decode_6" 11 5576 2490 5576 2490 li
+port "predecode_4" 54 3927 0 3955 6348 m1
+port "addr_2" 3 179 0 207 3950 m1
+port "addr_3" 4 259 0 287 3950 m1
+port "decode_7" 12 5576 3040 5576 3040 li
+port "predecode_5" 55 4007 0 4035 6348 m1
+port "decode_8" 13 5576 3280 5576 3280 li
+port "decode_9" 14 5576 3830 5576 3830 li
+port "decode_10" 15 5576 4070 5576 4070 li
+port "predecode_6" 56 4087 0 4115 6348 m1
+port "decode_11" 16 5576 4620 5576 4620 li
+port "decode_12" 17 5576 4860 5576 4860 li
+port "predecode_0" 50 3607 0 3635 6348 m1
+port "predecode_1" 51 3687 0 3715 6348 m1
+port "decode_13" 18 5576 5410 5576 5410 li
+port "decode_14" 19 5576 5650 5576 5650 li
+port "predecode_2" 52 3767 0 3795 6348 m1
+port "predecode_3" 53 3847 0 3875 6348 m1
+port "predecode_7" 57 4167 0 4195 6348 m1
+port "decode_15" 20 5576 6200 5576 6200 li
+node "vdd_uq0" 0 40.9003 3330 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq0" 0 40.9003 2934 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd" 0 40.9003 2555 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd" 0 40.9003 2130 353 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq1" 0 40.9003 1232 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq1" 0 40.9003 836 346 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq2" 0 40.9003 3330 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq2" 0 40.9003 2934 1136 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq3" 0 40.9003 2555 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq3" 0 40.9003 2130 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq4" 0 40.9003 3330 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq4" 0 40.9003 2934 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq5" 0 40.9003 2555 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq5" 0 40.9003 2130 2723 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq6" 0 40.9003 1232 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq6" 0 40.9003 836 2716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq7" 0 40.9003 3330 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq7" 0 40.9003 2934 3506 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq8" 0 40.9003 2555 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "gnd_uq8" 0 40.9003 2130 3513 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 392 0 0 0 0 0 0
+node "vdd_uq9" 39 2001.75 5668 1531 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204256 13720 62160 3900 144060 5880 0 0 0 0 0 0
+node "gnd_uq9" 39 2001.75 5272 741 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204256 13720 62160 3900 144060 5880 0 0 0 0 0 0
+node "vdd_uq10" 26 1935.64 4893 1143 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 325520 13104 62160 3900 144060 5880 0 0 0 0 0 0
+node "gnd_uq10" 27 1952.01 4468 5511 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314496 13160 62160 3900 144060 5880 0 0 0 0 0 0
+node "decode_0" 207 172.562 5576 120 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "addr_0" 201 994.686 19 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17340 1088 114312 8200 0 0 0 0 0 0 0 0 0 0
+node "addr_1" 201 987.561 99 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17340 1088 114312 8200 0 0 0 0 0 0 0 0 0 0
+node "decode_1" 207 172.562 5576 670 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_2" 207 172.562 5576 910 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_3" 207 172.562 5576 1460 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_4" 207 172.562 5576 1700 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_5" 207 172.562 5576 2250 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_6" 207 172.562 5576 2490 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "predecode_4" 817 1906.23 3927 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64668 4144 186784 13176 19816 1348 0 0 0 0 0 0 0 0
+node "addr_2" 144 935.179 179 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11900 768 114312 8200 0 0 0 0 0 0 0 0 0 0
+node "addr_3" 144 928.054 259 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11900 768 114312 8200 0 0 0 0 0 0 0 0 0 0
+node "decode_7" 207 172.562 5576 3040 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "predecode_5" 704 1830.27 4007 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53788 3504 186784 13176 26396 1818 0 0 0 0 0 0 0 0
+node "decode_8" 207 172.562 5576 3280 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_9" 207 172.562 5576 3830 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_10" 207 172.562 5576 4070 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "predecode_6" 591 1689.83 4087 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42908 2864 186784 13176 24296 1668 0 0 0 0 0 0 0 0
+node "decode_11" 207 172.562 5576 4620 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_12" 207 172.562 5576 4860 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "predecode_0" 1273 2345.74 3607 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108188 6704 187680 13240 10856 708 0 0 0 0 0 0 0 0
+node "predecode_1" 1159 2263.07 3687 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 97308 6064 186784 13176 17436 1178 0 0 0 0 0 0 0 0
+node "decode_13" 207 172.562 5576 5410 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "decode_14" 207 172.562 5576 5650 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+node "predecode_2" 1044 2122.63 3767 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 86428 5424 186784 13176 15336 1028 0 0 0 0 0 0 0 0
+node "predecode_3" 931 2046.67 3847 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75548 4784 186784 13176 21916 1498 0 0 0 0 0 0 0 0
+node "predecode_7" 479 1613.87 4167 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32028 2224 186784 13176 30876 2138 0 0 0 0 0 0 0 0
+node "decode_15" 207 172.562 5576 6200 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19618 1222 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "decode_6" "vdd_uq9" 15.6083
+cap "vdd_uq10" "predecode_6" 61.4879
+cap "vdd_uq3" "vdd_uq2" 8.46824
+cap "decode_5" "decode_3" 25.1865
+cap "predecode_1" "predecode_6" 1079.01
+cap "predecode_1" "predecode_2" 5947.67
+cap "vdd_uq7" "vdd_uq4" 8.92197
+cap "predecode_3" "predecode_5" 2535.33
+cap "gnd_uq0" "vdd" 20.4021
+cap "decode_9" "decode_10" 92.432
+cap "vdd_uq5" "gnd_uq5" 18.8807
+cap "gnd_uq9" "vdd_uq9" 1253.75
+cap "decode_9" "decode_11" 25.1865
+cap "predecode_7" "predecode_4" 1442.85
+cap "gnd" "gnd_uq3" 8.92197
+cap "decode_5" "vdd_uq9" 15.6083
+cap "predecode_4" "gnd_uq10" 530.752
+cap "decode_9" "decode_8" 36.9012
+cap "addr_1" "addr_3" 1379.67
+cap "predecode_7" "gnd_uq10" 964.017
+cap "gnd_uq7" "gnd_uq8" 8.1204
+cap "gnd_uq9" "decode_13" 15.6083
+cap "decode_0" "decode_1" 36.9012
+cap "gnd" "vdd" 18.8807
+cap "gnd_uq9" "decode_10" 15.6083
+cap "decode_6" "decode_8" 25.1865
+cap "predecode_0" "predecode_5" 1165.61
+cap "gnd_uq9" "decode_15" 15.6083
+cap "gnd_uq9" "decode_11" 15.6083
+cap "predecode_5" "predecode_6" 5880.98
+cap "predecode_2" "predecode_5" 1711.87
+cap "gnd_uq4" "vdd_uq5" 20.4021
+cap "vdd_uq2" "vdd_uq0" 8.92197
+cap "gnd_uq9" "decode_8" 15.6083
+cap "predecode_3" "predecode_4" 5989.42
+cap "decode_7" "vdd_uq9" 15.6083
+cap "decode_14" "vdd_uq9" 15.6083
+cap "gnd_uq1" "vdd_uq1" 20.7181
+cap "predecode_3" "predecode_7" 1224.4
+cap "gnd_uq9" "decode_12" 15.6083
+cap "decode_2" "decode_3" 36.9012
+cap "vdd_uq10" "vdd_uq9" 552.871
+cap "gnd_uq2" "gnd_uq3" 8.1204
+cap "predecode_3" "gnd_uq10" 463.461
+cap "decode_6" "decode_4" 25.1865
+cap "predecode_1" "predecode_5" 1346.86
+cap "vdd_uq8" "vdd_uq5" 8.92197
+cap "gnd_uq9" "decode_0" 15.6083
+cap "gnd_uq0" "vdd_uq0" 20.7181
+cap "gnd_uq9" "gnd_uq10" 533.33
+cap "decode_14" "decode_13" 92.432
+cap "gnd_uq9" "decode_1" 15.6083
+cap "decode_2" "vdd_uq9" 15.6083
+cap "gnd_uq9" "decode_4" 15.6083
+cap "decode_14" "decode_15" 36.9012
+cap "vdd_uq9" "decode_3" 15.6083
+cap "addr_0" "addr_2" 1379.67
+cap "gnd_uq9" "decode_9" 15.6083
+cap "predecode_4" "predecode_0" 1433.72
+cap "decode_5" "decode_4" 36.9012
+cap "predecode_7" "predecode_0" 805.59
+cap "vdd_uq3" "gnd_uq2" 20.4021
+cap "gnd_uq8" "gnd_uq5" 8.92197
+cap "vdd_uq8" "vdd_uq7" 8.46824
+cap "decode_7" "decode_8" 92.432
+cap "predecode_4" "predecode_6" 2308.73
+cap "predecode_4" "predecode_2" 2571.68
+cap "vdd_uq3" "gnd_uq3" 18.8807
+cap "gnd_uq9" "decode_6" 15.6083
+cap "predecode_7" "predecode_6" 5839.31
+cap "predecode_7" "predecode_2" 1015.93
+cap "decode_14" "decode_12" 25.1865
+cap "predecode_6" "gnd_uq10" 756.38
+cap "predecode_2" "gnd_uq10" 408.808
+cap "decode_6" "decode_5" 92.432
+cap "vdd_uq3" "vdd" 8.92197
+cap "vdd_uq10" "predecode_7" 396.347
+cap "predecode_1" "predecode_4" 1775.5
+cap "vdd_uq6" "gnd_uq6" 20.7181
+cap "gnd_uq7" "gnd_uq4" 8.92197
+cap "predecode_1" "predecode_7" 875.277
+cap "vdd_uq10" "gnd_uq10" 1185.69
+cap "gnd_uq9" "decode_5" 15.6083
+cap "decode_13" "vdd_uq9" 15.6083
+cap "predecode_1" "gnd_uq10" 367.941
+cap "predecode_3" "predecode_0" 1583.72
+cap "vdd_uq9" "decode_10" 15.6083
+cap "decode_7" "decode_9" 25.1865
+cap "vdd_uq9" "decode_15" 15.6083
+cap "vdd_uq9" "decode_11" 15.6083
+cap "predecode_3" "predecode_6" 1652.49
+cap "decode_2" "decode_0" 25.1865
+cap "predecode_3" "predecode_2" 6217.22
+cap "gnd_uq7" "vdd_uq8" 20.4021
+cap "gnd_uq0" "gnd" 8.1204
+cap "decode_6" "decode_7" 36.9012
+cap "decode_2" "decode_1" 92.432
+cap "vdd_uq9" "decode_8" 15.6083
+cap "decode_2" "decode_4" 25.1865
+cap "addr_2" "addr_3" 3494.94
+cap "gnd_uq4" "vdd_uq4" 20.7181
+cap "decode_1" "decode_3" 25.1865
+cap "vdd_uq9" "decode_12" 15.6083
+cap "vdd_uq8" "gnd_uq8" 18.8807
+cap "addr_2" "addr_1" 3468.46
+cap "predecode_1" "predecode_3" 2474.35
+cap "decode_13" "decode_15" 25.1865
+cap "decode_4" "decode_3" 92.432
+cap "decode_13" "decode_11" 25.1865
+cap "addr_0" "addr_3" 873.871
+cap "gnd_uq9" "decode_7" 15.6083
+cap "decode_14" "gnd_uq9" 15.6083
+cap "decode_11" "decode_10" 36.9012
+cap "gnd_uq2" "vdd_uq2" 20.7181
+cap "addr_0" "addr_1" 3497.81
+cap "predecode_4" "predecode_5" 5849.95
+cap "vdd" "vdd_uq0" 8.46824
+cap "vdd_uq10" "gnd_uq9" 1231.91
+cap "decode_0" "vdd_uq9" 15.6083
+cap "predecode_7" "predecode_5" 2313.32
+cap "decode_7" "decode_5" 25.1865
+cap "gnd_uq7" "vdd_uq7" 20.7181
+cap "decode_1" "vdd_uq9" 15.6083
+cap "decode_8" "decode_10" 25.1865
+cap "predecode_0" "predecode_6" 972.859
+cap "predecode_2" "predecode_0" 2524.99
+cap "predecode_5" "gnd_uq10" 625.97
+cap "decode_13" "decode_12" 36.9012
+cap "vdd_uq5" "vdd_uq4" 8.46824
+cap "vdd_uq9" "decode_4" 15.6083
+cap "decode_12" "decode_10" 25.1865
+cap "predecode_2" "predecode_6" 1283.58
+cap "decode_2" "gnd_uq9" 15.6083
+cap "decode_9" "vdd_uq9" 15.6083
+cap "decode_12" "decode_11" 92.432
+cap "gnd_uq2" "gnd_uq0" 8.92197
+cap "gnd_uq4" "gnd_uq5" 8.1204
+cap "gnd_uq9" "decode_3" 15.6083
+cap "predecode_1" "predecode_0" 6368.44
+subcap "vdd_uq0" -858.934
+subcap "vdd_uq2" -858.934
+subcap "addr_3" -454.44
+cap "addr_2" "vdd_uq6" 0.69217
+cap "vdd_uq5" "gnd" -6.39996
+cap "addr_1" "addr_2" 239.76
+cap "gnd" "vdd_uq6" -5.91946
+cap "vdd" "gnd" -58.1636
+cap "addr_1" "gnd" 72.5411
+cap "addr_1" "addr_0" 379.615
+cap "addr_2" "gnd" 80.7015
+cap "addr_2" "addr_0" 301.219
+cap "addr_1" "addr_3" 306.363
+cap "vdd_uq0" "vdd" -8.46824
+cap "addr_1" "vdd_uq1" 0.773223
+cap "hierarchical_predecode2x4_1/and2_dec_3/pinv_dec_0/A" "predecode_0" 0.0418782
+cap "addr_0" "gnd" 1.43808
+cap "addr_2" "addr_3" 120.581
+cap "vdd_uq5" "vdd" 6.17098
+cap "addr_3" "gnd" 90.1118
+cap "addr_0" "addr_3" 438.04
+cap "vdd_uq1" "gnd" -20.7181
+cap "vdd_uq5" "vdd_uq4" -0.977105
+cap "addr_0" "vdd_uq1" 0.69217
+subcap "vdd" -155.488
+subcap "vdd_uq3" -155.488
+subcap "vdd_uq4" -8.60565
+subcap "vdd_uq7" -8.60565
+subcap "vdd_uq9" -1587.03
+subcap "vdd_uq10" -956.458
+subcap "decode_0" -106.051
+subcap "decode_1" -106.051
+subcap "decode_2" -106.051
+subcap "decode_3" -106.051
+subcap "decode_4" -106.051
+subcap "decode_5" -106.051
+subcap "decode_6" -106.051
+subcap "predecode_4" -140.768
+subcap "decode_7" -177.594
+subcap "predecode_5" -814.229
+subcap "decode_8" -181.923
+subcap "predecode_6" -1752.47
+subcap "predecode_0" -1433.2
+subcap "predecode_1" -850.715
+subcap "predecode_2" -787.672
+subcap "predecode_3" -1093.09
+subcap "predecode_7" -1208.66
+cap "vdd_uq0" "predecode_3" 209.965
+cap "predecode_6" "predecode_4" -0.371032
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_15/pinv_dec_0/A" 63.7773
+cap "and2_dec_10/pinv_dec_0/A" "vdd_uq10" 80.3504
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 345.298
+cap "vdd_uq0" "predecode_1" 298.877
+cap "vdd_uq0" "predecode_7" 92.2158
+cap "vdd_uq4" "predecode_4" 55.7047
+cap "gnd" "vdd" -20.4021
+cap "predecode_2" "hierarchical_predecode2x4_1/and2_dec_1/pinv_dec_0/A" 0.836767
+cap "predecode_1" "hierarchical_predecode2x4_1/and2_dec_2/pinv_dec_0/A" 6.39682
+cap "decode_1" "decode_0" -3.55271e-15
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 172.649
+cap "gnd" "predecode_4" 4.6988
+cap "vdd_uq0" "predecode_2" 216.198
+cap "vdd_uq4" "predecode_3" 37.2467
+cap "gnd" "predecode_3" 9.77848
+cap "gnd" "and2_dec_15/pinv_dec_0/A" 40.0601
+cap "and2_dec_11/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 121.86
+cap "vdd_uq5" "vdd_uq4" -0.977105
+cap "predecode_5" "predecode_0" 26.9432
+cap "gnd" "and2_dec_12/pinv_dec_0/A" 76.487
+cap "and2_dec_13/pinv_dec_0/A" "vdd_uq10" 54.9956
+cap "vdd_uq4" "predecode_1" 57.6733
+cap "decode_2" "decode_3" -3.55271e-15
+cap "vdd_uq4" "predecode_7" 21.804
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 31.8887
+cap "gnd" "vdd_uq5" -2.35409
+cap "decode_6" "decode_4" 1.77636e-15
+cap "gnd" "decode_7" 2.67173
+cap "predecode_2" "predecode_6" 6.99857
+cap "gnd" "decode_2" 2.83089
+cap "gnd" "predecode_1" 139.688
+cap "and2_dec_15/pinv_dec_0/A" "and2_dec_14/pinv_dec_0/A" 345.298
+cap "gnd" "predecode_7" -5.68434e-14
+cap "vdd_uq4" "predecode_2" 45.4338
+cap "and2_dec_14/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 63.7773
+cap "gnd" "predecode_2" 119.453
+cap "and2_dec_11/pinv_dec_0/A" "vdd_uq10" 54.9956
+cap "gnd" "vdd_uq10" -731.595
+cap "predecode_0" "predecode_4" 47.643
+cap "decode_4" "decode_3" -7.10543e-15
+cap "decode_8" "decode_6" 8.88178e-16
+cap "predecode_5" "predecode_4" 49.8847
+cap "vdd_uq10" "vdd_uq9" -84.4296
+cap "decode_2" "decode_0" 1.77636e-15
+cap "gnd" "decode_4" 2.83089
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_11/pinv_dec_0/A" 345.298
+cap "predecode_0" "predecode_3" 17.4137
+cap "vdd_uq0" "predecode_6" 102.893
+cap "gnd" "and2_dec_10/pinv_dec_0/A" 76.487
+cap "vdd_uq10" "and2_dec_14/pinv_dec_0/A" 78.7014
+cap "predecode_5" "predecode_3" 45.3201
+cap "vdd_uq4" "vdd_uq0" 1.59494
+cap "hierarchical_predecode2x4_0/and2_dec_3/pinv_dec_0/A" "predecode_4" 0.836767
+cap "predecode_1" "predecode_0" 104.196
+cap "decode_2" "decode_1" -7.10543e-15
+cap "gnd" "vdd_uq0" -41.4362
+cap "decode_7" "decode_5" 8.88178e-16
+cap "predecode_5" "predecode_1" 33.6459
+cap "and2_dec_9/pinv_dec_0/A" "vdd_uq10" 39.5983
+cap "gnd" "decode_6" 0.159161
+cap "gnd" "decode_8" 1.68144
+cap "vdd_uq10" "and2_dec_8/pinv_dec_0/A" 15.3973
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_11/pinv_dec_0/A" 63.7773
+cap "predecode_2" "predecode_0" 42.6756
+cap "hierarchical_predecode2x4_1/and2_dec_3/pinv_dec_0/A" "predecode_0" 2.41928
+cap "gnd" "and2_dec_13/pinv_dec_0/A" 49.4679
+cap "vdd_uq4" "predecode_6" 24.3252
+cap "predecode_5" "predecode_2" 30.0213
+cap "predecode_4" "predecode_3" 26.9432
+cap "gnd" "predecode_6" 1.13687e-13
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_9/pinv_dec_0/A" 121.86
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 31.8887
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_14/pinv_dec_0/A" 121.86
+cap "gnd" "vdd_uq4" -5.91946
+cap "decode_5" "decode_4" -3.55271e-15
+cap "vdd_uq10" "and2_dec_7/pinv_dec_0/A" 1.66084
+cap "gnd" "decode_3" 2.83089
+cap "predecode_1" "predecode_4" 47.643
+cap "gnd" "and2_dec_11/pinv_dec_0/A" 49.4679
+cap "hierarchical_predecode2x4_1/and2_dec_0/pinv_dec_0/A" "predecode_3" 4.97477
+cap "vdd_uq0" "predecode_0" 362.102
+cap "predecode_1" "predecode_3" 30.2706
+cap "predecode_2" "predecode_4" 33.6459
+cap "vdd_uq0" "predecode_5" 116.366
+cap "gnd" "vdd_uq9" -185.711
+cap "gnd" "and2_dec_14/pinv_dec_0/A" 69.1411
+cap "decode_6" "decode_5" -7.10543e-15
+cap "predecode_2" "predecode_3" 77.8749
+cap "and2_dec_15/pinv_dec_0/A" "vdd_uq10" 41.4655
+cap "vdd_uq10" "and2_dec_12/pinv_dec_0/A" 82.0113
+cap "gnd" "decode_0" -10.2648
+cap "vdd" "vdd_uq0" -8.46824
+cap "vdd_uq4" "predecode_0" 79.4705
+cap "predecode_5" "predecode_6" 6.20813
+cap "predecode_1" "predecode_2" 32.1041
+cap "and2_dec_11/pinv_dec_0/A" "and2_dec_9/pinv_dec_0/A" 63.7773
+cap "gnd" "and2_dec_9/pinv_dec_0/A" 34.7735
+cap "vdd_uq10" "predecode_7" 2.84217e-14
+cap "decode_1" "decode_3" 1.77636e-15
+cap "vdd_uq0" "predecode_4" 139.699
+cap "gnd" "and2_dec_8/pinv_dec_0/A" 14.6944
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 63.7773
+cap "vdd_uq4" "predecode_5" 29.1949
+cap "gnd" "predecode_0" 149.63
+cap "decode_5" "decode_3" 1.77636e-15
+cap "gnd" "decode_1" 2.83089
+cap "decode_2" "decode_4" 1.77636e-15
+cap "gnd" "decode_5" 1.14945
+cap "gnd" "predecode_5" 5.68434e-14
+subcap "vdd_uq9" -1042.83
+subcap "gnd_uq9" -1181.78
+subcap "vdd_uq10" -1215.73
+subcap "decode_0" -160.999
+subcap "decode_1" -160.999
+subcap "decode_2" -160.999
+subcap "decode_3" -160.999
+subcap "decode_4" -160.999
+subcap "decode_5" -160.999
+subcap "decode_6" -160.999
+subcap "decode_7" -153.658
+subcap "decode_8" -137.396
+cap "decode_4" "decode_6" -1.77636e-15
+cap "decode_7" "decode_6" -1.77636e-15
+cap "decode_8" "decode_6" -8.88178e-16
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_10/pinv_dec_0/A" 2.3
+cap "and2_dec_14/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 0.938158
+cap "decode_4" "decode_5" -3.55271e-15
+cap "decode_7" "decode_5" -8.88178e-16
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_15/pinv_dec_0/A" 0.938158
+cap "decode_3" "decode_2" -3.55271e-15
+cap "decode_7" "vdd_uq9" 2.67173
+cap "decode_8" "vdd_uq9" 1.68144
+cap "vdd_uq9" "decode_4" 2.83089
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 0.469079
+cap "vdd_uq9" "gnd_uq9" -185.711
+cap "vdd_uq9" "decode_0" -10.2648
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_11/pinv_dec_0/A" 0.938158
+cap "vdd_uq9" "vdd_uq10" -84.4296
+cap "decode_1" "decode_0" -3.55271e-15
+cap "and2_dec_11/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 2.3
+cap "vdd_uq9" "decode_2" 2.83089
+cap "and2_dec_13/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 1.69762
+cap "decode_3" "decode_5" -1.77636e-15
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_11/pinv_dec_0/A" 1.69762
+cap "vdd_uq9" "decode_6" 0.159161
+cap "vdd_uq9" "decode_3" 2.83089
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_12/pinv_dec_0/A" 0.938158
+cap "vdd_uq9" "decode_5" 1.14945
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 0.84881
+cap "decode_3" "decode_1" -1.77636e-15
+cap "vdd_uq9" "decode_1" 2.83089
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_11/pinv_dec_0/A" 0.938158
+cap "and2_dec_14/pinv_dec_0/A" "and2_dec_15/pinv_dec_0/A" 1.69762
+cap "decode_2" "decode_0" -1.77636e-15
+cap "decode_2" "decode_4" -1.77636e-15
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 0.469079
+cap "and2_dec_14/pinv_dec_0/A" "and2_dec_13/pinv_dec_0/A" 2.3
+subcap "vdd_uq4" -504.508
+subcap "vdd_uq7" -504.508
+cap "addr_1" "addr_2" 169.912
+cap "vdd_uq5" "vdd_uq4" -7.49114
+cap "addr_3" "addr_2" 533.906
+cap "addr_0" "addr_2" 135.877
+cap "addr_3" "addr_1" 130.733
+cap "addr_3" "vdd_uq6" 0.773223
+cap "addr_2" "gnd_uq4" 28.3536
+cap "hierarchical_predecode2x4_0/and2_dec_1/pinv_dec_0/A" "predecode_0" 0.0418782
+cap "addr_3" "addr_0" 108.911
+cap "addr_1" "gnd_uq4" 25.289
+cap "gnd_uq4" "vdd_uq6" -14.7987
+cap "vdd_uq5" "gnd_uq4" -51.7636
+cap "addr_3" "gnd_uq4" 34.1711
+subcap "gnd_uq10" -1242.35
+subcap "decode_5" -181.166
+subcap "decode_6" -176.837
+subcap "decode_7" -106.051
+subcap "decode_8" -106.051
+subcap "decode_9" -106.051
+subcap "decode_10" -106.051
+subcap "decode_11" -106.051
+subcap "decode_12" -106.051
+subcap "decode_13" -106.051
+subcap "decode_14" -174.167
+subcap "decode_15" -184.088
+cap "and2_dec_5/pinv_dec_0/A" "vdd_uq10" 54.9956
+cap "predecode_3" "vdd_uq4" 120.526
+cap "predecode_5" "predecode_0" 20.6998
+cap "and2_dec_7/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 121.86
+cap "hierarchical_predecode2x4_0/and2_dec_1/pinv_dec_0/A" "predecode_0" 1.58251
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 60.93
+cap "vdd_uq5" "vdd_uq4" -7.49114
+cap "predecode_3" "predecode_2" 78.9621
+cap "and2_dec_7/pinv_dec_0/A" "gnd_uq4" 49.4679
+cap "decode_11" "decode_10" -3.55271e-15
+cap "and2_dec_8/pinv_dec_0/A" "gnd_uq4" 61.7926
+cap "predecode_1" "gnd_uq4" 79.0751
+cap "predecode_6" "predecode_1" 47.643
+cap "decode_10" "decode_9" -7.10543e-15
+cap "predecode_0" "vdd_uq4" 258.233
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 31.8887
+cap "and2_dec_3/pinv_dec_0/A" "vdd_uq10" 53.3407
+cap "decode_10" "decode_8" 1.77636e-15
+cap "predecode_6" "gnd_uq4" 4.6988
+cap "gnd_uq4" "vdd_uq9" -195.785
+cap "and2_dec_4/pinv_dec_0/A" "vdd_uq10" 82.0113
+cap "predecode_7" "vdd_uq10" 2.84217e-14
+cap "predecode_0" "predecode_2" 37.2152
+cap "predecode_5" "predecode_1" 13.9971
+cap "predecode_5" "gnd_uq4" 9.77848
+cap "decode_11" "decode_13" 1.77636e-15
+cap "decode_14" "gnd_uq4" 6.54787
+cap "predecode_6" "predecode_5" 41.4968
+cap "predecode_6" "hierarchical_predecode2x4_0/and2_dec_1/pinv_dec_0/A" 0.836767
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_6/pinv_dec_0/A" 121.86
+cap "decode_7" "gnd_uq4" 0.159161
+cap "and2_dec_2/pinv_dec_0/A" "gnd_uq4" 71.7831
+cap "predecode_1" "vdd_uq4" 186.996
+cap "predecode_7" "predecode_3" 27.6984
+cap "decode_5" "gnd_uq4" 2.85754
+cap "decode_12" "gnd_uq4" 2.83089
+cap "hierarchical_predecode2x4_0/and2_dec_0/pinv_dec_0/A" "predecode_1" 1.42205
+cap "and2_dec_10/pinv_dec_0/A" "vdd_uq10" 1.66084
+cap "gnd_uq4" "vdd_uq4" -35.5168
+cap "predecode_6" "vdd_uq4" 104.921
+cap "predecode_1" "predecode_2" 26.1205
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 31.8887
+cap "and2_dec_9/pinv_dec_0/A" "vdd_uq10" 15.3973
+cap "decode_11" "decode_9" 1.77636e-15
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 63.7773
+cap "predecode_2" "gnd_uq4" 70.7792
+cap "decode_12" "decode_14" 8.88178e-16
+cap "predecode_6" "predecode_2" 40.6444
+cap "and2_dec_4/pinv_dec_0/A" "and2_dec_6/pinv_dec_0/A" 63.7773
+cap "predecode_5" "vdd_uq4" 140.981
+cap "predecode_7" "predecode_0" 19.9446
+cap "decode_5" "decode_7" 8.88178e-16
+cap "and2_dec_5/pinv_dec_0/A" "gnd_uq4" 49.4679
+cap "decode_9" "decode_8" -3.55271e-15
+cap "predecode_5" "predecode_2" 17.6217
+cap "predecode_4" "gnd_uq4" -1.98952e-13
+cap "predecode_4" "predecode_6" -0.371032
+cap "decode_10" "gnd_uq4" 2.83089
+cap "predecode_4" "predecode_5" -0.543605
+cap "decode_6" "decode_8" 8.88178e-16
+cap "and2_dec_3/pinv_dec_0/A" "gnd_uq4" 45.795
+cap "predecode_2" "vdd_uq4" 146.403
+cap "and2_dec_1/pinv_dec_0/A" "vdd_uq10" 6.76509
+cap "predecode_7" "predecode_1" 23.2959
+cap "and2_dec_6/pinv_dec_0/A" "vdd_uq10" 82.0113
+cap "and2_dec_4/pinv_dec_0/A" "gnd_uq4" 76.487
+cap "predecode_6" "predecode_7" 49.3411
+cap "predecode_7" "gnd_uq4" 9.77848
+cap "and2_dec_0/pinv_dec_0/A" "vdd_uq10" 1.65494
+cap "predecode_4" "vdd_uq4" 102.256
+cap "decode_13" "gnd_uq4" -3.71697
+cap "decode_15" "decode_13" 8.88178e-16
+cap "predecode_7" "predecode_5" -0.742063
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 345.298
+cap "decode_12" "decode_10" 1.77636e-15
+cap "predecode_3" "predecode_0" 34.8274
+cap "and2_dec_7/pinv_dec_0/A" "vdd_uq10" 53.3348
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 31.8887
+cap "and2_dec_7/pinv_dec_0/A" "and2_dec_9/pinv_dec_0/A" 31.8887
+cap "and2_dec_4/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 63.7773
+cap "and2_dec_8/pinv_dec_0/A" "vdd_uq10" 66.6139
+cap "decode_14" "decode_13" -3.55271e-15
+cap "and2_dec_8/pinv_dec_0/A" "and2_dec_9/pinv_dec_0/A" 172.649
+cap "decode_11" "gnd_uq4" 2.83089
+cap "predecode_6" "vdd_uq10" 2.84217e-14
+cap "gnd_uq4" "vdd_uq10" -761.347
+cap "and2_dec_9/pinv_dec_0/A" "gnd_uq4" 14.6944
+cap "predecode_7" "vdd_uq4" 121.254
+cap "vdd_uq10" "vdd_uq9" -87.4612
+cap "decode_9" "gnd_uq4" 2.83089
+cap "decode_8" "gnd_uq4" 1.14945
+cap "predecode_7" "hierarchical_predecode2x4_0/and2_dec_0/pinv_dec_0/A" 4.97477
+cap "decode_12" "decode_13" -3.55271e-15
+cap "predecode_7" "predecode_2" 24.347
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 63.7773
+cap "predecode_3" "predecode_1" 49.6202
+cap "and2_dec_4/pinv_dec_0/A" "and2_dec_5/pinv_dec_0/A" 345.298
+cap "predecode_3" "gnd_uq4" 1.13687e-13
+cap "predecode_6" "predecode_3" 47.643
+cap "and2_dec_2/pinv_dec_0/A" "vdd_uq10" 75.2462
+cap "decode_6" "gnd_uq4" 2.67173
+cap "decode_9" "decode_7" 1.77636e-15
+cap "decode_12" "decode_11" -7.10543e-15
+cap "decode_8" "decode_7" -7.10543e-15
+cap "gnd_uq4" "vdd_uq5" -18.048
+cap "and2_dec_6/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 345.298
+cap "predecode_5" "hierarchical_predecode2x4_0/and2_dec_2/pinv_dec_0/A" 4.97477
+cap "and2_dec_6/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 63.7773
+cap "predecode_1" "predecode_0" 105.283
+cap "predecode_3" "predecode_5" 2.32293
+cap "and2_dec_1/pinv_dec_0/A" "gnd_uq4" 4.70395
+cap "predecode_0" "gnd_uq4" 89.51
+cap "and2_dec_6/pinv_dec_0/A" "gnd_uq4" 76.487
+cap "predecode_6" "predecode_0" 47.643
+cap "and2_dec_4/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 121.86
+cap "and2_dec_0/pinv_dec_0/A" "gnd_uq4" 3.67295
+subcap "decode_5" -140.242
+subcap "decode_6" -156.503
+subcap "decode_7" -160.999
+subcap "decode_8" -160.999
+subcap "decode_9" -160.999
+subcap "decode_10" -160.999
+subcap "decode_11" -160.999
+subcap "decode_12" -160.999
+subcap "decode_13" -160.999
+subcap "decode_14" -166.531
+subcap "decode_15" -129.265
+cap "decode_9" "decode_11" -1.77636e-15
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_4/pinv_dec_0/A" 1.69762
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 1.69762
+cap "and2_dec_10/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 0.469079
+cap "vdd_uq9" "decode_12" 2.83089
+cap "vdd_uq9" "decode_5" 2.85754
+cap "vdd_uq9" "decode_11" 2.83089
+cap "decode_6" "decode_7" -1.77636e-15
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 0.84881
+cap "decode_7" "decode_9" -1.77636e-15
+cap "decode_13" "vdd_uq9" -3.71697
+cap "and2_dec_9/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 0.469079
+cap "and2_dec_7/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 2.3
+cap "and2_dec_6/pinv_dec_0/A" "and2_dec_8/pinv_dec_0/A" 0.938158
+cap "decode_13" "decode_12" -3.55271e-15
+cap "decode_13" "decode_11" -1.77636e-15
+cap "decode_7" "vdd_uq9" 0.159161
+cap "and2_dec_6/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 1.69762
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_4/pinv_dec_0/A" 0.938158
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 1.15
+cap "decode_7" "decode_5" -8.88178e-16
+cap "decode_8" "decode_10" -1.77636e-15
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_3/pinv_dec_0/A" 0.938158
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_4/pinv_dec_0/A" 2.3
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 0.469079
+cap "decode_8" "decode_6" -8.88178e-16
+cap "vdd_uq9" "decode_10" 2.83089
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_7/pinv_dec_0/A" 0.938158
+cap "and2_dec_5/pinv_dec_0/A" "and2_dec_6/pinv_dec_0/A" 2.3
+cap "decode_10" "decode_12" -1.77636e-15
+cap "decode_8" "decode_9" -3.55271e-15
+cap "decode_10" "decode_11" -3.55271e-15
+cap "vdd_uq10" "vdd_uq9" -87.4612
+cap "vdd_uq9" "gnd_uq9" -195.785
+cap "decode_6" "vdd_uq9" 2.67173
+cap "decode_14" "vdd_uq9" 6.54787
+cap "and2_dec_6/pinv_dec_0/A" "and2_dec_4/pinv_dec_0/A" 0.938158
+cap "and2_dec_2/pinv_dec_0/A" "and2_dec_0/pinv_dec_0/A" 0.469079
+cap "decode_14" "decode_12" -8.88178e-16
+cap "decode_8" "vdd_uq9" 1.14945
+cap "vdd_uq9" "decode_9" 2.83089
+cap "decode_13" "decode_15" -8.88178e-16
+subcap "gnd_uq10" -2015.27
+subcap "decode_12" -184.593
+subcap "decode_13" -174.672
+subcap "decode_14" -106.051
+subcap "decode_15" -106.051
+cap "and2_dec_0/A" "and2_dec_1/A" 52.6414
+cap "gnd_uq9" "and2_dec_1/pinv_dec_0/A" 37.4181
+cap "and2_dec_0/A" "gnd_uq9" 4.2233
+cap "vdd_uq9" "gnd_uq9" -53.7657
+cap "and2_dec_3/A" "and2_dec_3/B" 6.99857
+cap "and2_dec_3/pinv_dec_0/A" "vdd_uq10" 1.65494
+cap "and2_dec_0/pinv_dec_0/A" "vdd_uq10" 66.8262
+cap "decode_13" "decode_15" 8.88178e-16
+cap "gnd_uq9" "decode_15" -10.2648
+cap "and2_dec_1/A" "and2_dec_3/A" 6.20253
+cap "and2_dec_0/A" "and2_dec_2/A" 6.20253
+cap "vdd_uq10" "and2_dec_3/B" 3.73961
+cap "and2_dec_1/A" "and2_dec_3/B" 23.2959
+cap "and2_dec_3/pinv_dec_0/A" "gnd_uq9" 3.67295
+cap "and2_dec_0/pinv_dec_0/A" "gnd_uq9" 63.4062
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 60.93
+cap "gnd_uq9" "and2_dec_3/B" 8.75839
+cap "gnd_uq9" "vdd_uq10" -193.702
+cap "gnd_uq9" "and2_dec_1/A" 3.73926
+cap "decode_15" "decode_14" -3.55271e-15
+cap "and2_dec_2/A" "and2_dec_3/B" 10.3499
+cap "and2_dec_2/A" "and2_dec_1/A" 8.70685
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 31.8887
+cap "decode_13" "gnd_uq9" 6.54787
+cap "and2_dec_2/A" "gnd_uq9" 3.35476
+cap "vdd_uq10" "and2_dec_2/pinv_dec_0/A" 6.76509
+cap "predecode_6" "gnd_uq9" 6.90476
+cap "decode_12" "decode_14" 8.88178e-16
+cap "gnd_uq9" "and2_dec_2/pinv_dec_0/A" 4.70395
+cap "decode_13" "decode_14" -3.55271e-15
+cap "gnd_uq9" "decode_14" -3.71697
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 31.8887
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 345.298
+cap "gnd_uq9" "predecode_5" 5.69869
+cap "gnd_uq9" "predecode_4" 4.8513
+cap "vdd_uq10" "and2_dec_1/pinv_dec_0/A" 44.9207
+cap "and2_dec_0/A" "and2_dec_3/B" 19.9446
+cap "vdd_uq9" "vdd_uq10" -23.2107
+subcap "decode_12" -127.368
+subcap "decode_13" -164.634
+subcap "decode_14" -160.999
+subcap "decode_15" -160.999
+cap "vdd_uq10" "vdd_uq9" -23.2107
+cap "decode_15" "vdd_uq9" -10.2648
+cap "decode_14" "vdd_uq9" -3.71697
+cap "decode_13" "vdd_uq9" 6.54787
+cap "decode_14" "decode_12" -8.88178e-16
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 1.15
+cap "and2_dec_0/pinv_dec_0/A" "and2_dec_2/pinv_dec_0/A" 0.469079
+cap "decode_14" "decode_15" -3.55271e-15
+cap "decode_13" "decode_15" -8.88178e-16
+cap "and2_dec_3/pinv_dec_0/A" "and2_dec_1/pinv_dec_0/A" 0.469079
+cap "gnd_uq9" "vdd_uq9" -53.7657
+cap "and2_dec_1/pinv_dec_0/A" "and2_dec_0/pinv_dec_0/A" 1.69762
+merge "and2_dec_4/sky130_fd_bd_sram__openram_dp_nand2_dec_0/gnd" "and2_dec_0/gnd_uq0" -4448.14 -14724 -6912 0 0 0 0 0 0 0 0 -1947912 -3792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1011028 -3168 -1847228 -30360 0 0 -211226 -3920 0 0 0 0 0 0
+merge "and2_dec_0/gnd_uq0" "and2_dec_2/gnd_uq0"
+merge "and2_dec_2/gnd_uq0" "and2_dec_1/gnd_uq0"
+merge "and2_dec_1/gnd_uq0" "and2_dec_3/gnd_uq0"
+merge "and2_dec_3/gnd_uq0" "and2_dec_5/gnd_uq0"
+merge "and2_dec_5/gnd_uq0" "and2_dec_4/gnd_uq0"
+merge "and2_dec_4/gnd_uq0" "and2_dec_6/gnd_uq0"
+merge "and2_dec_6/gnd_uq0" "contact_19_31/gnd"
+merge "contact_19_31/gnd" "contact_7_31/gnd"
+merge "contact_7_31/gnd" "contact_19_30/gnd"
+merge "contact_19_30/gnd" "contact_7_30/gnd"
+merge "contact_7_30/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "contact_7_0/gnd"
+merge "contact_7_0/gnd" "and2_dec_0/gnd"
+merge "and2_dec_0/gnd" "contact_17_3/gnd"
+merge "contact_17_3/gnd" "contact_17_2/gnd"
+merge "contact_17_2/gnd" "contact_17_1/gnd"
+merge "contact_17_1/gnd" "contact_17_0/gnd"
+merge "contact_17_0/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_7_1/gnd"
+merge "contact_7_1/gnd" "contact_7_33/gnd"
+merge "contact_7_33/gnd" "contact_19_33/gnd"
+merge "contact_19_33/gnd" "contact_7_2/gnd"
+merge "contact_7_2/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_7_32/gnd"
+merge "contact_7_32/gnd" "contact_19_32/gnd"
+merge "contact_19_32/gnd" "contact_7_35/gnd"
+merge "contact_7_35/gnd" "contact_19_35/gnd"
+merge "contact_19_35/gnd" "contact_7_4/gnd"
+merge "contact_7_4/gnd" "contact_19_4/gnd"
+merge "contact_19_4/gnd" "contact_7_34/gnd"
+merge "contact_7_34/gnd" "contact_19_34/gnd"
+merge "contact_19_34/gnd" "and2_dec_2/gnd"
+merge "and2_dec_2/gnd" "and2_dec_1/gnd"
+merge "and2_dec_1/gnd" "contact_17_5/gnd"
+merge "contact_17_5/gnd" "contact_17_4/gnd"
+merge "contact_17_4/gnd" "contact_19_5/gnd"
+merge "contact_19_5/gnd" "contact_7_5/gnd"
+merge "contact_7_5/gnd" "contact_19_3/gnd"
+merge "contact_19_3/gnd" "contact_7_3/gnd"
+merge "contact_7_3/gnd" "contact_19_37/gnd"
+merge "contact_19_37/gnd" "contact_7_37/gnd"
+merge "contact_7_37/gnd" "contact_19_36/gnd"
+merge "contact_19_36/gnd" "contact_7_36/gnd"
+merge "contact_7_36/gnd" "contact_19_6/gnd"
+merge "contact_19_6/gnd" "contact_7_6/gnd"
+merge "contact_7_6/gnd" "and2_dec_3/gnd"
+merge "and2_dec_3/gnd" "contact_17_8/gnd"
+merge "contact_17_8/gnd" "contact_17_6/gnd"
+merge "contact_17_6/gnd" "contact_19_7/gnd"
+merge "contact_19_7/gnd" "contact_7_7/gnd"
+merge "contact_7_7/gnd" "contact_7_39/gnd"
+merge "contact_7_39/gnd" "contact_19_39/gnd"
+merge "contact_19_39/gnd" "contact_7_8/gnd"
+merge "contact_7_8/gnd" "contact_19_8/gnd"
+merge "contact_19_8/gnd" "contact_7_38/gnd"
+merge "contact_7_38/gnd" "contact_19_38/gnd"
+merge "contact_19_38/gnd" "contact_7_41/gnd"
+merge "contact_7_41/gnd" "contact_19_41/gnd"
+merge "contact_19_41/gnd" "contact_7_10/gnd"
+merge "contact_7_10/gnd" "contact_19_10/gnd"
+merge "contact_19_10/gnd" "contact_7_40/gnd"
+merge "contact_7_40/gnd" "contact_19_40/gnd"
+merge "contact_19_40/gnd" "and2_dec_5/gnd"
+merge "and2_dec_5/gnd" "and2_dec_4/gnd"
+merge "and2_dec_4/gnd" "contact_17_11/gnd"
+merge "contact_17_11/gnd" "contact_17_10/gnd"
+merge "contact_17_10/gnd" "contact_17_9/gnd"
+merge "contact_17_9/gnd" "contact_19_11/gnd"
+merge "contact_19_11/gnd" "contact_7_11/gnd"
+merge "contact_7_11/gnd" "contact_19_9/gnd"
+merge "contact_19_9/gnd" "contact_7_9/gnd"
+merge "contact_7_9/gnd" "contact_17_13/gnd"
+merge "contact_17_13/gnd" "contact_17_12/gnd"
+merge "contact_17_12/gnd" "and2_dec_11/pinv_dec_0/gnd"
+merge "and2_dec_11/pinv_dec_0/gnd" "contact_17_7/gnd"
+merge "contact_17_7/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_19_60/gnd"
+merge "contact_19_60/gnd" "and2_dec_8/gnd_uq0"
+merge "and2_dec_8/gnd_uq0" "and2_dec_7/gnd_uq0"
+merge "and2_dec_7/gnd_uq0" "and2_dec_10/gnd_uq0"
+merge "and2_dec_10/gnd_uq0" "and2_dec_9/gnd_uq0"
+merge "and2_dec_9/gnd_uq0" "and2_dec_12/gnd_uq0"
+merge "and2_dec_12/gnd_uq0" "and2_dec_11/gnd_uq0"
+merge "and2_dec_11/gnd_uq0" "and2_dec_15/gnd_uq0"
+merge "and2_dec_15/gnd_uq0" "and2_dec_14/gnd_uq0"
+merge "and2_dec_14/gnd_uq0" "and2_dec_13/gnd_uq0"
+merge "and2_dec_13/gnd_uq0" "contact_19_43/gnd"
+merge "contact_19_43/gnd" "contact_7_43/gnd"
+merge "contact_7_43/gnd" "contact_19_42/gnd"
+merge "contact_19_42/gnd" "contact_7_42/gnd"
+merge "contact_7_42/gnd" "contact_19_12/gnd"
+merge "contact_19_12/gnd" "contact_7_12/gnd"
+merge "contact_7_12/gnd" "and2_dec_6/gnd"
+merge "and2_dec_6/gnd" "and2_dec_6/pinv_dec_0/gnd"
+merge "and2_dec_6/pinv_dec_0/gnd" "contact_20_0/gnd"
+merge "contact_20_0/gnd" "contact_19_13/gnd"
+merge "contact_19_13/gnd" "contact_7_13/gnd"
+merge "contact_7_13/gnd" "contact_19_44/gnd"
+merge "contact_19_44/gnd" "contact_7_44/gnd"
+merge "contact_7_44/gnd" "contact_19_45/gnd"
+merge "contact_19_45/gnd" "contact_7_45/gnd"
+merge "contact_7_45/gnd" "contact_19_14/gnd"
+merge "contact_19_14/gnd" "contact_7_14/gnd"
+merge "contact_7_14/gnd" "contact_19_47/gnd"
+merge "contact_19_47/gnd" "contact_7_47/gnd"
+merge "contact_7_47/gnd" "contact_19_16/gnd"
+merge "contact_19_16/gnd" "contact_7_16/gnd"
+merge "contact_7_16/gnd" "contact_19_46/gnd"
+merge "contact_19_46/gnd" "contact_7_46/gnd"
+merge "contact_7_46/gnd" "and2_dec_8/gnd"
+merge "and2_dec_8/gnd" "and2_dec_7/gnd"
+merge "and2_dec_7/gnd" "contact_17_16/gnd"
+merge "contact_17_16/gnd" "contact_17_14/gnd"
+merge "contact_17_14/gnd" "contact_20_1/gnd"
+merge "contact_20_1/gnd" "contact_19_15/gnd"
+merge "contact_19_15/gnd" "contact_7_15/gnd"
+merge "contact_7_15/gnd" "contact_17_19/gnd"
+merge "contact_17_19/gnd" "contact_17_18/gnd"
+merge "contact_17_18/gnd" "contact_17_17/gnd"
+merge "contact_17_17/gnd" "contact_20_2/gnd"
+merge "contact_20_2/gnd" "contact_19_17/gnd"
+merge "contact_19_17/gnd" "contact_7_17/gnd"
+merge "contact_7_17/gnd" "contact_19_49/gnd"
+merge "contact_19_49/gnd" "contact_7_49/gnd"
+merge "contact_7_49/gnd" "contact_19_18/gnd"
+merge "contact_19_18/gnd" "contact_7_18/gnd"
+merge "contact_7_18/gnd" "contact_19_48/gnd"
+merge "contact_19_48/gnd" "contact_7_48/gnd"
+merge "contact_7_48/gnd" "contact_19_51/gnd"
+merge "contact_19_51/gnd" "contact_7_51/gnd"
+merge "contact_7_51/gnd" "contact_19_20/gnd"
+merge "contact_19_20/gnd" "contact_7_20/gnd"
+merge "contact_7_20/gnd" "contact_19_50/gnd"
+merge "contact_19_50/gnd" "contact_7_50/gnd"
+merge "contact_7_50/gnd" "and2_dec_10/gnd"
+merge "and2_dec_10/gnd" "and2_dec_9/gnd"
+merge "and2_dec_9/gnd" "contact_17_20/gnd"
+merge "contact_17_20/gnd" "contact_20_3/gnd"
+merge "contact_20_3/gnd" "contact_19_19/gnd"
+merge "contact_19_19/gnd" "contact_7_19/gnd"
+merge "contact_7_19/gnd" "contact_17_22/gnd"
+merge "contact_17_22/gnd" "contact_17_21/gnd"
+merge "contact_17_21/gnd" "contact_19_21/gnd"
+merge "contact_19_21/gnd" "contact_7_21/gnd"
+merge "contact_7_21/gnd" "contact_19_53/gnd"
+merge "contact_19_53/gnd" "contact_7_53/gnd"
+merge "contact_7_53/gnd" "contact_19_22/gnd"
+merge "contact_19_22/gnd" "contact_7_22/gnd"
+merge "contact_7_22/gnd" "contact_19_52/gnd"
+merge "contact_19_52/gnd" "contact_7_52/gnd"
+merge "contact_7_52/gnd" "contact_19_55/gnd"
+merge "contact_19_55/gnd" "contact_7_55/gnd"
+merge "contact_7_55/gnd" "contact_19_24/gnd"
+merge "contact_19_24/gnd" "contact_7_24/gnd"
+merge "contact_7_24/gnd" "contact_19_54/gnd"
+merge "contact_19_54/gnd" "contact_7_54/gnd"
+merge "contact_7_54/gnd" "and2_dec_12/gnd"
+merge "and2_dec_12/gnd" "and2_dec_11/gnd"
+merge "and2_dec_11/gnd" "contact_17_25/gnd"
+merge "contact_17_25/gnd" "contact_17_24/gnd"
+merge "contact_17_24/gnd" "contact_19_23/gnd"
+merge "contact_19_23/gnd" "contact_7_23/gnd"
+merge "contact_7_23/gnd" "contact_17_27/gnd"
+merge "contact_17_27/gnd" "contact_17_26/gnd"
+merge "contact_17_26/gnd" "contact_20_4/gnd"
+merge "contact_20_4/gnd" "contact_19_25/gnd"
+merge "contact_19_25/gnd" "contact_7_25/gnd"
+merge "contact_7_25/gnd" "contact_19_57/gnd"
+merge "contact_19_57/gnd" "contact_7_57/gnd"
+merge "contact_7_57/gnd" "contact_19_26/gnd"
+merge "contact_19_26/gnd" "contact_7_26/gnd"
+merge "contact_7_26/gnd" "contact_19_56/gnd"
+merge "contact_19_56/gnd" "contact_7_56/gnd"
+merge "contact_7_56/gnd" "contact_19_59/gnd"
+merge "contact_19_59/gnd" "contact_7_59/gnd"
+merge "contact_7_59/gnd" "contact_19_28/gnd"
+merge "contact_19_28/gnd" "contact_7_28/gnd"
+merge "contact_7_28/gnd" "contact_19_58/gnd"
+merge "contact_19_58/gnd" "contact_7_58/gnd"
+merge "contact_7_58/gnd" "and2_dec_15/gnd"
+merge "and2_dec_15/gnd" "and2_dec_14/gnd"
+merge "and2_dec_14/gnd" "and2_dec_13/gnd"
+merge "and2_dec_13/gnd" "gnd_uq10"
+merge "gnd_uq10" "gnd_uq9"
+merge "gnd_uq9" "contact_17_29/gnd"
+merge "contact_17_29/gnd" "contact_17_28/gnd"
+merge "contact_17_28/gnd" "contact_20_5/gnd"
+merge "contact_20_5/gnd" "contact_19_29/gnd"
+merge "contact_19_29/gnd" "contact_19_27/gnd"
+merge "contact_19_27/gnd" "contact_7_27/gnd"
+merge "contact_7_27/gnd" "contact_17_30/gnd"
+merge "contact_17_30/gnd" "contact_20_6/gnd"
+merge "contact_20_6/gnd" "contact_7_29/gnd"
+merge "contact_7_29/gnd" "contact_17_15/gnd"
+merge "contact_17_15/gnd" "hierarchical_predecode2x4_0/gnd"
+merge "hierarchical_predecode2x4_0/gnd" "gnd_uq4"
+merge "gnd_uq4" "gnd_uq5"
+merge "gnd_uq5" "gnd_uq6"
+merge "gnd_uq6" "gnd_uq7"
+merge "gnd_uq7" "gnd_uq8"
+merge "gnd_uq8" "contact_14_2/gnd"
+merge "contact_14_2/gnd" "contact_19_62/gnd"
+merge "contact_19_62/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_19_61/gnd"
+merge "contact_19_61/gnd" "contact_17_32/gnd"
+merge "contact_17_32/gnd" "contact_14_8/gnd"
+merge "contact_14_8/gnd" "contact_17_33/gnd"
+merge "contact_17_33/gnd" "contact_14_9/gnd"
+merge "contact_14_9/gnd" "contact_14_3/gnd"
+merge "contact_14_3/gnd" "contact_19_63/gnd"
+merge "contact_19_63/gnd" "contact_17_23/gnd"
+merge "contact_17_23/gnd" "hierarchical_predecode2x4_1/gnd"
+merge "hierarchical_predecode2x4_1/gnd" "gnd_uq0"
+merge "gnd_uq0" "gnd_uq1"
+merge "gnd_uq1" "gnd_uq2"
+merge "gnd_uq2" "gnd_uq3"
+merge "gnd_uq3" "contact_14_4/gnd"
+merge "contact_14_4/gnd" "contact_19_64/gnd"
+merge "contact_19_64/gnd" "contact_14_5/gnd"
+merge "contact_14_5/gnd" "contact_19_65/gnd"
+merge "contact_19_65/gnd" "contact_14_6/gnd"
+merge "contact_14_6/gnd" "contact_19_66/gnd"
+merge "contact_19_66/gnd" "contact_17_31/gnd"
+merge "contact_17_31/gnd" "contact_14_7/gnd"
+merge "contact_14_7/gnd" "contact_19_67/gnd"
+merge "contact_19_67/gnd" "contact_20_7/gnd"
+merge "contact_20_7/gnd" "contact_17_34/gnd"
+merge "contact_17_34/gnd" "contact_14_10/gnd"
+merge "contact_14_10/gnd" "contact_17_35/gnd"
+merge "contact_17_35/gnd" "contact_14_11/gnd"
+merge "contact_14_11/gnd" "gnd"
+merge "hierarchical_predecode2x4_1/in_0" "addr_0" -42.1515 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1700 -168 -2116 -184 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_9/Z" "decode_6" -140.938 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 117131 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0/vdd_uq0" "and2_dec_2/vdd_uq0" -1190.55 0 0 0 0 422968 -13000 0 0 -707124 -2112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -373824 -1600 -415140 -15176 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/vdd_uq0" "and2_dec_1/vdd_uq0"
+merge "and2_dec_1/vdd_uq0" "and2_dec_3/vdd_uq0"
+merge "and2_dec_3/vdd_uq0" "and2_dec_5/vdd_uq0"
+merge "and2_dec_5/vdd_uq0" "and2_dec_4/vdd_uq0"
+merge "and2_dec_4/vdd_uq0" "and2_dec_6/vdd_uq0"
+merge "and2_dec_6/vdd_uq0" "and2_dec_11/pinv_dec_0/vdd"
+merge "and2_dec_11/pinv_dec_0/vdd" "and2_dec_6/pinv_dec_0/vdd"
+merge "and2_dec_6/pinv_dec_0/vdd" "and2_dec_8/vdd_uq0"
+merge "and2_dec_8/vdd_uq0" "and2_dec_7/vdd_uq0"
+merge "and2_dec_7/vdd_uq0" "and2_dec_10/vdd_uq0"
+merge "and2_dec_10/vdd_uq0" "and2_dec_9/vdd_uq0"
+merge "and2_dec_9/vdd_uq0" "and2_dec_12/vdd_uq0"
+merge "and2_dec_12/vdd_uq0" "and2_dec_11/vdd_uq0"
+merge "and2_dec_11/vdd_uq0" "and2_dec_15/vdd_uq0"
+merge "and2_dec_15/vdd_uq0" "and2_dec_14/vdd_uq0"
+merge "and2_dec_14/vdd_uq0" "and2_dec_13/vdd_uq0"
+merge "and2_dec_13/vdd_uq0" "vdd_uq9"
+merge "hierarchical_predecode2x4_1/in_1" "addr_1" -35.0268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1700 -168 -2116 -184 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0/A" "and2_dec_4/A" -113.008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20622 -774 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_4/A" "and2_dec_8/A"
+merge "and2_dec_8/A" "and2_dec_12/A"
+merge "and2_dec_12/A" "hierarchical_predecode2x4_1/out_3"
+merge "hierarchical_predecode2x4_1/out_3" "predecode_3"
+merge "hierarchical_predecode2x4_1/vdd_uq0" "vdd_uq0" -74.0096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84672 -784 0 0 0 0 0 0
+merge "vdd_uq0" "vdd_uq2"
+merge "hierarchical_predecode2x4_0/in_0" "addr_2" -38.6364 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7650 -168 6210 -184 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_5/B" "and2_dec_4/B" -264.183 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30945 -774 -22512 -1636 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_4/B" "and2_dec_6/B"
+merge "and2_dec_6/B" "and2_dec_7/B"
+merge "and2_dec_7/B" "hierarchical_predecode2x4_0/out_2"
+merge "hierarchical_predecode2x4_0/out_2" "predecode_6"
+merge "and2_dec_4/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd" "and2_dec_0/vdd" -2877.8 0 0 0 0 15312 -18440 0 0 -3664602 -1708 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3745386 -1512 1194417 -15304 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0/vdd" "and2_dec_2/vdd"
+merge "and2_dec_2/vdd" "and2_dec_1/vdd"
+merge "and2_dec_1/vdd" "and2_dec_3/vdd"
+merge "and2_dec_3/vdd" "and2_dec_5/vdd"
+merge "and2_dec_5/vdd" "and2_dec_4/vdd"
+merge "and2_dec_4/vdd" "and2_dec_6/vdd"
+merge "and2_dec_6/vdd" "and2_dec_6/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd"
+merge "and2_dec_6/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd" "and2_dec_11/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd"
+merge "and2_dec_11/sky130_fd_bd_sram__openram_dp_nand2_dec_0/vdd" "and2_dec_8/vdd"
+merge "and2_dec_8/vdd" "and2_dec_7/vdd"
+merge "and2_dec_7/vdd" "and2_dec_10/vdd"
+merge "and2_dec_10/vdd" "and2_dec_9/vdd"
+merge "and2_dec_9/vdd" "and2_dec_12/vdd"
+merge "and2_dec_12/vdd" "and2_dec_11/vdd"
+merge "and2_dec_11/vdd" "and2_dec_15/vdd"
+merge "and2_dec_15/vdd" "and2_dec_14/vdd"
+merge "and2_dec_14/vdd" "and2_dec_13/vdd"
+merge "and2_dec_13/vdd" "vdd_uq10"
+merge "hierarchical_predecode2x4_1/vdd_uq1" "vdd_uq1" -40.9003 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9604 -392 0 0 0 0 0 0
+merge "hierarchical_predecode2x4_0/in_1" "addr_3" -30.7121 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9750 -168 8142 -184 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_3/A" "and2_dec_7/A" -414.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -775478 -774 -742140 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_7/A" "and2_dec_11/A"
+merge "and2_dec_11/A" "and2_dec_15/A"
+merge "and2_dec_15/A" "hierarchical_predecode2x4_1/out_0"
+merge "hierarchical_predecode2x4_1/out_0" "predecode_0"
+merge "and2_dec_7/Z" "decode_8" -103.311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 279845 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/A" "and2_dec_6/A" -108.475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40222 -774 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_6/A" "and2_dec_10/A"
+merge "and2_dec_10/A" "and2_dec_14/A"
+merge "and2_dec_14/A" "hierarchical_predecode2x4_1/out_1"
+merge "hierarchical_predecode2x4_1/out_1" "predecode_1"
+merge "and2_dec_12/B" "and2_dec_15/B" -272.066 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3349 -774 -22512 -1636 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_15/B" "and2_dec_14/B"
+merge "and2_dec_14/B" "and2_dec_13/B"
+merge "and2_dec_13/B" "hierarchical_predecode2x4_0/out_0"
+merge "hierarchical_predecode2x4_0/out_0" "predecode_4"
+merge "hierarchical_predecode2x4_1/vdd" "vdd" -79.6397 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9604 -784 0 0 0 0 0 0
+merge "vdd" "vdd_uq3"
+merge "and2_dec_0/B" "and2_dec_2/B" -102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68222 -774 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/B" "and2_dec_1/B"
+merge "and2_dec_1/B" "and2_dec_3/B"
+merge "and2_dec_3/B" "hierarchical_predecode2x4_0/out_3"
+merge "hierarchical_predecode2x4_0/out_3" "predecode_7"
+merge "hierarchical_predecode2x4_0/vdd_uq0" "vdd_uq4" -98.6984 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -244512 -784 0 0 0 0 0 0
+merge "vdd_uq4" "vdd_uq7"
+merge "hierarchical_predecode2x4_0/vdd" "vdd_uq5" -82.4658 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28077 -784 0 0 0 0 0 0
+merge "vdd_uq5" "vdd_uq8"
+merge "and2_dec_1/A" "and2_dec_5/A" -112.177 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8922 -774 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_5/A" "and2_dec_9/A"
+merge "and2_dec_9/A" "and2_dec_13/A"
+merge "and2_dec_13/A" "hierarchical_predecode2x4_1/out_2"
+merge "hierarchical_predecode2x4_1/out_2" "predecode_2"
+merge "and2_dec_5/Z" "decode_10" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "hierarchical_predecode2x4_0/vdd_uq1" "vdd_uq6" -40.9003 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9604 -392 0 0 0 0 0 0
+merge "and2_dec_3/Z" "decode_12" -83.563 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 365241 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_8/B" "and2_dec_10/B" -264.824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43465 -774 -22512 -1636 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_10/B" "and2_dec_9/B"
+merge "and2_dec_9/B" "and2_dec_11/B"
+merge "and2_dec_11/B" "hierarchical_predecode2x4_0/out_1"
+merge "hierarchical_predecode2x4_0/out_1" "predecode_5"
+merge "and2_dec_15/Z" "decode_0" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_14/Z" "decode_1" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_1/Z" "decode_14" -160.686 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31735 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_13/Z" "decode_2" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_12/Z" "decode_3" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_11/Z" "decode_4" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_10/Z" "decode_5" -108.915 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255611 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_8/Z" "decode_7" -135.334 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141365 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_4/Z" "decode_11" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_6/Z" "decode_9" -172.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -19618 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_2/Z" "decode_13" -156.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47891 -1222 0 0 0 0 0 0 0 0 0 0 0 0
+merge "and2_dec_0/Z" "decode_15" -87.2991 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 349085 -1222 0 0 0 0 0 0 0 0 0 0 0 0

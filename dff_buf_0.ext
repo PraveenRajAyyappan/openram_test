@@ -1,0 +1,75 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_19 contact_19_0 1 0 1840 0 1 853
+use contact_14 contact_14_0 1 0 1844 0 1 852
+use contact_19 contact_19_1 1 0 2346 0 1 471
+use contact_14 contact_14_1 1 0 2349 0 1 470
+use contact_19 contact_19_2 1 0 1543 0 1 649
+use contact_14 contact_14_2 1 0 1546 0 1 648
+use pinv_1 pinv_1_0 1 0 1970 0 1 0
+use pinv_0 pinv_0_0 1 0 1494 0 1 0
+use sky130_fd_bd_sram__openram_dff sky130_fd_bd_sram__openram_dff_0 1 0 0 0 1 0
+port "D" 1 137 538 203 590 m2
+port "clk" 4 369 692 423 756 m2
+port "gnd" 6 1277 0 1277 0 li
+port "Q" 2 2364 489 2392 517 m2
+port "Qb" 3 1858 871 1886 899 m2
+port "vdd" 5 1277 1414 1277 1414 li
+node "D" 0 24.5546 137 538 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3432 236 0 0 0 0 0 0 0 0
+node "clk" 0 24.5572 369 692 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3456 236 0 0 0 0 0 0 0 0
+node "gnd" 866 733.512 1277 0 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91944 5180 0 0 0 0 0 0 0 0 0 0 0 0
+node "Q" 122 128.477 2364 489 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11526 746 3328 232 3328 232 0 0 0 0 0 0 0 0
+node "li_1558_648#" 25 154.522 1558 648 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 3328 232 27976 1180 0 0 0 0 0 0 0 0
+node "Qb" 208 196.084 1858 871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19651 1224 3380 234 3328 232 0 0 0 0 0 0 0 0
+node "vdd" 866 733.512 1277 1414 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91944 5180 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_1558_648#" "Q" 2.96024
+cap "gnd" "Q" 6.65641
+cap "Qb" "li_1558_648#" 13.0076
+cap "Qb" "gnd" 17.9167
+cap "vdd" "Q" 5.84375
+cap "gnd" "li_1558_648#" 1.78095
+cap "vdd" "Qb" 17.979
+cap "Qb" "Q" 6.80446
+cap "vdd" "li_1558_648#" 1.64516
+cap "clk" "Qb" 7.31768
+cap "pinv_0_0/A" "vdd" 13.4311
+cap "gnd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 3.00977
+cap "Q" "gnd" -0.688775
+cap "pinv_0_0/A" "Qb" 96.0714
+cap "vdd" "Qb" 45.5655
+cap "sky130_fd_bd_sram__openram_dff_0/QN" "pinv_0_0/A" 18.5096
+cap "pinv_0_0/A" "Q" 2.19287
+cap "pinv_0_0/A" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 3.89351
+cap "sky130_fd_bd_sram__openram_dff_0/QN" "Qb" 10.5782
+cap "Q" "vdd" 6.47829
+cap "pinv_0_0/A" "gnd" 6.533
+cap "vdd" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 5.80456
+cap "Qb" "sky130_fd_bd_sram__openram_dff_0/a_239_76#" 31.5292
+cap "Q" "Qb" 101.661
+cap "pinv_0_0/A" "clk" 17.3908
+cap "gnd" "Qb" 35.6374
+merge "sky130_fd_bd_sram__openram_dff_0/gnd" "sky130_fd_bd_sram__openram_dff_0/GND" -661.055 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78292 -4676 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/GND" "pinv_0_0/gnd"
+merge "pinv_0_0/gnd" "pinv_1_0/gnd"
+merge "pinv_1_0/gnd" "contact_14_2/gnd"
+merge "contact_14_2/gnd" "contact_19_2/gnd"
+merge "contact_19_2/gnd" "contact_14_1/gnd"
+merge "contact_14_1/gnd" "contact_19_1/gnd"
+merge "contact_19_1/gnd" "contact_14_0/gnd"
+merge "contact_14_0/gnd" "contact_19_0/gnd"
+merge "contact_19_0/gnd" "gnd"
+merge "pinv_1_0/Z" "Q" -15.0471 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -578 -102 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/D" "D" -24.5546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3432 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/CLK" "clk" -24.5572 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3456 -236 0 0 0 0 0 0 0 0
+merge "sky130_fd_bd_sram__openram_dff_0/VDD" "pinv_0_0/vdd" -704.865 0 0 0 0 -57024 -1728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78292 -4676 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_0_0/vdd" "pinv_1_0/vdd"
+merge "pinv_1_0/vdd" "vdd"
+merge "sky130_fd_bd_sram__openram_dff_0/Q" "pinv_0_0/A" -87.7305 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 -1716 -170 0 0 0 0 0 0 0 0
+merge "pinv_0_0/A" "li_1558_648#"
+merge "pinv_0_0/Z" "pinv_1_0/A" -31.9819 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -204 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pinv_1_0/A" "Qb"

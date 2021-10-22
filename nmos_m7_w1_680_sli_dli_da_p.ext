@@ -1,0 +1,46 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use contact_11 contact_11_0 1 0 748 0 1 135
+use contact_11 contact_11_1 1 0 644 0 1 135
+use contact_11 contact_11_2 1 0 536 0 1 135
+use contact_11 contact_11_3 1 0 428 0 1 135
+use contact_11 contact_11_4 1 0 320 0 1 135
+use contact_11 contact_11_5 1 0 212 0 1 135
+use contact_11 contact_11_6 1 0 104 0 1 135
+use contact_11 contact_11_7 1 0 0 0 1 135
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "S_uq0" 4 669 168 669 168 li
+port "S" 2 453 168 453 168 li
+port "S_uq1" 5 237 168 237 168 li
+port "D" 3 451 252 451 252 li
+port "S_uq2" 6 25 168 25 168 li
+port "G" 1 399 377 399 377 p
+node "S_uq0" 541 0 669 168 li 0 0 0 0 0 0 0 0 26208 828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "S" 541 0 453 168 li 0 0 0 0 0 0 0 0 26208 828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "S_uq1" 541 0 237 168 li 0 0 0 0 0 0 0 0 26208 828 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "D" 3401 0 451 252 li 0 0 0 0 0 0 0 0 98784 3276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36652 2224 0 0 0 0 0 0 0 0 0 0 0 0
+node "S_uq2" 696 0 25 168 li 0 0 0 0 0 0 0 0 20160 792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0 0 0 0 0
+node "G" 5453 315.51 399 377 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 101820 6848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "w_n26_n26#" 0 0 -26 -26 pw 329800 2476 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "D" "S" 129.054
+cap "D" "S_uq2" 46.1187
+cap "S_uq0" "S_uq1" 5.47236
+cap "S_uq2" "S" 5.52792
+cap "D" "G" 50.3955
+cap "S_uq1" "D" 125.777
+cap "S_uq1" "S" 11.967
+cap "S_uq1" "S_uq2" 12.236
+cap "S_uq0" "D" 127.425
+cap "S_uq0" "S" 11.967
+cap "S_uq0" "S_uq2" 3.57049
+device msubckt sky130_fd_pr__nfet_01v8 708 0 709 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "S_uq0" 336 0 "D" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 600 0 601 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "D" 336 0 "S_uq0" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 492 0 493 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "S" 336 0 "D" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 384 0 385 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "D" 336 0 "S" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 276 0 277 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "S_uq1" 336 0 "D" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 168 0 169 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "D" 336 0 "S_uq1" 336 0
+device msubckt sky130_fd_pr__nfet_01v8 60 0 61 1 l=30 w=336 "w_n26_n26#" "G" 60 0 "S_uq2" 336 0 "D" 336 0

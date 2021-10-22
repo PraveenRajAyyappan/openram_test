@@ -1,0 +1,588 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634918361
+<< checkpaint >>
+rect -1260 -1750 9227 7636
+<< locali >>
+rect 5848 6183 5907 6217
+rect 7921 6183 7949 6217
+rect 5873 6038 5907 6183
+rect 5873 6004 5966 6038
+rect 5873 5812 5966 5846
+rect 5873 5667 5907 5812
+rect 5848 5633 5907 5667
+rect 7921 5633 7949 5667
+rect 5848 5393 5907 5427
+rect 7921 5393 7949 5427
+rect 5873 5248 5907 5393
+rect 5873 5214 5966 5248
+rect 5873 5022 5966 5056
+rect 5873 4877 5907 5022
+rect 5848 4843 5907 4877
+rect 7921 4843 7949 4877
+rect 5848 4603 5907 4637
+rect 7921 4603 7949 4637
+rect 5873 4458 5907 4603
+rect 5873 4424 5966 4458
+rect 5873 4232 5966 4266
+rect 5873 4087 5907 4232
+rect 5848 4053 5907 4087
+rect 7921 4053 7949 4087
+rect 5848 3813 5907 3847
+rect 7921 3813 7949 3847
+rect 5873 3668 5907 3813
+rect 5873 3634 5966 3668
+rect 5873 3442 5966 3476
+rect 5873 3297 5907 3442
+rect 5848 3263 5907 3297
+rect 7921 3263 7949 3297
+rect 5848 3023 5907 3057
+rect 7921 3023 7949 3057
+rect 5873 2878 5907 3023
+rect 5873 2844 5966 2878
+rect 5873 2652 5966 2686
+rect 5873 2507 5907 2652
+rect 5848 2473 5907 2507
+rect 7921 2473 7949 2507
+rect 5848 2233 5907 2267
+rect 7921 2233 7949 2267
+rect 5873 2088 5907 2233
+rect 5873 2054 5966 2088
+rect 5873 1862 5966 1896
+rect 5873 1717 5907 1862
+rect 5848 1683 5907 1717
+rect 7921 1683 7949 1717
+rect 5848 1443 5907 1477
+rect 7921 1443 7949 1477
+rect 5873 1298 5907 1443
+rect 5873 1264 5966 1298
+rect 5873 1072 5966 1106
+rect 5873 927 5907 1072
+rect 5848 893 5907 927
+rect 7921 893 7949 927
+rect 5848 653 5907 687
+rect 7921 653 7949 687
+rect 5873 508 5907 653
+rect 5873 474 5966 508
+rect 5873 282 5966 316
+rect 5873 137 5907 282
+rect 5848 103 5907 137
+rect 7921 103 7949 137
+rect 6958 -137 7949 -103
+rect 5725 -174 5759 -158
+rect 5759 -208 5982 -174
+rect 5725 -224 5759 -208
+rect 5965 -282 5999 -266
+rect 5965 -332 5999 -316
+<< viali >>
+rect 5725 -208 5759 -174
+rect 5965 -316 5999 -282
+<< metal1 >>
+rect 19 0 47 3950
+rect 99 0 127 3950
+rect 179 0 207 3950
+rect 259 0 287 3950
+rect 6117 3119 6123 3171
+rect 6175 3119 6181 3171
+rect 6542 3118 6548 3170
+rect 6600 3118 6606 3170
+rect 6959 3134 6965 3186
+rect 7017 3134 7023 3186
+rect 7581 3134 7587 3186
+rect 7639 3134 7645 3186
+rect 5710 -217 5716 -165
+rect 5768 -217 5774 -165
+rect 6542 -211 6548 -159
+rect 6600 -211 6606 -159
+rect 7581 -224 7587 -172
+rect 7639 -224 7645 -172
+rect 5950 -325 5956 -273
+rect 6008 -325 6014 -273
+<< via1 >>
+rect 6123 3119 6175 3171
+rect 6548 3118 6600 3170
+rect 6965 3134 7017 3186
+rect 7587 3134 7639 3186
+rect 5716 -174 5768 -165
+rect 5716 -208 5725 -174
+rect 5725 -208 5759 -174
+rect 5759 -208 5768 -174
+rect 5716 -217 5768 -208
+rect 6548 -211 6600 -159
+rect 7587 -224 7639 -172
+rect 5956 -282 6008 -273
+rect 5956 -316 5965 -282
+rect 5965 -316 5999 -282
+rect 5999 -316 6008 -282
+rect 5956 -325 6008 -316
+<< metal2 >>
+rect 6963 3188 7019 3197
+rect 6121 3173 6177 3182
+rect 6121 3108 6177 3117
+rect 6546 3172 6602 3181
+rect 6963 3123 7019 3132
+rect 7585 3188 7641 3197
+rect 7585 3123 7641 3132
+rect 6546 3107 6602 3116
+rect 5949 -136 5977 0
+rect 5714 -163 5770 -154
+rect 5949 -164 5996 -136
+rect 5714 -228 5770 -219
+rect 5968 -267 5996 -164
+rect 6546 -157 6602 -148
+rect 6546 -222 6602 -213
+rect 7585 -169 7641 -160
+rect 7585 -234 7641 -225
+rect 5956 -273 6008 -267
+rect 5956 -331 6008 -325
+<< via2 >>
+rect 6963 3186 7019 3188
+rect 6121 3171 6177 3173
+rect 6121 3119 6123 3171
+rect 6123 3119 6175 3171
+rect 6175 3119 6177 3171
+rect 6121 3117 6177 3119
+rect 6546 3170 6602 3172
+rect 6546 3118 6548 3170
+rect 6548 3118 6600 3170
+rect 6600 3118 6602 3170
+rect 6963 3134 6965 3186
+rect 6965 3134 7017 3186
+rect 7017 3134 7019 3186
+rect 6963 3132 7019 3134
+rect 7585 3186 7641 3188
+rect 7585 3134 7587 3186
+rect 7587 3134 7639 3186
+rect 7639 3134 7641 3186
+rect 7585 3132 7641 3134
+rect 6546 3116 6602 3118
+rect 5714 -165 5770 -163
+rect 5714 -217 5716 -165
+rect 5716 -217 5768 -165
+rect 5768 -217 5770 -165
+rect 5714 -219 5770 -217
+rect 6546 -159 6602 -157
+rect 6546 -211 6548 -159
+rect 6548 -211 6600 -159
+rect 6600 -211 6602 -159
+rect 6546 -213 6602 -211
+rect 7585 -172 7641 -169
+rect 7585 -224 7587 -172
+rect 7587 -224 7639 -172
+rect 7639 -224 7641 -172
+rect 7585 -225 7641 -224
+<< metal3 >>
+rect 4468 5883 4566 5981
+rect 4893 5883 4991 5981
+rect 5272 5876 5370 5974
+rect 5668 5876 5766 5974
+rect 4468 5511 4566 5609
+rect 4893 5513 4991 5611
+rect 5272 5481 5370 5579
+rect 5668 5481 5766 5579
+rect 4468 5093 4566 5191
+rect 4893 5093 4991 5191
+rect 5272 5086 5370 5184
+rect 5668 5086 5766 5184
+rect 4468 4721 4566 4819
+rect 4893 4723 4991 4821
+rect 5272 4691 5370 4789
+rect 5668 4691 5766 4789
+rect 4468 4303 4566 4401
+rect 4893 4303 4991 4401
+rect 5272 4296 5370 4394
+rect 5668 4296 5766 4394
+rect 4468 3931 4566 4029
+rect 4893 3933 4991 4031
+rect 5272 3901 5370 3999
+rect 5668 3901 5766 3999
+rect 2130 3513 2228 3611
+rect 2555 3513 2653 3611
+rect 2934 3506 3032 3604
+rect 3330 3506 3428 3604
+rect 4468 3513 4566 3611
+rect 4893 3513 4991 3611
+rect 5272 3506 5370 3604
+rect 5668 3506 5766 3604
+rect 4468 3141 4566 3239
+rect 4893 3143 4991 3241
+rect 5272 3111 5370 3209
+rect 5668 3111 5766 3209
+rect 6100 3173 6198 3194
+rect 6100 3117 6121 3173
+rect 6177 3117 6198 3173
+rect 6100 3096 6198 3117
+rect 6525 3172 6623 3193
+rect 6525 3116 6546 3172
+rect 6602 3116 6623 3172
+rect 6525 3095 6623 3116
+rect 6942 3188 7040 3209
+rect 6942 3132 6963 3188
+rect 7019 3132 7040 3188
+rect 6942 3111 7040 3132
+rect 7564 3188 7662 3209
+rect 7564 3132 7585 3188
+rect 7641 3132 7662 3188
+rect 7564 3111 7662 3132
+rect 836 2716 934 2814
+rect 1232 2716 1330 2814
+rect 2130 2723 2228 2821
+rect 2555 2723 2653 2821
+rect 2934 2716 3032 2814
+rect 3330 2716 3428 2814
+rect 4468 2723 4566 2821
+rect 4893 2723 4991 2821
+rect 5272 2716 5370 2814
+rect 5668 2716 5766 2814
+rect 4468 2351 4566 2449
+rect 4893 2353 4991 2451
+rect 5272 2321 5370 2419
+rect 5668 2321 5766 2419
+rect 4468 1933 4566 2031
+rect 4893 1933 4991 2031
+rect 5272 1926 5370 2024
+rect 5668 1926 5766 2024
+rect 4468 1561 4566 1659
+rect 4893 1563 4991 1661
+rect 5272 1531 5370 1629
+rect 5668 1531 5766 1629
+rect 2130 1143 2228 1241
+rect 2555 1143 2653 1241
+rect 2934 1136 3032 1234
+rect 3330 1136 3428 1234
+rect 4468 1143 4566 1241
+rect 4893 1143 4991 1241
+rect 5272 1136 5370 1234
+rect 5668 1136 5766 1234
+rect 4468 771 4566 869
+rect 4893 773 4991 871
+rect 5272 741 5370 839
+rect 5668 741 5766 839
+rect 836 346 934 444
+rect 1232 346 1330 444
+rect 2130 353 2228 451
+rect 2555 353 2653 451
+rect 2934 346 3032 444
+rect 3330 346 3428 444
+rect 4468 353 4566 451
+rect 4893 353 4991 451
+rect 5272 346 5370 444
+rect 5668 346 5766 444
+rect 5693 -163 5791 -142
+rect 5693 -219 5714 -163
+rect 5770 -219 5791 -163
+rect 5693 -240 5791 -219
+rect 6525 -157 6623 -136
+rect 6525 -213 6546 -157
+rect 6602 -213 6623 -157
+rect 6525 -234 6623 -213
+rect 7564 -169 7662 -148
+rect 7564 -225 7585 -169
+rect 7641 -225 7662 -169
+rect 7564 -246 7662 -225
+use contact_7  contact_7_0
+timestamp 1634918361
+transform 1 0 5709 0 1 -228
+box 0 0 1 1
+use contact_19  contact_19_0
+timestamp 1634918361
+transform 1 0 5710 0 1 -223
+box 0 0 1 1
+use contact_14  contact_14_0
+timestamp 1634918361
+transform 1 0 5713 0 1 -224
+box 0 0 1 1
+use contact_7  contact_7_1
+timestamp 1634918361
+transform 1 0 6541 0 1 -222
+box 0 0 1 1
+use contact_19  contact_19_1
+timestamp 1634918361
+transform 1 0 6542 0 1 -217
+box 0 0 1 1
+use contact_7  contact_7_2
+timestamp 1634918361
+transform 1 0 7580 0 1 -234
+box 0 0 1 1
+use contact_19  contact_19_2
+timestamp 1634918361
+transform 1 0 7581 0 1 -230
+box 0 0 1 1
+use contact_7  contact_7_3
+timestamp 1634918361
+transform 1 0 6958 0 1 3123
+box 0 0 1 1
+use contact_19  contact_19_3
+timestamp 1634918361
+transform 1 0 6959 0 1 3128
+box 0 0 1 1
+use contact_7  contact_7_4
+timestamp 1634918361
+transform 1 0 6116 0 1 3108
+box 0 0 1 1
+use contact_19  contact_19_4
+timestamp 1634918361
+transform 1 0 6117 0 1 3113
+box 0 0 1 1
+use contact_7  contact_7_5
+timestamp 1634918361
+transform 1 0 6541 0 1 3107
+box 0 0 1 1
+use contact_19  contact_19_5
+timestamp 1634918361
+transform 1 0 6542 0 1 3112
+box 0 0 1 1
+use contact_7  contact_7_6
+timestamp 1634918361
+transform 1 0 7580 0 1 3123
+box 0 0 1 1
+use contact_19  contact_19_6
+timestamp 1634918361
+transform 1 0 7581 0 1 3128
+box 0 0 1 1
+use contact_19  contact_19_7
+timestamp 1634918361
+transform 1 0 5950 0 1 -331
+box 0 0 1 1
+use contact_14  contact_14_1
+timestamp 1634918361
+transform 1 0 5953 0 1 -332
+box 0 0 1 1
+use and2_dec_0  and2_dec_0_0
+timestamp 1634918361
+transform 1 0 5879 0 -1 0
+box 70 -56 2088 490
+use wordline_driver_array  wordline_driver_array_0
+timestamp 1634918361
+transform 1 0 5879 0 1 0
+box 70 -56 2088 6376
+use hierarchical_decoder  hierarchical_decoder_0
+timestamp 1634918361
+transform 1 0 0 0 1 0
+box 0 -56 5883 6376
+<< labels >>
+rlabel metal1 s 19 0 47 3950 4 addr_0
+port 1 nsew
+rlabel metal1 s 99 0 127 3950 4 addr_1
+port 2 nsew
+rlabel metal1 s 179 0 207 3950 4 addr_2
+port 3 nsew
+rlabel metal1 s 259 0 287 3950 4 addr_3
+port 4 nsew
+rlabel locali s 7935 120 7935 120 4 wl_0
+port 5 nsew
+rlabel locali s 7935 670 7935 670 4 wl_1
+port 6 nsew
+rlabel locali s 7935 910 7935 910 4 wl_2
+port 7 nsew
+rlabel locali s 7935 1460 7935 1460 4 wl_3
+port 8 nsew
+rlabel locali s 7935 1700 7935 1700 4 wl_4
+port 9 nsew
+rlabel locali s 7935 2250 7935 2250 4 wl_5
+port 10 nsew
+rlabel locali s 7935 2490 7935 2490 4 wl_6
+port 11 nsew
+rlabel locali s 7935 3040 7935 3040 4 wl_7
+port 12 nsew
+rlabel locali s 7935 3280 7935 3280 4 wl_8
+port 13 nsew
+rlabel locali s 7935 3830 7935 3830 4 wl_9
+port 14 nsew
+rlabel locali s 7935 4070 7935 4070 4 wl_10
+port 15 nsew
+rlabel locali s 7935 4620 7935 4620 4 wl_11
+port 16 nsew
+rlabel locali s 7935 4860 7935 4860 4 wl_12
+port 17 nsew
+rlabel locali s 7935 5410 7935 5410 4 wl_13
+port 18 nsew
+rlabel locali s 7935 5650 7935 5650 4 wl_14
+port 19 nsew
+rlabel locali s 7935 6200 7935 6200 4 wl_15
+port 20 nsew
+rlabel locali s 7453 -120 7453 -120 4 rbl_wl
+port 21 nsew
+rlabel metal2 s 5968 -313 5996 -285 4 wl_en
+port 22 nsew
+rlabel metal3 s 3330 1136 3428 1234 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 3933 4991 4031 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 4296 5766 4394 4 vdd
+port 23 nsew
+rlabel metal3 s 3330 3506 3428 3604 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 2723 4991 2821 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 1563 4991 1661 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 2716 5766 2814 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 4691 5766 4789 4 vdd
+port 23 nsew
+rlabel metal3 s 1232 2716 1330 2814 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 4723 4991 4821 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 353 4991 451 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 1143 4991 1241 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 1933 4991 2031 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 3513 4991 3611 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 773 4991 871 4 vdd
+port 23 nsew
+rlabel metal3 s 5693 -240 5791 -142 4 vdd
+port 23 nsew
+rlabel metal3 s 2555 3513 2653 3611 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 741 5766 839 4 vdd
+port 23 nsew
+rlabel metal3 s 6525 -234 6623 -136 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 5513 4991 5611 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 5093 4991 5191 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 346 5766 444 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 4303 4991 4401 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 1136 5766 1234 4 vdd
+port 23 nsew
+rlabel metal3 s 2555 353 2653 451 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 5883 4991 5981 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 3111 5766 3209 4 vdd
+port 23 nsew
+rlabel metal3 s 1232 346 1330 444 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 2321 5766 2419 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 3143 4991 3241 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 1531 5766 1629 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 3901 5766 3999 4 vdd
+port 23 nsew
+rlabel metal3 s 2555 1143 2653 1241 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 1926 5766 2024 4 vdd
+port 23 nsew
+rlabel metal3 s 3330 346 3428 444 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 5086 5766 5184 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 5876 5766 5974 4 vdd
+port 23 nsew
+rlabel metal3 s 4893 2353 4991 2451 4 vdd
+port 23 nsew
+rlabel metal3 s 2555 2723 2653 2821 4 vdd
+port 23 nsew
+rlabel metal3 s 3330 2716 3428 2814 4 vdd
+port 23 nsew
+rlabel metal3 s 7564 3111 7662 3209 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 5481 5766 5579 4 vdd
+port 23 nsew
+rlabel metal3 s 7564 -246 7662 -148 4 vdd
+port 23 nsew
+rlabel metal3 s 6525 3095 6623 3193 4 vdd
+port 23 nsew
+rlabel metal3 s 5668 3506 5766 3604 4 vdd
+port 23 nsew
+rlabel metal3 s 6942 3111 7040 3209 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 5883 4566 5981 4 gnd
+port 24 nsew
+rlabel metal3 s 2130 2723 2228 2821 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 5481 5370 5579 4 gnd
+port 24 nsew
+rlabel metal3 s 6100 3096 6198 3194 4 gnd
+port 24 nsew
+rlabel metal3 s 2934 346 3032 444 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 3111 5370 3209 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 5876 5370 5974 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 3901 5370 3999 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 1531 5370 1629 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 4303 4566 4401 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 1926 5370 2024 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 771 4566 869 4 gnd
+port 24 nsew
+rlabel metal3 s 2130 1143 2228 1241 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 3513 4566 3611 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 2321 5370 2419 4 gnd
+port 24 nsew
+rlabel metal3 s 836 2716 934 2814 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 353 4566 451 4 gnd
+port 24 nsew
+rlabel metal3 s 2934 2716 3032 2814 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 4691 5370 4789 4 gnd
+port 24 nsew
+rlabel metal3 s 2934 3506 3032 3604 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 346 5370 444 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 2351 4566 2449 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 741 5370 839 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 1933 4566 2031 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 5086 5370 5184 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 3141 4566 3239 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 4296 5370 4394 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 3506 5370 3604 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 5093 4566 5191 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 2716 5370 2814 4 gnd
+port 24 nsew
+rlabel metal3 s 2130 353 2228 451 4 gnd
+port 24 nsew
+rlabel metal3 s 2934 1136 3032 1234 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 5511 4566 5609 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 1561 4566 1659 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 3931 4566 4029 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 2723 4566 2821 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 4721 4566 4819 4 gnd
+port 24 nsew
+rlabel metal3 s 4468 1143 4566 1241 4 gnd
+port 24 nsew
+rlabel metal3 s 2130 3513 2228 3611 4 gnd
+port 24 nsew
+rlabel metal3 s 5272 1136 5370 1234 4 gnd
+port 24 nsew
+rlabel metal3 s 836 346 934 444 4 gnd
+port 24 nsew
+<< properties >>
+string FIXED_BBOX 5953 -332 6011 -331
+string GDS_FILE sky130_sram_0kbytes_1rw1r_8x16_2.gds
+string GDS_END 938530
+string GDS_START 911546
+<< end >>

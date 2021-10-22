@@ -1,0 +1,38 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634918361
+<< checkpaint >>
+rect -1296 -1277 2248 2731
+<< nwell >>
+rect -36 679 988 1471
+<< locali >>
+rect 0 1397 952 1431
+rect 64 636 98 702
+rect 179 690 449 724
+rect 657 690 691 724
+rect 179 669 213 690
+rect 0 -17 952 17
+use pinv_8  pinv_8_0
+timestamp 1634918361
+transform 1 0 368 0 1 0
+box -36 -17 620 1471
+use pinv_4  pinv_4_0
+timestamp 1634918361
+transform 1 0 0 0 1 0
+box -36 -17 404 1471
+<< labels >>
+rlabel locali s 674 707 674 707 4 Z
+port 1 nsew
+rlabel locali s 81 669 81 669 4 A
+port 2 nsew
+rlabel locali s 476 0 476 0 4 gnd
+port 3 nsew
+rlabel locali s 476 1414 476 1414 4 vdd
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 952 1414
+string GDS_FILE sky130_sram_0kbytes_1rw1r_8x16_2.gds
+string GDS_END 1122506
+string GDS_START 1121482
+<< end >>

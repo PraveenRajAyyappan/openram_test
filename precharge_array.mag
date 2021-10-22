@@ -1,0 +1,229 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1634918361
+<< checkpaint >>
+rect -1260 -1272 7626 2028
+<< metal1 >>
+rect 816 0 844 754
+rect 1280 0 1308 754
+rect 1440 0 1468 754
+rect 1904 0 1932 754
+rect 2064 0 2092 754
+rect 2528 0 2556 754
+rect 2688 0 2716 754
+rect 3152 0 3180 754
+rect 3312 0 3340 754
+rect 3776 0 3804 754
+rect 3936 0 3964 754
+rect 4400 0 4428 754
+rect 4560 0 4588 754
+rect 5024 0 5052 754
+rect 5184 0 5212 754
+rect 5648 0 5676 754
+rect 5808 0 5836 754
+rect 6272 0 6300 754
+<< metal2 >>
+rect 1034 53 1090 62
+rect 1034 -12 1090 -3
+rect 1658 53 1714 62
+rect 1658 -12 1714 -3
+rect 2282 53 2338 62
+rect 2282 -12 2338 -3
+rect 2906 53 2962 62
+rect 2906 -12 2962 -3
+rect 3530 53 3586 62
+rect 3530 -12 3586 -3
+rect 4154 53 4210 62
+rect 4154 -12 4210 -3
+rect 4778 53 4834 62
+rect 4778 -12 4834 -3
+rect 5402 53 5458 62
+rect 5402 -12 5458 -3
+rect 6026 53 6082 62
+rect 6026 -12 6082 -3
+<< via2 >>
+rect 1034 -3 1090 53
+rect 1658 -3 1714 53
+rect 2282 -3 2338 53
+rect 2906 -3 2962 53
+rect 3530 -3 3586 53
+rect 4154 -3 4210 53
+rect 4778 -3 4834 53
+rect 5402 -3 5458 53
+rect 6026 -3 6082 53
+<< metal3 >>
+rect 1132 595 1230 693
+rect 1518 595 1616 693
+rect 2380 595 2478 693
+rect 2766 595 2864 693
+rect 3628 595 3726 693
+rect 4014 595 4112 693
+rect 4876 595 4974 693
+rect 5262 595 5360 693
+rect 6124 595 6222 693
+rect 1029 55 1095 58
+rect 1653 55 1719 58
+rect 2277 55 2343 58
+rect 2901 55 2967 58
+rect 3525 55 3591 58
+rect 4149 55 4215 58
+rect 4773 55 4839 58
+rect 5397 55 5463 58
+rect 6021 55 6087 58
+rect 0 53 6366 55
+rect 0 -3 1034 53
+rect 1090 -3 1658 53
+rect 1714 -3 2282 53
+rect 2338 -3 2906 53
+rect 2962 -3 3530 53
+rect 3586 -3 4154 53
+rect 4210 -3 4778 53
+rect 4834 -3 5402 53
+rect 5458 -3 6026 53
+rect 6082 -3 6366 53
+rect 0 -5 6366 -3
+rect 1029 -8 1095 -5
+rect 1653 -8 1719 -5
+rect 2277 -8 2343 -5
+rect 2901 -8 2967 -5
+rect 3525 -8 3591 -5
+rect 4149 -8 4215 -5
+rect 4773 -8 4839 -5
+rect 5397 -8 5463 -5
+rect 6021 -8 6087 -5
+use contact_7  contact_7_0
+timestamp 1634918361
+transform 1 0 6021 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_1
+timestamp 1634918361
+transform 1 0 5397 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_2
+timestamp 1634918361
+transform 1 0 4773 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_3
+timestamp 1634918361
+transform 1 0 4149 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_4
+timestamp 1634918361
+transform 1 0 3525 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_5
+timestamp 1634918361
+transform 1 0 2901 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_6
+timestamp 1634918361
+transform 1 0 2277 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_7
+timestamp 1634918361
+transform 1 0 1653 0 1 -12
+box 0 0 1 1
+use contact_7  contact_7_8
+timestamp 1634918361
+transform 1 0 1029 0 1 -12
+box 0 0 1 1
+use precharge_0  precharge_0_0
+timestamp 1634918361
+transform -1 0 6366 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_1
+timestamp 1634918361
+transform 1 0 5118 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_2
+timestamp 1634918361
+transform -1 0 5118 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_3
+timestamp 1634918361
+transform 1 0 3870 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_4
+timestamp 1634918361
+transform -1 0 3870 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_5
+timestamp 1634918361
+transform 1 0 2622 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_6
+timestamp 1634918361
+transform -1 0 2622 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_7
+timestamp 1634918361
+transform 1 0 1374 0 1 0
+box 0 -8 624 768
+use precharge_0  precharge_0_8
+timestamp 1634918361
+transform -1 0 1374 0 1 0
+box 0 -8 624 768
+<< labels >>
+rlabel metal3 s 0 -5 6366 55 4 en_bar
+port 1 nsew
+rlabel metal3 s 6124 595 6222 693 4 vdd
+port 2 nsew
+rlabel metal3 s 1518 595 1616 693 4 vdd
+port 2 nsew
+rlabel metal3 s 5262 595 5360 693 4 vdd
+port 2 nsew
+rlabel metal3 s 2766 595 2864 693 4 vdd
+port 2 nsew
+rlabel metal3 s 2380 595 2478 693 4 vdd
+port 2 nsew
+rlabel metal3 s 4014 595 4112 693 4 vdd
+port 2 nsew
+rlabel metal3 s 4876 595 4974 693 4 vdd
+port 2 nsew
+rlabel metal3 s 1132 595 1230 693 4 vdd
+port 2 nsew
+rlabel metal3 s 3628 595 3726 693 4 vdd
+port 2 nsew
+rlabel metal1 s 1280 0 1308 754 4 bl_0
+port 3 nsew
+rlabel metal1 s 816 0 844 754 4 br_0
+port 4 nsew
+rlabel metal1 s 1440 0 1468 754 4 bl_1
+port 5 nsew
+rlabel metal1 s 1904 0 1932 754 4 br_1
+port 6 nsew
+rlabel metal1 s 2528 0 2556 754 4 bl_2
+port 7 nsew
+rlabel metal1 s 2064 0 2092 754 4 br_2
+port 8 nsew
+rlabel metal1 s 2688 0 2716 754 4 bl_3
+port 9 nsew
+rlabel metal1 s 3152 0 3180 754 4 br_3
+port 10 nsew
+rlabel metal1 s 3776 0 3804 754 4 bl_4
+port 11 nsew
+rlabel metal1 s 3312 0 3340 754 4 br_4
+port 12 nsew
+rlabel metal1 s 3936 0 3964 754 4 bl_5
+port 13 nsew
+rlabel metal1 s 4400 0 4428 754 4 br_5
+port 14 nsew
+rlabel metal1 s 5024 0 5052 754 4 bl_6
+port 15 nsew
+rlabel metal1 s 4560 0 4588 754 4 br_6
+port 16 nsew
+rlabel metal1 s 5184 0 5212 754 4 bl_7
+port 17 nsew
+rlabel metal1 s 5648 0 5676 754 4 br_7
+port 18 nsew
+rlabel metal1 s 6272 0 6300 754 4 bl_8
+port 19 nsew
+rlabel metal1 s 5808 0 5836 754 4 br_8
+port 20 nsew
+<< properties >>
+string FIXED_BBOX 6021 -12 6087 0
+string GDS_FILE sky130_sram_0kbytes_1rw1r_8x16_2.gds
+string GDS_END 801360
+string GDS_START 795556
+<< end >>

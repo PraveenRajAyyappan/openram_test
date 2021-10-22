@@ -1,0 +1,102 @@
+timestamp 1634918362
+version 8.3
+tech sky130A
+style ngspice(si)
+scale 1000 1 0.5
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters sky130_fd_pr__special_nfet_latch l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__special_nfet_latch l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__special_pfet_pass l=l w=w a1=as p1=ps a2=ad p2=pd
+port "br1" 27 384 249 384 249 m1
+port "BR1" 4 366 79 402 420 m1
+port "bl1" 26 312 249 312 249 m1
+port "BL1" 3 294 79 330 420 m1
+port "wl1" 29 240 127 240 127 m2
+port "WL1" 6 0 103 480 151 m2
+port "wl0" 28 240 347 240 347 m2
+port "WL0" 5 0 323 480 371 m2
+port "br0" 25 168 249 168 249 m1
+port "BR0" 2 150 79 186 420 m1
+port "bl0" 24 96 249 96 249 m1
+port "BL0" 1 78 79 114 420 m1
+port "vdd" 30 240 249 240 249 m1
+port "VDD" 7 222 79 258 420 m1
+port "gnd" 16 240 0 240 0 m2
+port "gnd" 16 240 237 240 237 m2
+port "GND" 8 186 -55 294 55 m2
+port "GND" 8 186 199 294 275 m2
+node "a_400_n79#" 210 4.305 400 -79 ndif 0 0 0 0 0 0 0 0 1008 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_38_n79#" 210 6.7806 38 -79 ndif 0 0 0 0 0 0 0 0 1008 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "br1" 164 562.287 384 249 m1 0 0 0 0 0 0 0 0 2016 180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5200 308 18864 1120 0 0 0 0 0 0 0 0 0 0
+equiv "br1" "BR1"
+node "bl1" 230 757.869 312 249 m1 0 0 0 0 0 0 0 0 2016 180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14320 740 18864 1120 0 0 0 0 0 0 0 0 0 0
+equiv "bl1" "BL1"
+node "wl1" 1036 2241.04 240 127 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19804 1356 0 0 4662 274 7498 340 33116 1456 0 0 0 0 0 0 0 0
+equiv "wl1" "WL1"
+node "a_38_133#" 2022 711.834 38 133 ndif 0 0 0 0 0 0 0 0 4200 368 1400 156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13852 986 0 0 21906 1320 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl0" 1036 1284.3 240 347 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19804 1356 0 0 4662 274 7498 340 33116 1456 0 0 0 0 0 0 0 0
+equiv "wl0" "WL0"
+node "br0" 302 520.496 168 249 m1 0 0 0 0 0 0 0 0 1008 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14320 740 18864 1120 0 0 0 0 0 0 0 0 0 0
+equiv "br0" "BR0"
+node "bl0" 237 887.759 96 249 m1 0 0 0 0 0 0 0 0 1008 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5200 308 18864 1120 0 0 0 0 0 0 0 0 0 0
+equiv "bl0" "BL0"
+node "vdd" 7958 1070.77 240 249 m1 0 0 0 0 91008 1332 0 0 7896 688 2856 316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12352 886 0 0 31026 1660 18864 1120 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "VDD"
+substrate "gnd" 0 0 240 237 m2 117368 2920 0 0 0 0 0 0 11072 800 4200 368 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40128 2628 0 0 38858 2212 85082 2670 119676 3092 0 0 0 0 0 0 0 0
+equiv "gnd" "GND"
+equiv "gnd" "GND"
+cap "bl0" "br1" 93.5714
+cap "bl0" "wl1" 46.6553
+cap "a_38_133#" "bl1" 115.537
+cap "bl0" "br0" 713.929
+cap "vdd" "wl0" 212.104
+cap "br1" "bl1" 713.929
+cap "bl1" "wl1" 162.039
+cap "a_400_n79#" "br1" 2.4678
+cap "br0" "bl1" 283.172
+cap "vdd" "bl0" 280.899
+cap "a_38_133#" "br1" 61.7572
+cap "a_38_133#" "wl1" 134.568
+cap "br0" "a_38_133#" 244.085
+cap "vdd" "bl1" 999.389
+cap "br1" "wl1" 195.221
+cap "br0" "br1" 165.435
+cap "br0" "wl1" 50.0534
+cap "vdd" "a_38_133#" 751.125
+cap "bl0" "wl0" 87.0847
+cap "vdd" "br1" 347.389
+cap "vdd" "wl1" 238.174
+cap "wl0" "bl1" 69.0672
+cap "vdd" "br0" 865.75
+cap "wl0" "a_38_133#" 141.976
+cap "bl0" "bl1" 169.298
+cap "wl0" "br1" 137.766
+cap "bl0" "a_38_n79#" 2.4678
+cap "wl0" "wl1" 304.754
+cap "bl0" "a_38_133#" 129.055
+cap "br0" "wl0" 144.163
+device msubckt sky130_fd_pr__special_nfet_latch 400 -55 401 -54 l=16 w=42 "gnd" "gnd" 32 0 "a_400_n79#" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 -55 39 -54 l=16 w=42 "gnd" "gnd" 32 0 "a_38_n79#" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 400 39 401 40 l=16 w=42 "gnd" "gnd" 32 0 "br1" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 39 39 40 l=16 w=42 "gnd" "gnd" 32 0 "bl1" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 400 103 401 104 l=30 w=42 "gnd" "wl1" 60 0 "br1" 42 0 "vdd" 42 0
+device msubckt sky130_fd_pr__special_pfet_pass 196 115 197 116 l=30 w=14 "vdd" "wl1" 60 0 "vdd" 28 0 "vdd" 0 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 103 39 104 l=30 w=42 "gnd" "wl1" 60 0 "bl1" 42 0 "a_38_133#" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 400 183 401 184 l=30 w=42 "gnd" "a_38_133#" 60 0 "vdd" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_pfet_pass 196 181 197 182 l=30 w=28 "vdd" "a_38_133#" 60 0 "vdd" 56 0 "vdd" 0 0
+device msubckt sky130_fd_pr__special_nfet_latch 400 261 401 262 l=30 w=42 "gnd" "a_38_133#" 60 0 "gnd" 42 0 "vdd" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 400 341 401 342 l=30 w=42 "gnd" "wl0" 60 0 "vdd" 42 0 "br0" 42 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 183 39 184 l=30 w=42 "gnd" "vdd" 60 0 "a_38_133#" 42 0 "gnd" 42 0
+device msubckt sky130_fd_pr__special_pfet_pass 196 263 197 264 l=30 w=28 "vdd" "vdd" 60 0 "vdd" 28 0 "a_38_133#" 28 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 261 39 262 l=30 w=42 "gnd" "vdd" 60 0 "gnd" 42 0 "a_38_133#" 42 0
+device msubckt sky130_fd_pr__special_pfet_pass 196 343 197 344 l=30 w=14 "vdd" "wl0" 60 0 "a_38_133#" 0 0 "a_38_133#" 28 0
+device msubckt sky130_fd_pr__special_nfet_latch 38 341 39 342 l=30 w=42 "gnd" "wl0" 60 0 "a_38_133#" 42 0 "bl0" 42 0
+subcap "br1" -558.307
+subcap "bl1" -720.173
+subcap "wl1" -2298.14
+subcap "a_38_133#" -506.154
+subcap "wl0" -1340.73
+subcap "br0" -437.843
+subcap "bl0" -869.261
+subcap "vdd" -793.264
+subcap "gnd" -478.784
